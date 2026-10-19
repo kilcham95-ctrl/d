@@ -1,300 +1,300 @@
 1
-00:00:01,380 --> 00:00:11,450
+00:00:01,380 --> 00:00:11,650
 Alors, vous êtes arrivé à la Scuderia en 1999, après l'accident de Michael Schumacher à Silverstone. Comment ça s'est passé, exactement ? Vous avez reçu un appel ?
 
 2
-00:00:16,460 --> 00:00:17,960
+00:00:16,460 --> 00:00:18,100
 Pouvez-vous nous raconter ce moment ?
 
 3
-00:00:19,900 --> 00:00:22,560
+00:00:19,900 --> 00:00:22,650
 En fait, j'étais à Silverstone pour,
 
 4
-00:00:23,320 --> 00:00:27,420
+00:00:23,320 --> 00:00:28,160
 je crois, les essais du vendredi, et je suis rentré en Finlande
 
 5
-00:00:28,660 --> 00:00:33,060
+00:00:28,660 --> 00:00:33,110
 le dimanche matin, et j'ai vu l'accident de Michael à la télé, à l'aéroport.
 
 6
-00:00:33,800 --> 00:00:39,190
+00:00:33,800 --> 00:00:38,700
 Je n'y ai pas trop pensé, car ça n'avait pas l'air grave, donc j'espérais juste qu'il allait bien.
 
 7
-00:00:40,200 --> 00:00:45,450
+00:00:40,200 --> 00:00:45,460
 Puis, quelques heures après, j'ai appris qu'il s'était cassé la jambe, sans me poser de questions.
 
 8
-00:00:46,160 --> 00:00:48,540
+00:00:46,160 --> 00:00:48,510
 Alors, je me mariais la semaine suivante.
 
 9
-00:00:50,280 --> 00:00:55,220
+00:00:50,280 --> 00:00:55,020
 On avait une répétition du mariage le lundi, et là, j'ai reçu un appel de Jean Todt.
 
 10
-00:00:56,420 --> 00:00:58,720
+00:00:56,420 --> 00:00:58,740
 Il m'a appelé pendant qu'on répétait ce mariage.
 
 11
-00:01:01,800 --> 00:01:09,880
+00:01:01,800 --> 00:01:09,550
 Et il m'a dit : « Je veux que tu viennes à Maranello. » Et j'ai pensé : « Ah, d'accord. » Bien sûr, j'ai tout de suite fait le lien entre les deux.
 
 12
-00:01:11,820 --> 00:01:15,030
+00:01:11,820 --> 00:01:14,910
 J'ai demandé : « Quand ? » Il a dit : « Maintenant. »
 
 13
-00:01:15,190 --> 00:01:16,630
+00:01:15,060 --> 00:01:16,430
 Il ne m'a pas laissé le choix.
 
 14
-00:01:16,780 --> 00:01:20,920
+00:01:16,700 --> 00:01:20,950
 J'ai dit : « Je répète mon mariage. » Et il a dit : « Peu importe.
 
 15
-00:01:21,080 --> 00:01:22,610
+00:01:21,100 --> 00:01:22,640
 Tu viens à Maranello maintenant. »
 
 16
-00:01:23,400 --> 00:01:26,480
+00:01:23,400 --> 00:01:26,300
 Oui, Ferrari a été très gentille à mon arrivée.
 
 17
-00:01:26,630 --> 00:01:28,980
+00:01:26,620 --> 00:01:29,180
 Je me suis senti très bien accueilli d'emblée.
 
 18
-00:01:29,940 --> 00:01:32,510
+00:01:29,940 --> 00:01:32,760
 On était vraiment bien chez Jean, à Maranello.
 
 19
-00:01:33,220 --> 00:01:36,280
+00:01:33,220 --> 00:01:36,300
 Jean est un bourreau de travail, il ne s'arrête jamais.
 
 20
-00:01:37,420 --> 00:01:42,110
+00:01:37,420 --> 00:01:42,270
 Il dort deux heures par nuit et travaille tout le reste du temps : je ne le voyais jamais.
 
 21
-00:01:42,260 --> 00:01:47,630
+00:01:42,420 --> 00:01:47,530
 J'avais très faim chez lui, car il n'y avait rien à manger, alors Ross Brawn m'a apporté à dîner.
 
 22
-00:01:48,940 --> 00:01:55,270
+00:01:48,940 --> 00:01:55,440
 Mais je me suis senti si bien accueilli d'emblée. À l'usine, tous m'aidaient, et j'avais aussi Michael au téléphone,
 
 23
-00:01:55,940 --> 00:02:00,530
+00:01:55,940 --> 00:02:00,270
 et Michael m'a aidé à vite m'adapter à l'équipe, car on courait déjà une semaine après.
 
 24
-00:02:02,400 --> 00:02:04,480
+00:02:02,400 --> 00:02:04,700
 Il vous a alors aidé à vous faire…
 
 25
-00:02:04,980 --> 00:02:05,790
+00:02:04,980 --> 00:02:05,990
 … à la voiture ?
 
 26
-00:02:06,300 --> 00:02:11,810
+00:02:06,340 --> 00:02:11,860
 J'ai beaucoup parlé avec Michael au téléphone, on a fait des appels vidéo, et il m'aidait beaucoup,
 
 27
-00:02:14,120 --> 00:02:19,320
+00:02:14,120 --> 00:02:19,400
 en m'expliquant qui était qui dans l'équipe, à qui m'adresser pour un besoin précis sur la voiture.
 
 28
-00:02:20,940 --> 00:02:26,610
+00:02:20,940 --> 00:02:26,190
 Il m'a donc donné les noms des gens à qui je devais parler, et ça a été très, très facile de m'adapter.
 
 29
-00:02:27,240 --> 00:02:32,520
+00:02:27,240 --> 00:02:32,000
 Et bien sûr, je connaissais déjà Eddie, donc c'était assez facile d'avoir son aide aussi.
 
 30
-00:02:34,480 --> 00:02:40,250
+00:02:34,480 --> 00:02:40,310
 Et vous avez vite été compétitif, car quelques semaines plus tard, en Allemagne, vous étiez près de gagner.
 
 31
-00:02:42,040 --> 00:02:45,160
+00:02:42,040 --> 00:02:45,060
 J'avais Heinz-Harald Frentzen derrière, la voiture jaune.
 
 32
-00:02:45,310 --> 00:02:49,710
+00:02:45,210 --> 00:02:49,810
 J'espérais sans cesse : « Oui, reste là. Reste là. » Puis
 
 33
-00:02:49,860 --> 00:02:56,320
+00:02:49,960 --> 00:02:56,290
 Eddie a passé Heinz aux arrêts au stand, j'ai vu la voiture rouge derrière moi, j'ai pensé : « Ah, d'accord,
 
 34
-00:02:56,470 --> 00:03:05,270
+00:02:56,440 --> 00:03:05,240
 là, je connais la suite. » Très vite, Ross Brawn, à la radio, de sa voix calme : « Mika, je veux que tu laisses passer Eddie à ce tour. »
 
 35
-00:03:05,620 --> 00:03:08,080
+00:03:05,620 --> 00:03:08,300
 Oui. Vous avez sacrifié votre…
 
 36
-00:03:08,680 --> 00:03:15,680
+00:03:08,680 --> 00:03:15,920
 Et vous avez sacrifié votre première victoire pour le bonheur de la Scuderia, et aussi pour donner le maximum de chances à Eddie Irvine.
 
 37
-00:03:18,520 --> 00:03:21,920
+00:03:18,520 --> 00:03:22,420
 Vous aviez une relation particulière avec Michael Schumacher à l'époque.
 
 38
-00:03:23,180 --> 00:03:26,730
+00:03:23,180 --> 00:03:27,330
 Nous, en tant que fans, nous avons l'image d'un pilote très
 
 39
-00:03:29,920 --> 00:03:32,550
+00:03:29,920 --> 00:03:32,490
 impliqué, très sérieux dans son travail.
 
 40
-00:03:33,820 --> 00:03:39,570
+00:03:33,820 --> 00:03:39,760
 Et tous ceux qu'on a vus aujourd'hui au Mugello ont dit : un pilote si gentil, un gentleman dans la vie.
 
 41
-00:03:40,780 --> 00:03:44,880
+00:03:40,780 --> 00:03:44,690
 Oui, il était sympa. On se connaissait déjà du karting, on y courait.
 
 42
-00:03:45,030 --> 00:03:46,960
+00:03:44,880 --> 00:03:46,820
 On a fait la Formula Ford ensemble.
 
 43
-00:03:47,480 --> 00:03:52,730
+00:03:47,480 --> 00:03:52,410
 En fait, je l'y ai battu : j'ai gagné le championnat d'Europe, Michael a fini deuxième.
 
 44
-00:03:53,100 --> 00:03:59,040
+00:03:53,100 --> 00:03:58,920
 Et en F3, au Grand Prix de Macao, Michael a gagné, j'étais deuxième et Eddie troisième.
 
 45
-00:03:59,400 --> 00:04:00,960
+00:03:59,400 --> 00:04:01,210
 Donc on a grandi…
 
 46
-00:04:01,940 --> 00:04:03,610
+00:04:01,940 --> 00:04:03,780
 Une longue histoire entre vous deux.
 
 47
-00:04:03,960 --> 00:04:07,290
+00:04:04,120 --> 00:04:07,210
 On a grandi ensemble, donc je le connais depuis longtemps.
 
 48
-00:04:07,640 --> 00:04:14,160
+00:04:07,560 --> 00:04:14,690
 Oui. Et après cette expérience, vous avez une vision différente de la F1, car c'était peut-être l'équipe la plus importante
 
 49
-00:04:17,700 --> 00:04:19,390
+00:04:17,700 --> 00:04:19,500
 pour laquelle vous ayez couru à l'époque.
 
 50
-00:04:19,900 --> 00:04:23,370
+00:04:19,900 --> 00:04:23,750
 Je sais que vous avez eu des expériences chez Toyota et dans d'autres équipes.
 
 51
-00:04:25,740 --> 00:04:29,490
+00:04:25,740 --> 00:04:29,550
 Mais c'était une stratégie différente, une organisation différente.
 
 52
-00:04:30,560 --> 00:04:32,110
+00:04:30,560 --> 00:04:32,230
 C'est une énorme usine.
 
 53
-00:04:32,320 --> 00:04:36,280
+00:04:32,380 --> 00:04:36,260
 C'est vraiment une autre culture, un autre ADN, chez Ferrari.
 
 54
-00:04:36,630 --> 00:04:38,750
+00:04:36,610 --> 00:04:38,850
 Oui, ma première grande équipe.
 
 55
-00:04:38,890 --> 00:04:42,710
+00:04:39,000 --> 00:04:42,830
 Avant, j'étais chez Tyrrell et Arrows, des équipes plus petites.
 
 56
-00:04:42,860 --> 00:04:45,900
+00:04:42,980 --> 00:04:46,180
 Et bien sûr, ça m'a ouvert les yeux sur beaucoup de choses.
 
 57
-00:04:47,760 --> 00:04:54,070
+00:04:47,760 --> 00:04:53,990
 Leur réactivité : un besoin pour la voiture, c'était fait aussitôt, sans y réfléchir deux semaines, et
 
 58
-00:04:55,480 --> 00:05:01,420
+00:04:55,480 --> 00:05:01,270
 monté tout de suite. L'usine tournait sans arrêt, avec les moyens qu'ils ont, et on testait tellement.
 
 59
-00:05:02,480 --> 00:05:05,180
+00:05:02,480 --> 00:05:05,220
 Une autre équipe d'essais attendait après chaque course.
 
 60
-00:05:06,020 --> 00:05:08,890
+00:05:06,020 --> 00:05:08,760
 On allait sur divers circuits, où elle nous attendait…
 
 61
-00:05:09,700 --> 00:05:11,760
+00:05:09,700 --> 00:05:11,710
 Tant de tours, tant d'essais.
 
 62
-00:05:11,910 --> 00:05:17,650
+00:05:11,860 --> 00:05:17,280
 Parfois, on m'appelait en pleine nuit à Maranello : un ingénieur avait trouvé quelque chose aux amortisseurs.
 
 63
-00:05:17,800 --> 00:05:22,580
+00:05:17,600 --> 00:05:22,470
 Ils me réveillaient : « Viens ici. » J'y allais et je faisais trois tours sur les vibreurs.
 
 64
-00:05:24,560 --> 00:05:27,690
+00:05:24,560 --> 00:05:27,880
 Et cette expérience chez Ferrari, je crois, a été
 
 65
-00:05:29,600 --> 00:05:35,700
+00:05:29,600 --> 00:05:35,980
 formidable pour vous, car elle vous a donné une grande visibilité mondiale, avec vos résultats incroyables.
 
 66
-00:05:37,560 --> 00:05:39,700
+00:05:37,560 --> 00:05:39,750
 Une chance pour vous d'aller ensuite chez Toyota.
 
 67
-00:05:40,840 --> 00:05:43,410
+00:05:40,840 --> 00:05:43,350
 C'est Ferrari qui vous a permis d'aller chez Toyota ?
 
 68
-00:05:44,280 --> 00:05:48,950
+00:05:44,280 --> 00:05:48,440
 Oui, plus ou moins : d'abord chez Sauber, car ils avaient un moteur Ferrari.
 
 69
-00:05:49,100 --> 00:05:52,070
+00:05:48,590 --> 00:05:51,250
 Jean voulait m'y mettre, pour rester dans la famille, disons.
 
 70
-00:05:52,860 --> 00:05:56,750
+00:05:52,860 --> 00:05:57,310
 Mais ensuite, il y a eu Toyota, et Toyota, c'était ma chance
 
 71
-00:05:59,460 --> 00:06:01,290
+00:05:59,460 --> 00:06:01,280
 d'entrer dans une autre grande équipe.
 
 72
-00:06:02,220 --> 00:06:07,500
+00:06:02,220 --> 00:06:07,490
 Seul problème : Toyota avait Ange Pasquali. Il était le seul problème, mais…
 
 73
-00:06:07,760 --> 00:06:09,380
+00:06:07,760 --> 00:06:09,310
 Non, je plaisante.
 
 74
-00:06:11,800 --> 00:06:18,120
+00:06:11,800 --> 00:06:18,000
 On salue Ange. Merci, Mika, pour cette interview. J'espère qu'on fera une grande émission avec vous, quand vous pourrez.
 
 75
-00:06:20,100 --> 00:06:21,130
+00:06:20,100 --> 00:06:21,280
 Merci beaucoup.
 

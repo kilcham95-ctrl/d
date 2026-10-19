@@ -18,6 +18,8 @@ API = "https://api.elevenlabs.io/v1/text-to-speech/{voice}?output_format={fmt}"
 MODEL = "eleven_multilingual_v2"
 GUEST_VOICE = "JBFqnCBsd6RMkjVDRZzb"       # George — posé, chaleureux, français standard vérifié (l'invité)
 JOURNALIST_VOICE = "iP95p4xoKVk53GoZ742B"  # Chris — plus grave, distinct de George
+# Voix françaises natives de la bibliothèque (offre payante) : Guillaume « Narrator » Qrl71rx6Yg8RvyPYRGCQ,
+# Léo « Reassuring and Dynamic » (accent parisien) AfbuxQ9DVtS4azaxN1W7
 SETTINGS = {"stability": 0.7, "similarity_boost": 0.8, "style": 0.0, "use_speaker_boost": True, "speed": 0.92}
 SEED = 1996
 
@@ -45,12 +47,13 @@ def main():
     ap.add_argument("--speed", default="")
     ap.add_argument("--seed", default="", help="graine par segment pour une nouvelle prise, ex. s04=7")
     ap.add_argument("--voice-journaliste", default=JOURNALIST_VOICE)
+    ap.add_argument("--voice-invite", default=GUEST_VOICE)
     ap.add_argument("--model", default=MODEL)
     ap.add_argument("--format", default="mp3_44100_128", help="mp3_44100_192 sur les offres Creator et plus")
     ap.add_argument("--tag", default="", help="consigne de ton en tête de texte pour v3/v4, ex. [calm]")
     a = ap.parse_args()
     key = os.environ["ELEVENLABS_API_KEY"]
-    voice_of = lambda spk: a.voice_journaliste if spk == "journaliste" else GUEST_VOICE
+    voice_of = lambda spk: a.voice_journaliste if spk == "journaliste" else a.voice_invite
     speeds = dict(kv.split("=") for kv in a.speed.split(",") if kv)
     seeds = {k: int(v) for k, v in (kv.split("=") for kv in a.seed.split(",") if kv)}
     only = set(x for x in a.only.split(",") if x)
@@ -80,6 +83,10 @@ def main():
             # v4 : plus de réglage de vitesse ; ton guidé par une consigne entre crochets (non prononcée)
             payload["voice_settings"] = {"stability": 0.9, "similarity_boost": 0.8}
             payload["language_code"] = "fr"
+            # v4 coupe net la dernière syllabe d'un fragment qui ne finit pas une phrase :
+            # des points de suspension le font retomber naturellement
+            if not payload["text"].rstrip().endswith((".", "?", "!", "…")):
+                payload["text"] = payload["text"].rstrip(" ,;:") + "…"
             if a.tag:
                 payload["text"] = f"{a.tag} {payload['text']}"
         if a.model == "eleven_v3":

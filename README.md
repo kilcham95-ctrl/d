@@ -83,7 +83,12 @@ Les fichiers sont dans `output/mika_salo_v2/`.
 
 ## Rendu final
 
-- **Modèle** : `eleven_v4`, sorti le 28 septembre 2026, le plus récent d'ElevenLabs. Stabilité 0,9, consigne de ton `[calm]` en tête de chaque phrase (elle n'est pas prononcée), contexte des phrases voisines, français forcé, 192 kb/s. Mêmes voix : George pour Mika Salo, Chris pour le journaliste.
+- **Modèle** : `eleven_v4`, sorti le 28 septembre 2026, le plus récent d'ElevenLabs. Stabilité 0,9, consigne de ton `[calm]` en tête de chaque phrase (elle n'est pas prononcée), contexte des phrases voisines, français forcé, 192 kb/s.
+- **Voix françaises natives**, sans accent, tirées de la bibliothèque ElevenLabs. Elles ont été choisies sur un panel de 11 comédiens français, sur deux critères : retranscription exacte et intonation la plus posée.
+  - **Guillaume** (« Narrator », `Qrl71rx6Yg8RvyPYRGCQ`) pour Mika Salo : voix chaude et grave, la plus régulière du panel.
+  - **Léo** (accent parisien, `AfbuxQ9DVtS4azaxN1W7`) pour le journaliste : la plus mesurée sur les questions, et bien distincte de Guillaume.
+  - Les voix anglophones George et Chris des versions précédentes avaient un accent en français ; elles ne sont plus utilisées ici.
+- **Fins de fragments** : v4 coupe net la dernière syllabe d'un segment qui s'arrête au milieu d'une phrase. `tts.py` ajoute donc automatiquement « … » au texte envoyé à la voix, et la voix retombe naturellement.
 - **Comparaison avec v3** : v4 prononce juste « Jean Todt » et « Formula Ford » sans astuce de graphie. Même avec `[calm]`, son intonation reste environ 20 % plus variée que v3 : plus naturelle, un peu moins neutre. Les segments v3 restent dans `data/mika_salo_v2/tts_fr_v3/` pour revenir en arrière.
 - **Calage** : le français démarre toujours après l'anglais, 0,8 s après le début de chaque prise de parole et 0,4 s après chaque phrase suivante. L'anglais ne baisse qu'au moment où la voix française commence (`--lag-turn 0.8 --lag-seg 0.4 --pre -0.25`).
 - **Traduction** : 54 segments identiques à la V1 reprennent la traduction validée ; les 30 nouveaux sont passés par le workflow (3 traducteurs, synthèse, 3 relectures adversariales).
@@ -92,7 +97,7 @@ Les fichiers sont dans `output/mika_salo_v2/`.
 
 ## Contrôles
 
-- Mix complet : français à 100 %, 0,9 % d'écart, uniquement des homophones et l'orthographe des noms dans la transcription.
+- Mix complet (voix natives) : français à 100 %, 0,7 % d'écart, uniquement des homophones.
 - Calage : aucune phrase française ne démarre avant l'anglais et aucune ne se chevauche.
 
 ## Commandes
@@ -100,6 +105,6 @@ Les fichiers sont dans `output/mika_salo_v2/`.
 ```bash
 python3 voiceover/segment.py data/mika_salo_v2/transcript_en_scribe.json data/mika_salo_v2/segments.json --journalist speaker_0 --guest mika_salo --lag-turn 0.8 --lag-seg 0.4
 LEVEL_MIN_GAIN_DB=-15 voiceover/clean_en.sh <V2_ITW_Mica_Salo.mp3> data/mika_salo_v2/transcript_en_scribe.json work/v2_en_clean.wav work/v2_en
-ELEVENLABS_API_KEY=... python3 voiceover/tts.py data/mika_salo_v2/translation_fr.json data/mika_salo_v2/tts_fr_v4 --model eleven_v4 --format mp3_44100_192 --tag "[calm]" --seed s11=7,s12=7,s36=7,s45=7,s49=7,s50=7,s58=7
-python3 voiceover/mix.py data/mika_salo_v2/segments.json data/mika_salo_v2/translation_fr.json data/mika_salo_v2/tts_fr_v4 work/v2_en_clean.wav output/mika_salo_v2 work/v2_mix --name interview_mika_salo_v2 --pre -0.25
+ELEVENLABS_API_KEY=... python3 voiceover/tts.py data/mika_salo_v2/translation_fr.json data/mika_salo_v2/tts_fr_v4_natif --model eleven_v4 --format mp3_44100_192 --tag "[calm]" --voice-invite Qrl71rx6Yg8RvyPYRGCQ --voice-journaliste AfbuxQ9DVtS4azaxN1W7 --seed s03=7,s45=11,s60=7,s75=7
+python3 voiceover/mix.py data/mika_salo_v2/segments.json data/mika_salo_v2/translation_fr.json data/mika_salo_v2/tts_fr_v4_natif work/v2_en_clean.wav output/mika_salo_v2 work/v2_mix --name interview_mika_salo_v2 --pre -0.25
 ```
