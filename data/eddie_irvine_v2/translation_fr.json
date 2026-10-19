@@ -1,0 +1,425 @@
+[
+ {
+  "id": "s01",
+  "turn": 1,
+  "speaker": "journaliste",
+  "en": "Uh, uh, just a word a-about Michael, because there is a special celebration for the golden age of, uh, of, uh, the five titles he won with Ferrari.",
+  "fr": "Juste un mot sur Michael, car il y a une célébration spéciale pour l'âge d'or des cinq titres qu'il a remportés avec Ferrari.",
+  "fr_tts": "Juste un mot sur Michael, car il y a une célébration spéciale pour l'âge d'or des cinq titres qu'il a remportés avec Ferrari.",
+  "statut": "validé (repris de la V1, s01)"
+ },
+ {
+  "id": "s02",
+  "turn": 1,
+  "speaker": "journaliste",
+  "en": "Um, do you have the, the feeling when you arrive in 1996 that it was a, uh, the beginning of a fabulous legend, a fabulous story of, uh, the reborn of Ferrari on this time?",
+  "fr": "Avez-vous senti, en arrivant en 96, le début d'une fabuleuse légende, d'une fabuleuse histoire : la renaissance de Ferrari à l'époque ?",
+  "fr_tts": "Avez-vous senti, en arrivant en quatre-vingt-seize, le début d'une fabuleuse légende, d'une fabuleuse histoire : la renaissance de Ferrari à l'époque ?",
+  "statut": "validé (repris de la V1, s02)"
+ },
+ {
+  "id": "s03",
+  "turn": 2,
+  "speaker": "eddie_irvine",
+  "en": "It really was the rebirth of Ferrari.",
+  "fr": "C'était vraiment la renaissance de Ferrari.",
+  "fr_tts": "C'était vraiment la renaissance de Ferrari.",
+  "statut": "validé (repris de la V1, s03)"
+ },
+ {
+  "id": "s04",
+  "turn": 2,
+  "speaker": "eddie_irvine",
+  "en": "Um, they hadn't really...",
+  "fr": "Ils n'avaient jamais connu",
+  "fr_tts": "Ils n'avaient jamais connu",
+  "statut": "validé (repris de la V1, s04)"
+ },
+ {
+  "id": "s05",
+  "turn": 2,
+  "speaker": "eddie_irvine",
+  "en": "They had never had a period like this, I don't think, Ferrari.",
+  "fr": "une telle période, je crois, Ferrari.",
+  "fr_tts": "une telle période, je crois, Ferrari.",
+  "statut": "validé (repris de la V1, s05)"
+ },
+ {
+  "id": "s06",
+  "turn": 2,
+  "speaker": "eddie_irvine",
+  "en": "This was the strongest period, and obviously I was there in the very beginning when we went from a team that was really, really struggling, um, until, uh,",
+  "fr": "C'était la période la plus forte, et évidemment, j'étais là au tout début, quand on est passés d'une équipe en très grande difficulté",
+  "fr_tts": "C'était la période la plus forte, et évidemment, j'étais là au tout début, quand on est passés d'une équipe en très grande difficulté,",
+  "statut": "validé (repris de la V1, s06)"
+ },
+ {
+  "id": "s07",
+  "turn": 2,
+  "speaker": "eddie_irvine",
+  "en": "us winning the Constructors' Championship in '99, and then winning the Drivers' Championship and Constructors' Championship in 2000.",
+  "fr": "à notre victoire au championnat des constructeurs en 99, puis aux championnats des pilotes et des constructeurs en 2000.",
+  "fr_tts": "à notre victoire au championnat des constructeurs en quatre-vingt-dix-neuf, puis aux championnats des pilotes et des constructeurs en deux mille.",
+  "statut": "validé (repris de la V1, s07)"
+ },
+ {
+  "id": "s08",
+  "turn": 2,
+  "speaker": "eddie_irvine",
+  "en": "So it was a, it was a really important period of Ferrari's history and, and then they, they had several years of success after that. But it was, it was, it was, um, it was",
+  "fr": "C'était donc une période vraiment importante de l'histoire de Ferrari, et ils ont ensuite connu plusieurs années de succès.",
+  "fr_tts": "C'était donc une période vraiment importante de l'histoire de Ferrari, et ils ont ensuite connu plusieurs années de succès.",
+  "statut": "validé (repris de la V1, s08)"
+ },
+ {
+  "id": "s09",
+  "turn": 2,
+  "speaker": "eddie_irvine",
+  "en": "a period of massive investment and massive effort from everyone that was there.",
+  "fr": "Mais c'était une période d'énormes investissements et d'énormes efforts de la part de tous ceux qui étaient là.",
+  "fr_tts": "Mais c'était une période d'énormes investissements et d'énormes efforts de la part de tous ceux qui étaient là.",
+  "statut": "validé (repris de la V1, s09)"
+ },
+ {
+  "id": "s10",
+  "turn": 3,
+  "speaker": "journaliste",
+  "en": "So after the f- the accident of Michael in 1999, I, uh, if I rem- I remember at Silverstone,",
+  "fr": "Après l'accident de Michael en 1999, de mémoire, à Silverstone,",
+  "fr_tts": "Après l'accident de Michael en mille neuf cent quatre-vingt-dix-neuf, de mémoire, à Silverstone,",
+  "statut": "validé (repris de la V1, s10)"
+ },
+ {
+  "id": "s11",
+  "turn": 3,
+  "speaker": "journaliste",
+  "en": "y-you begin the f- the number one, and you were close to win the title.",
+  "fr": "vous êtes devenu numéro un, et vous avez frôlé le titre.",
+  "fr_tts": "vous êtes devenu numéro un, et vous avez frôlé le titre.",
+  "statut": "validé (repris de la V1, s11)"
+ },
+ {
+  "id": "s12",
+  "turn": 3,
+  "speaker": "journaliste",
+  "en": "Uh, it changed your mind, it changed your approach, uh, to be the leader of the, of, of the Ferrari, uh, Scuderia?",
+  "fr": "Est-ce que ça a changé votre état d'esprit, votre approche, d'être le leader de la Scuderia Ferrari ?",
+  "fr_tts": "Est-ce que ça a changé votre état d'esprit, votre approche, d'être le leader de la Scuderia Ferrari ?",
+  "statut": "validé (repris de la V1, s12)"
+ },
+ {
+  "id": "s13",
+  "turn": 4,
+  "speaker": "eddie_irvine",
+  "en": "It obviously it was a, a big change in, in pressure 'cause my job really was to, to, uh, before that was to just get as strong a results as I could get.",
+  "fr": "Évidemment, la pression a beaucoup changé, car avant, mon travail, c'était juste d'obtenir les meilleurs résultats possibles.",
+  "fr_tts": "Évidemment, la pression a beaucoup changé, car avant, mon travail, c'était juste d'obtenir les meilleurs résultats possibles.",
+  "statut": "validé (repris de la V1, s13)"
+ },
+ {
+  "id": "s14",
+  "turn": 4,
+  "speaker": "eddie_irvine",
+  "en": "Um, Michael was the one that was in charge of trying to win the championship.",
+  "fr": "C'était à Michael d'essayer de gagner le titre.",
+  "fr_tts": "C'était à Michael d'essayer de gagner le titre.",
+  "statut": "validé (repris de la V1, s14)"
+ },
+ {
+  "id": "s15",
+  "turn": 4,
+  "speaker": "eddie_irvine",
+  "en": "Obviously, that changed halfway through the season.",
+  "fr": "Évidemment, ça a changé à mi-saison.",
+  "fr_tts": "Évidemment, ça a changé à mi-saison.",
+  "statut": "traduit (nouvelle version)"
+ },
+ {
+  "id": "s16",
+  "turn": 4,
+  "speaker": "eddie_irvine",
+  "en": "But at the same time, you know, Ferrari then really concentrated on the next year's car.",
+  "fr": "Mais en même temps, vous savez, Ferrari s'est alors vraiment concentrée sur la voiture de l'année suivante.",
+  "fr_tts": "Mais en même temps, vous savez, Ferrari s'est alors vraiment concentrée sur la voiture de l'année suivante.",
+  "statut": "traduit (nouvelle version)"
+ },
+ {
+  "id": "s17",
+  "turn": 4,
+  "speaker": "eddie_irvine",
+  "en": "Um, and that's why I think our performance dropped off a little bit. Um, so it was very tough.",
+  "fr": "Et c'est pour ça, je pense, que nos performances ont un peu baissé. Donc c'était très dur.",
+  "fr_tts": "Et c'est pour ça, je pense, que nos performances ont un peu baissé. Donc c'était très dur.",
+  "statut": "traduit (nouvelle version)"
+ },
+ {
+  "id": "s18",
+  "turn": 4,
+  "speaker": "eddie_irvine",
+  "en": "We made some mistakes, you know.",
+  "fr": "On a fait des erreurs, vous savez.",
+  "fr_tts": "On a fait des erreurs, vous savez.",
+  "statut": "traduit (nouvelle version)"
+ },
+ {
+  "id": "s19",
+  "turn": 4,
+  "speaker": "eddie_irvine",
+  "en": "We had some very dubious pit stops.",
+  "fr": "On a eu des arrêts au stand très douteux.",
+  "fr_tts": "On a eu des arrêts au stand très douteux.",
+  "statut": "traduit (nouvelle version)"
+ },
+ {
+  "id": "s20",
+  "turn": 4,
+  "speaker": "eddie_irvine",
+  "en": "Um, the one in Germany obviously was just, it was s-circumstances.",
+  "fr": "Celui en Allemagne, évidemment, c'était juste un concours de circonstances.",
+  "fr_tts": "Celui en Allemagne, évidemment, c'était juste un concours de circonstances.",
+  "statut": "validé (repris de la V1, s18)"
+ },
+ {
+  "id": "s21",
+  "turn": 4,
+  "speaker": "eddie_irvine",
+  "en": "The one in France where it was another 40 second pit stop, I really would have come out leading the race.",
+  "fr": "Celui en France, encore 40 secondes au stand, alors que je serais ressorti en tête.",
+  "fr_tts": "Celui en France, encore quarante secondes au stand, alors que je serais ressorti en tête.",
+  "statut": "validé (repris de la V1, s19)"
+ },
+ {
+  "id": "s22",
+  "turn": 4,
+  "speaker": "eddie_irvine",
+  "en": "Um, but it was because the f- team was really focused on Michael.",
+  "fr": "Mais c'était parce que l'équipe était vraiment concentrée sur Michael.",
+  "fr_tts": "Mais c'était parce que l'équipe était vraiment concentrée sur Michael.",
+  "statut": "validé (repris de la V1, s20)"
+ },
+ {
+  "id": "s23",
+  "turn": 4,
+  "speaker": "eddie_irvine",
+  "en": "So whenever I came in at the perfect time f- because it started to rain, they weren't ready for me 'cause they were really focused on Michael. So there was a lot of...",
+  "fr": "Quand je suis rentré au moment idéal, parce qu'il commençait à pleuvoir, ils n'étaient pas prêts pour moi, car ils étaient vraiment concentrés sur Michael.",
+  "fr_tts": "Quand je suis rentré au moment idéal, parce qu'il commençait à pleuvoir, ils n'étaient pas prêts pour moi, car ils étaient vraiment concentrés sur Michael.",
+  "statut": "validé (repris de la V1, s21)"
+ },
+ {
+  "id": "s24",
+  "turn": 4,
+  "speaker": "eddie_irvine",
+  "en": "I-it was a very difficult situation, um, and the fact we took it to the last race was, was pretty, was pretty good.",
+  "fr": "C'était une situation très difficile, et le fait d'avoir joué le titre jusqu'à la dernière course, c'était plutôt bien.",
+  "fr_tts": "C'était une situation très difficile, et le fait d'avoir joué le titre jusqu'à la dernière course, c'était plutôt bien.",
+  "statut": "validé (repris de la V1, s22)"
+ },
+ {
+  "id": "s25",
+  "turn": 5,
+  "speaker": "journaliste",
+  "en": "The, the moment you, you, uh, you were a driver for, uh, the Scuderia was, uh, some peop-",
+  "fr": "L'époque où vous étiez pilote de la Scuderia, c'était ce qu'on appelle",
+  "fr_tts": "L'époque où vous étiez pilote de la Scuderia, c'était ce qu'on appelle",
+  "statut": "validé (repris de la V1, s23)"
+ },
+ {
+  "id": "s26",
+  "turn": 5,
+  "speaker": "journaliste",
+  "en": "we say the golden age of Ferrari with a dream team with, uh, you, with, uh, Michael, with, uh, Jean Todt, with, uh, Brawn, with, uh,",
+  "fr": "l'âge d'or de Ferrari, avec une équipe de rêve, avec vous, avec Michael, avec Jean Todt, avec Brawn,",
+  "fr_tts": "l'âge d'or de Ferrari, avec une équipe de rêve, avec vous, avec Michael, avec Jean Todt, avec Brawn,",
+  "statut": "validé (repris de la V1, s24)"
+ },
+ {
+  "id": "s27",
+  "turn": 5,
+  "speaker": "journaliste",
+  "en": "a lot of, uh, very good, uh, m- people.",
+  "fr": "avec beaucoup de très bons éléments.",
+  "fr_tts": "avec beaucoup de très bons éléments.",
+  "statut": "validé (repris de la V1, s25)"
+ },
+ {
+  "id": "s28",
+  "turn": 5,
+  "speaker": "journaliste",
+  "en": "Uh, you feel that it was a, a good mix, a good cocktail to, to be, uh, championship again?",
+  "fr": "Vous sentiez que c'était un bon mélange, un bon cocktail pour redevenir champion ?",
+  "fr_tts": "Vous sentiez que c'était un bon mélange, un bon cocktail pour redevenir champion ?",
+  "statut": "traduit (nouvelle version)"
+ },
+ {
+  "id": "s29",
+  "turn": 5,
+  "speaker": "journaliste",
+  "en": "Because we, we, we're, we're expecting to be championship, champ- world champion since 20 years at this moment.",
+  "fr": "Car on attendait un titre de champion du monde depuis 20 ans, à l'époque.",
+  "fr_tts": "Car on attendait un titre de champion du monde depuis vingt ans, à l'époque.",
+  "statut": "traduit (nouvelle version)"
+ },
+ {
+  "id": "s30",
+  "turn": 6,
+  "speaker": "eddie_irvine",
+  "en": "Yeah. Well, it, it, it turned out to be because we won the Constructors' Championship, and then they won the Drivers' and the Constructors'.",
+  "fr": "Oui, ça s'est vérifié : on a gagné le championnat des constructeurs, puis eux, les titres pilotes et constructeurs.",
+  "fr_tts": "Oui, ça s'est vérifié : on a gagné le championnat des constructeurs, puis eux, les titres pilotes et constructeurs.",
+  "statut": "validé (repris de la V1, s27)"
+ },
+ {
+  "id": "s31",
+  "turn": 6,
+  "speaker": "eddie_irvine",
+  "en": "So that was a, it, it was a, it was a very good, uh... I think it was a very good squad. It's what Ferrari needed.",
+  "fr": "Donc c'était, je pense, une très bonne équipe. C'est ce dont Ferrari avait besoin.",
+  "fr_tts": "Donc c'était, je pense, une très bonne équipe. C'est ce dont Ferrari avait besoin.",
+  "statut": "validé (repris de la V1, s28)"
+ },
+ {
+  "id": "s32",
+  "turn": 6,
+  "speaker": "eddie_irvine",
+  "en": "I think they really...",
+  "fr": "Je pense qu'ils ont vraiment…",
+  "fr_tts": "Je pense qu'ils ont vraiment,",
+  "statut": "validé (repris de la V1, s29)"
+ },
+ {
+  "id": "s33",
+  "turn": 6,
+  "speaker": "eddie_irvine",
+  "en": "The, the, the, the, the, the key point for me was",
+  "fr": "Le point clé, pour moi, c'était",
+  "fr_tts": "Le point clé, pour moi, c'était",
+  "statut": "validé (repris de la V1, s30)"
+ },
+ {
+  "id": "s34",
+  "turn": 6,
+  "speaker": "eddie_irvine",
+  "en": "Michael because everybody knew Michael was so much better than any other driver on the grid, and if he wasn't winning,",
+  "fr": "Michael, parce que tout le monde savait que Michael était tellement meilleur que n'importe quel autre pilote sur la grille. Et s'il ne gagnait pas,",
+  "fr_tts": "Michael, parce que tout le monde savait que Michael était tellement meilleur que n'importe quel autre pilote sur la grille. Et s'il ne gagnait pas,",
+  "statut": "validé (repris de la V1, s31)"
+ },
+ {
+  "id": "s35",
+  "turn": 6,
+  "speaker": "eddie_irvine",
+  "en": "we knew we didn't have to look at the driver, you know.",
+  "fr": "on savait que le pilote n'était pas en cause, vous voyez ?",
+  "fr_tts": "on savait que le pilote n'était pas en cause, vous voyez ?",
+  "statut": "validé (repris de la V1, s32)"
+ },
+ {
+  "id": "s36",
+  "turn": 6,
+  "speaker": "eddie_irvine",
+  "en": "Um, and that, and then he gave his complete backing to Jean Todt,",
+  "fr": "Et puis il a apporté tout son soutien à Jean Todt,",
+  "fr_tts": "Et puis il a apporté tout son soutien à Jean Todt,",
+  "statut": "validé (repris de la V1, s33)"
+ },
+ {
+  "id": "s37",
+  "turn": 6,
+  "speaker": "eddie_irvine",
+  "en": "and Jean Todt gave his, and they both gave their backing to Ross and Rory, and that was a really strong base to work from.",
+  "fr": "et Jean Todt a apporté le sien, et tous les deux ont soutenu Ross et Rory, et ça, c'était une base vraiment solide pour travailler.",
+  "fr_tts": "et Jean Todt a apporté le sien, et tous les deux ont soutenu Ross et Rory, et ça, c'était une base vraiment solide pour travailler.",
+  "statut": "traduit (nouvelle version)"
+ },
+ {
+  "id": "s38",
+  "turn": 6,
+  "speaker": "eddie_irvine",
+  "en": "And they just stuck with these people, and they step by step-",
+  "fr": "Et ils ont simplement gardé ces gens-là, et pas à pas…",
+  "fr_tts": "Et ils ont simplement gardé ces gens-là, et pas à pas,",
+  "statut": "traduit (nouvelle version)"
+ },
+ {
+  "id": "s39",
+  "turn": 7,
+  "speaker": "journaliste",
+  "en": "Year by year because you need maybe four, five years for winning again the title.",
+  "fr": "Année après année : il faut peut-être quatre, cinq ans pour regagner le titre.",
+  "fr_tts": "Année après année : il faut peut-être quatre, cinq ans pour regagner le titre.",
+  "statut": "validé (repris de la V1, s36)"
+ },
+ {
+  "id": "s40",
+  "turn": 8,
+  "speaker": "eddie_irvine",
+  "en": "Exactly. Formula One's not easy. Um, you know, look, look at Aston Martin. They've come in. Lawrence has a lot of money. He's a smart guy.",
+  "fr": "Exactement. La F1 n'est pas facile. Regardez Aston Martin : ils sont arrivés, Lawrence a beaucoup d'argent, il est intelligent.",
+  "fr_tts": "Exactement. La F un n'est pas facile. Regardez Aston Martin : ils sont arrivés, Lawrence a beaucoup d'argent, il est intelligent.",
+  "statut": "validé (repris de la V1, s37)"
+ },
+ {
+  "id": "s41",
+  "turn": 8,
+  "speaker": "eddie_irvine",
+  "en": "He put a great team together, but it doesn't happen overnight. You know, look where they are. A-Adrian's there now. Takes time. Um, it's f-fantastic.",
+  "fr": "Il a monté une super équipe, mais ça ne se fait pas en un jour. Regardez où ils en sont. Adrian est là maintenant. Ça prend du temps. C'est fantastique",
+  "fr_tts": "Il a monté une super équipe, mais ça ne se fait pas en un jour. Regardez où ils en sont. Adrian est là maintenant. Ça prend du temps. C'est fantastique",
+  "statut": "traduit (nouvelle version)"
+ },
+ {
+  "id": "s42",
+  "turn": 8,
+  "speaker": "eddie_irvine",
+  "en": "Fantastic Aston Martin's in there.",
+  "fr": "qu'Aston Martin soit là.",
+  "fr_tts": "qu'Aston Martin soit là.",
+  "statut": "traduit (nouvelle version)"
+ },
+ {
+  "id": "s43",
+  "turn": 8,
+  "speaker": "eddie_irvine",
+  "en": "Aston Martin is the Ferrari of the, uh, of the UK so that, that's...",
+  "fr": "Aston Martin, c'est la Ferrari du Royaume-Uni, donc",
+  "fr_tts": "Aston Martin, c'est la Ferrari du Royaume-Uni, donc",
+  "statut": "traduit (nouvelle version)"
+ },
+ {
+  "id": "s44",
+  "turn": 8,
+  "speaker": "eddie_irvine",
+  "en": "It's f- it's really good, um, but it, it ain't easy, and it's gonna take time.",
+  "fr": "c'est vraiment bien, mais ce n'est pas facile, et ça prendra du temps.",
+  "fr_tts": "c'est vraiment bien, mais ce n'est pas facile, et ça prendra du temps.",
+  "statut": "traduit (nouvelle version)"
+ },
+ {
+  "id": "s45",
+  "turn": 9,
+  "speaker": "journaliste",
+  "en": "Thanks a lot, Eddie.",
+  "fr": "Merci beaucoup, Eddie.",
+  "fr_tts": "Merci beaucoup, Eddie.",
+  "statut": "validé (repris de la V1, s41)"
+ },
+ {
+  "id": "s46",
+  "turn": 10,
+  "speaker": "eddie_irvine",
+  "en": "Thank you.",
+  "fr": "Merci.",
+  "fr_tts": "Merci.",
+  "statut": "validé (repris de la V1, s42)"
+ },
+ {
+  "id": "s47",
+  "turn": 11,
+  "speaker": "journaliste",
+  "en": "Bye-bye.",
+  "fr": "",
+  "fr_tts": "",
+  "statut": "laissé en anglais (au revoir final)"
+ }
+]

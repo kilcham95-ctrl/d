@@ -1,0 +1,324 @@
+{
+ "s01": {
+  "hash": "8622ec8d46ba",
+  "voice": "AfbuxQ9DVtS4azaxN1W7",
+  "speed": 0.92,
+  "text": "Juste un mot sur Michael, car il y a une célébration spéciale pour l'âge d'or des cinq titres qu'il a remportés avec Ferrari.",
+  "cost": 58
+ },
+ "s02": {
+  "hash": "6435c5769186",
+  "voice": "AfbuxQ9DVtS4azaxN1W7",
+  "speed": 0.92,
+  "text": "Avez-vous senti, en arrivant en quatre-vingt-seize, le début d'une fabuleuse légende, d'une fabuleuse histoire : la renaissance de Ferrari à l'époque ?",
+  "cost": 70
+ },
+ "s03": {
+  "hash": "0e94d210a1df",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "C'était vraiment la renaissance de Ferrari.",
+  "cost": 22
+ },
+ "s04": {
+  "hash": "cd99937be3b7",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Ils n'avaient jamais connu",
+  "cost": 15
+ },
+ "s05": {
+  "hash": "77d465e05499",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "une telle période, je crois, Ferrari.",
+  "cost": 19
+ },
+ "s06": {
+  "hash": "b1d14207325d",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "C'était la période la plus forte, et évidemment, j'étais là au tout début, quand on est passés d'une équipe en très grande difficulté,",
+  "cost": 62
+ },
+ "s07": {
+  "hash": "1e42c2b7faa0",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "à notre victoire au championnat des constructeurs en quatre-vingt-dix-neuf, puis aux championnats des pilotes et des constructeurs en deux mille.",
+  "cost": 67
+ },
+ "s08": {
+  "hash": "63f6a1b632a7",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "C'était donc une période vraiment importante de l'histoire de Ferrari, et ils ont ensuite connu plusieurs années de succès.",
+  "cost": 57
+ },
+ "s09": {
+  "hash": "5799526bc1f9",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Mais c'était une période d'énormes investissements et d'énormes efforts de la part de tous ceux qui étaient là.",
+  "cost": 52
+ },
+ "s10": {
+  "hash": "3f0b23b00f8a",
+  "voice": "AfbuxQ9DVtS4azaxN1W7",
+  "speed": 0.92,
+  "text": "Après l'accident de Michael en mille neuf cent quatre-vingt-dix-neuf, de mémoire, à Silverstone,",
+  "cost": 45
+ },
+ "s11": {
+  "hash": "b10ead23c246",
+  "voice": "AfbuxQ9DVtS4azaxN1W7",
+  "speed": 0.92,
+  "text": "vous êtes devenu numéro un, et vous avez frôlé le titre.",
+  "cost": 28
+ },
+ "s12": {
+  "hash": "3fe622888ace",
+  "voice": "AfbuxQ9DVtS4azaxN1W7",
+  "speed": 0.92,
+  "text": "Est-ce que ça a changé votre état d'esprit, votre approche, d'être le leader de la Scuderia Ferrari ?",
+  "cost": 48
+ },
+ "s13": {
+  "hash": "06449acaf8d3",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Évidemment, la pression a beaucoup changé, car avant, mon travail, c'était juste d'obtenir les meilleurs résultats possibles.",
+  "cost": 58
+ },
+ "s14": {
+  "hash": "bf953432d520",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "C'était à Michael d'essayer de gagner le titre.",
+  "cost": 24
+ },
+ "s15": {
+  "hash": "90af0f956139",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Évidemment, ça a changé à mi-saison.",
+  "cost": 19
+ },
+ "s16": {
+  "hash": "f4dbf935587a",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Mais en même temps, vous savez, Ferrari s'est alors vraiment concentrée sur la voiture de l'année suivante.",
+  "cost": 50
+ },
+ "s17": {
+  "hash": "4068680d79c1",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et c'est pour ça, je pense, que nos performances ont un peu baissé. Donc c'était très dur.",
+  "cost": 43
+ },
+ "s18": {
+  "hash": "4ee8a0f01fb6",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "On a fait des erreurs, vous savez.",
+  "cost": 18
+ },
+ "s19": {
+  "hash": "3bc7dd128cf5",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "On a eu des arrêts au stand très douteux.",
+  "cost": 21
+ },
+ "s20": {
+  "hash": "7ff2b0086f04",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Celui en Allemagne, évidemment, c'était juste un concours de circonstances.",
+  "cost": 36
+ },
+ "s21": {
+  "hash": "09b639c03f32",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Celui en France, encore quarante secondes au stand, alors que je serais ressorti en tête.",
+  "cost": 42
+ },
+ "s22": {
+  "hash": "7579fbfc6ed2",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Mais c'était parce que l'équipe était vraiment concentrée sur Michael.",
+  "cost": 34
+ },
+ "s23": {
+  "hash": "55f563d6b17e",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Quand je suis rentré au moment idéal, parce qu'il commençait à pleuvoir, ils n'étaient pas prêts pour moi, car ils étaient vraiment concentrés sur Michael.",
+  "cost": 71
+ },
+ "s24": {
+  "hash": "795303806bcd",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "C'était une situation très difficile, et le fait d'avoir joué le titre jusqu'à la dernière course, c'était plutôt bien.",
+  "cost": 55
+ },
+ "s25": {
+  "hash": "8023da167498",
+  "voice": "AfbuxQ9DVtS4azaxN1W7",
+  "speed": 0.92,
+  "text": "L'époque où vous étiez pilote de la Scuderia, c'était ce qu'on appelle",
+  "cost": 34
+ },
+ "s26": {
+  "hash": "df67ce68b062",
+  "voice": "AfbuxQ9DVtS4azaxN1W7",
+  "speed": 0.92,
+  "text": "l'âge d'or de Ferrari, avec une équipe de rêve, avec vous, avec Michael, avec Jean Todt, avec Brawn,",
+  "cost": 47
+ },
+ "s27": {
+  "hash": "5df338d13520",
+  "voice": "AfbuxQ9DVtS4azaxN1W7",
+  "speed": 0.92,
+  "text": "avec beaucoup de très bons éléments.",
+  "cost": 19
+ },
+ "s28": {
+  "hash": "1cbdfb4e6697",
+  "voice": "AfbuxQ9DVtS4azaxN1W7",
+  "speed": 0.92,
+  "text": "Vous sentiez que c'était un bon mélange, un bon cocktail pour redevenir champion ?",
+  "cost": 39
+ },
+ "s29": {
+  "hash": "342c4f4422bb",
+  "voice": "AfbuxQ9DVtS4azaxN1W7",
+  "speed": 0.92,
+  "text": "Car on attendait un titre de champion du monde depuis vingt ans, à l'époque.",
+  "cost": 37
+ },
+ "s30": {
+  "hash": "19a7291ca155",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Oui, ça s'est vérifié : on a gagné le championnat des constructeurs, puis eux, les titres pilotes et constructeurs.",
+  "cost": 54
+ },
+ "s31": {
+  "hash": "7b3deb942dc2",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Donc c'était, je pense, une très bonne équipe. C'est ce dont Ferrari avait besoin.",
+  "cost": 39
+ },
+ "s32": {
+  "hash": "58711a8d5f8f",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Je pense qu'ils ont vraiment,",
+  "cost": 16
+ },
+ "s33": {
+  "hash": "4768e18b5147",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Le point clé, pour moi, c'était",
+  "cost": 17
+ },
+ "s34": {
+  "hash": "9dca44762eb3",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Michael, parce que tout le monde savait que Michael était tellement meilleur que n'importe quel autre pilote sur la grille. Et s'il ne gagnait pas,",
+  "cost": 68
+ },
+ "s35": {
+  "hash": "24548f2cf4a1",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "on savait que le pilote n'était pas en cause, vous voyez ?",
+  "cost": 29
+ },
+ "s36": {
+  "hash": "5cb769799294",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et puis il a apporté tout son soutien à Jean Todt,",
+  "cost": 25
+ },
+ "s37": {
+  "hash": "1db195d10e17",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "et Jean Todt a apporté le sien, et tous les deux ont soutenu Ross et Rory, et ça, c'était une base vraiment solide pour travailler.",
+  "cost": 61
+ },
+ "s38": {
+  "hash": "7b8fab9226be",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et ils ont simplement gardé ces gens-là, et pas à pas,",
+  "cost": 27
+ },
+ "s39": {
+  "hash": "7570be2881f3",
+  "voice": "AfbuxQ9DVtS4azaxN1W7",
+  "speed": 0.92,
+  "text": "Année après année : il faut peut-être quatre, cinq ans pour regagner le titre.",
+  "cost": 37
+ },
+ "s40": {
+  "hash": "31171c415d40",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Exactement. La F un n'est pas facile. Regardez Aston Martin : ils sont arrivés, Lawrence a beaucoup d'argent, il est intelligent.",
+  "cost": 60
+ },
+ "s41": {
+  "hash": "59ea90485797",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Il a monté une super équipe, mais ça ne se fait pas en un jour. Regardez où ils en sont. Adrian est là maintenant. Ça prend du temps. C'est fantastique",
+  "cost": 70
+ },
+ "s42": {
+  "hash": "94a89f6efa54",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "qu'Aston Martin soit là.",
+  "cost": 14
+ },
+ "s43": {
+  "hash": "d4e21fbbabd3",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Aston Martin, c'est la Ferrari du Royaume-Uni, donc",
+  "cost": 26
+ },
+ "s44": {
+  "hash": "b59f221bb704",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "c'est vraiment bien, mais ce n'est pas facile, et ça prendra du temps.",
+  "cost": 34
+ },
+ "s45": {
+  "hash": "8be692120746",
+  "voice": "AfbuxQ9DVtS4azaxN1W7",
+  "speed": 0.92,
+  "text": "Merci beaucoup, Eddie.",
+  "cost": 13
+ },
+ "s46": {
+  "hash": "062b37229106",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Merci.",
+  "cost": 6
+ }
+}
