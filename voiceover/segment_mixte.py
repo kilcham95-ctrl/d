@@ -12,21 +12,23 @@ import re
 
 from segment import split_turn, LAG_TURN, LAG_SEG, GAP, CHARS_PER_SEC
 
-FR = set("le la les un une des du de et est que qui pour pas ne je tu il elle nous vous ils on ce cette ces avec dans sur "
-         "au aux mais ou donc car très c'est j'ai qu'il d'un d'une y en son sa ses mon ma mes notre votre leur était être "
-         "avoir fait bien aussi comme plus tout tous euh voilà alors parce puisque".split())
-EN = set("the a an and is are was were that which who for not i you he she we they it this these with in on at but or so "
+# mots-outils propres à chaque langue (les mots communs aux deux, comme « car », « on », « a », sont exclus)
+FR = set("le la les un une des du de et est que qui pour pas ne je tu il elle nous vous ils ce cette ces avec dans sur "
+         "au aux mais ou donc très c'est j'ai qu'il d'un d'une y en son sa ses mon ma mes notre votre leur était être "
+         "avoir fait bien aussi comme plus tout tous voilà alors parce puisque oui non merci vrai va vais passer anglais "
+         "français bonjour salut chez".split())
+EN = set("the an and is are was were that which who for not i you he she we they it this these with in at but or so "
          "because very have has had be been do did my your our their what when where how there here of to from just like "
-         "really uh um yeah okay".split())
+         "really yeah okay".split())
 
 
 def lang_of(text):
     t = text.lower()
     words = re.findall(r"[a-zàâçéèêëîïôûùüÿœ']+", t)
-    f = sum(w in FR for w in words) + 2 * len(re.findall(r"[àâçéèêëîïôûùœ]", t)) + 3 * words.count("euh")
-    e = sum(w in EN for w in words) + 3 * (words.count("uh") + words.count("um"))
+    f = sum(w in FR for w in words) + 2 * len(re.findall(r"[àâçéèêëîïôûùœ]", t)) + words.count("euh")
+    e = sum(w in EN for w in words) + (words.count("uh") + words.count("um"))
     if f + e < 2:
-        return None
+        return "fr" if f else None          # « chez Ferrari. » : un seul indice, mais français
     return "fr" if f > e else "en"
 
 
@@ -50,6 +52,8 @@ def main():
     ap.add_argument("--speakers", required=True)
     ap.add_argument("--lag-turn", type=float, default=0.8)
     ap.add_argument("--lag-seg", type=float, default=0.4)
+    ap.add_argument("--host", default="speaker_0", help="présentateur (seul à parler français hors salutations)")
+    ap.add_argument("--keep-en", default="", help="plages t0-t1 de phrases anglaises à laisser en VO, ex. 754.5-757.3")
     a = ap.parse_args()
     names = dict(kv.split("=") for kv in a.speakers.split(","))
     words = [w for w in json.load(open(a.transcript))["words"] if w["type"] == "word"]
@@ -61,9 +65,22 @@ def main():
     for i, s in enumerate(sents):
         if s["lang"]:
             continue
-        cands = [(abs(o["start"] - s["start"]) + (0 if o["speaker"] == s["speaker"] else 5), o["lang"])
-                 for o in sents[max(0, i - 3):i + 4] if o["lang"]]
+        if s["speaker"] != a.host:          # un invité sans indice parle anglais
+            s["lang"] = "en"
+            continue
+        cands = [(max(o["start"] - s["end"], s["start"] - o["end"]), o["lang"]) for o in sents[max(0, i - 3):i + 4]
+                 if o["lang"] and o["speaker"] == a.host and max(o["start"] - s["end"], s["start"] - o["end"]) < 3]
         s["lang"] = min(cands)[1] if cands else "en"
+    # courte réplique anglaise (« Yeah, yeah ») au milieu d'un passage français : elle en fait partie
+    for i in range(1, len(sents) - 1):
+        p, s, n = sents[i - 1], sents[i], sents[i + 1]
+        if (s["lang"] == "en" and len(s["words"]) <= 3 and p["lang"] == n["lang"] == "fr"
+                and s["start"] - p["end"] < 2 and n["start"] - s["end"] < 2):
+            s["lang"] = "fr"
+    keep = [tuple(map(float, r.split("-"))) for r in a.keep_en.split(",") if r]
+    for s in sents:                          # anglais laissé en VO : traité comme une zone intouchable
+        if any(k0 - 0.05 <= s["start"] and s["end"] <= k1 + 0.05 for k0, k1 in keep):
+            s["lang"] = "fr"
     zones = []
     for s in sents:
         if s["lang"] == "fr":

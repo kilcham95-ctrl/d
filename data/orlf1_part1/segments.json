@@ -2,18 +2,6 @@
  {
   "id": "s001",
   "turn": 1,
-  "speaker": "guido",
-  "first_in_turn": true,
-  "start": 59.2,
-  "end": 59.78,
-  "en": "Yeah, yeah.",
-  "vo_start": 60.0,
-  "window": -0.28,
-  "char_budget": 0
- },
- {
-  "id": "s002",
-  "turn": 2,
   "speaker": "journaliste",
   "first_in_turn": true,
   "start": 75.54,
@@ -24,8 +12,8 @@
   "char_budget": 22
  },
  {
-  "id": "s003",
-  "turn": 2,
+  "id": "s002",
+  "turn": 1,
   "speaker": "journaliste",
   "first_in_turn": false,
   "start": 77.64,
@@ -36,8 +24,8 @@
   "char_budget": 87
  },
  {
-  "id": "s004",
-  "turn": 2,
+  "id": "s003",
+  "turn": 1,
   "speaker": "journaliste",
   "first_in_turn": false,
   "start": 83.78,
@@ -48,8 +36,8 @@
   "char_budget": 36
  },
  {
-  "id": "s005",
-  "turn": 3,
+  "id": "s004",
+  "turn": 2,
   "speaker": "guido",
   "first_in_turn": true,
   "start": 86.02,
@@ -60,8 +48,8 @@
   "char_budget": 123
  },
  {
-  "id": "s006",
-  "turn": 3,
+  "id": "s005",
+  "turn": 2,
   "speaker": "guido",
   "first_in_turn": false,
   "start": 95.08,
@@ -72,8 +60,8 @@
   "char_budget": 133
  },
  {
-  "id": "s007",
-  "turn": 4,
+  "id": "s006",
+  "turn": 3,
   "speaker": "giorgio",
   "first_in_turn": true,
   "start": 103.98,
@@ -84,8 +72,8 @@
   "char_budget": 89
  },
  {
-  "id": "s008",
-  "turn": 5,
+  "id": "s007",
+  "turn": 4,
   "speaker": "guido",
   "first_in_turn": true,
   "start": 110.28,
@@ -96,8 +84,8 @@
   "char_budget": 25
  },
  {
-  "id": "s009",
-  "turn": 6,
+  "id": "s008",
+  "turn": 5,
   "speaker": "giorgio",
   "first_in_turn": true,
   "start": 112.16,
@@ -108,8 +96,8 @@
   "char_budget": 143
  },
  {
-  "id": "s010",
-  "turn": 6,
+  "id": "s009",
+  "turn": 5,
   "speaker": "giorgio",
   "first_in_turn": false,
   "start": 122.58,
@@ -120,8 +108,8 @@
   "char_budget": 118
  },
  {
-  "id": "s011",
-  "turn": 6,
+  "id": "s010",
+  "turn": 5,
   "speaker": "giorgio",
   "first_in_turn": false,
   "start": 130.84,
@@ -132,8 +120,8 @@
   "char_budget": 55
  },
  {
-  "id": "s012",
-  "turn": 7,
+  "id": "s011",
+  "turn": 6,
   "speaker": "journaliste",
   "first_in_turn": true,
   "start": 134.42,
@@ -144,8 +132,8 @@
   "char_budget": 28
  },
  {
-  "id": "s013",
-  "turn": 7,
+  "id": "s012",
+  "turn": 6,
   "speaker": "journaliste",
   "first_in_turn": false,
   "start": 136.9,
@@ -156,8 +144,8 @@
   "char_budget": 49
  },
  {
-  "id": "s014",
-  "turn": 8,
+  "id": "s013",
+  "turn": 7,
   "speaker": "giorgio",
   "first_in_turn": true,
   "start": 140.0,
@@ -168,8 +156,8 @@
   "char_budget": 14
  },
  {
-  "id": "s015",
-  "turn": 9,
+  "id": "s014",
+  "turn": 8,
   "speaker": "journaliste",
   "first_in_turn": true,
   "start": 141.12,
@@ -180,8 +168,8 @@
   "char_budget": 115
  },
  {
-  "id": "s016",
-  "turn": 9,
+  "id": "s015",
+  "turn": 8,
   "speaker": "journaliste",
   "first_in_turn": false,
   "start": 149.6,
@@ -192,8 +180,8 @@
   "char_budget": 75
  },
  {
-  "id": "s017",
-  "turn": 10,
+  "id": "s016",
+  "turn": 9,
   "speaker": "guido",
   "first_in_turn": true,
   "start": 154.56,
@@ -204,8 +192,8 @@
   "char_budget": 46
  },
  {
-  "id": "s018",
-  "turn": 10,
+  "id": "s017",
+  "turn": 9,
   "speaker": "guido",
   "first_in_turn": false,
   "start": 158.26,
@@ -216,8 +204,8 @@
   "char_budget": 52
  },
  {
-  "id": "s019",
-  "turn": 10,
+  "id": "s018",
+  "turn": 9,
   "speaker": "guido",
   "first_in_turn": false,
   "start": 162.02,
@@ -228,8 +216,8 @@
   "char_budget": 66
  },
  {
-  "id": "s020",
-  "turn": 11,
+  "id": "s019",
+  "turn": 10,
   "speaker": "giorgio",
   "first_in_turn": true,
   "start": 166.34,
@@ -240,8 +228,8 @@
   "char_budget": 145
  },
  {
-  "id": "s021",
-  "turn": 11,
+  "id": "s020",
+  "turn": 10,
   "speaker": "giorgio",
   "first_in_turn": false,
   "start": 176.88,
@@ -252,8 +240,8 @@
   "char_budget": 129
  },
  {
-  "id": "s022",
-  "turn": 11,
+  "id": "s021",
+  "turn": 10,
   "speaker": "giorgio",
   "first_in_turn": false,
   "start": 185.9,
