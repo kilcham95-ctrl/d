@@ -94,8 +94,8 @@
   "turn": 4,
   "speaker": "mika_salo",
   "en": "And, uh, he called me when we were practicing this, uh, wedding and, uh, and, um,",
-  "fr": "Il m'a appelé pendant qu'on répétait ce mariage, et",
-  "fr_tts": "Il m'a appelé pendant qu'on répétait ce mariage, et",
+  "fr": "Il m'a appelé pendant qu'on répétait ce mariage.",
+  "fr_tts": "Il m'a appelé pendant qu'on répétait ce mariage.",
   "statut": "validé (repris de la V1, s09)"
  },
  {
@@ -103,8 +103,8 @@
   "turn": 4,
   "speaker": "mika_salo",
   "en": "he said, uh, \"I want you to come to Maranello.\" And I thought, \"Oh, okay.\" Uh, I kn- of course, immediately I can connect these two things. And, uh, he, uh...",
-  "fr": "il m'a dit : « Je veux que tu viennes à Maranello. » Et j'ai pensé : « Ah, d'accord. » Bien sûr, j'ai tout de suite fait le lien entre les deux.",
-  "fr_tts": "il m'a dit : je veux que tu viennes à Maranello. Et j'ai pensé : ah, d'accord. Bien sûr, j'ai tout de suite fait le lien entre les deux.",
+  "fr": "Et il m'a dit : « Je veux que tu viennes à Maranello. » Et j'ai pensé : « Ah, d'accord. » Bien sûr, j'ai tout de suite fait le lien entre les deux.",
+  "fr_tts": "Et il m'a dit : je veux que tu viennes à Maranello. Et j'ai pensé : ah, d'accord. Bien sûr, j'ai tout de suite fait le lien entre les deux.",
   "statut": "validé (repris de la V1, s10)"
  },
  {
@@ -401,7 +401,7 @@
   "speaker": "mika_salo",
   "en": "We did, uh, Formula Ford together.",
   "fr": "On a fait la Formula Ford ensemble.",
-  "fr_tts": "On a fait la Formoula Ford ensemble.",
+  "fr_tts": "On a fait la Formula Ford ensemble.",
   "statut": "validé (repris de la V1, s57)"
  },
  {
@@ -445,8 +445,8 @@
   "turn": 16,
   "speaker": "mika_salo",
   "en": "We've been growing up together, so I know him from a long time.",
-  "fr": "… ensemble, donc je le connais depuis longtemps.",
-  "fr_tts": "ensemble, donc je le connais depuis longtemps.",
+  "fr": "On a grandi ensemble, donc je le connais depuis longtemps.",
+  "fr_tts": "On a grandi ensemble, donc je le connais depuis longtemps.",
   "statut": "validé (repris de la V1, s62)"
  },
  {
@@ -517,8 +517,8 @@
   "turn": 18,
   "speaker": "mika_salo",
   "en": "I was in Tyrrell and Arrows and, uh, smaller teams before.",
-  "fr": "Avant, j'étais chez Tyrrell et Arrows, de plus petites équipes.",
-  "fr_tts": "Avant, j'étais chez Tyrrell et Arrows, de plus petites équipes.",
+  "fr": "Avant, j'étais chez Tyrrell et Arrows, des équipes plus petites.",
+  "fr_tts": "Avant, j'étais chez Tyrrell et Arrows, des équipes plus petites.",
   "statut": "traduit (V2)"
  },
  {

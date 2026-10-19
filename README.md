@@ -81,17 +81,18 @@ ELEVENLABS_API_KEY=... python3 voiceover/qa_vo.py data/mika_salo/translation_fr.
 
 Les fichiers sont dans `output/mika_salo_v2/`.
 
-## Ce qui change par rapport à la première version
+## Rendu final
 
-- **Modèle** : `eleven_v3`, en stabilité « robuste », à 192 kb/s. Mêmes voix : George pour Mika Salo, Chris pour le journaliste.
+- **Modèle** : `eleven_v4`, sorti le 28 septembre 2026, le plus récent d'ElevenLabs. Stabilité 0,9, consigne de ton `[calm]` en tête de chaque phrase (elle n'est pas prononcée), contexte des phrases voisines, français forcé, 192 kb/s. Mêmes voix : George pour Mika Salo, Chris pour le journaliste.
+- **Comparaison avec v3** : v4 prononce juste « Jean Todt » et « Formula Ford » sans astuce de graphie. Même avec `[calm]`, son intonation reste environ 20 % plus variée que v3 : plus naturelle, un peu moins neutre. Les segments v3 restent dans `data/mika_salo_v2/tts_fr_v3/` pour revenir en arrière.
 - **Calage** : le français démarre toujours après l'anglais, 0,8 s après le début de chaque prise de parole et 0,4 s après chaque phrase suivante. L'anglais ne baisse qu'au moment où la voix française commence (`--lag-turn 0.8 --lag-seg 0.4 --pre -0.25`).
-- **Traduction** : 54 segments identiques à la V1 reprennent la traduction validée et leur voix déjà contrôlée. Les 30 segments nouveaux ou redécoupés sont passés par le même workflow (3 traducteurs, synthèse, 3 relectures adversariales).
-- **Échange rapide de la fin** (« Yeah, I know », « We say hello to… », « Hello, Ange ») : ces relances restent en anglais comme les interjections. La réplique suivante du journaliste dit « On salue Ange. Merci, Mika… ».
+- **Traduction** : 54 segments identiques à la V1 reprennent la traduction validée ; les 30 nouveaux sont passés par le workflow (3 traducteurs, synthèse, 3 relectures adversariales).
+- **Formulations ajustées pour v4**, qui avale un mot isolé en début ou en fin de segment : le « et » de s11 passe en tête de s12 ; s50 devient « On a grandi ensemble, donc… » ; s58 devient « des équipes plus petites ».
+- **Échange rapide de la fin** (« Yeah, I know », « We say hello to… », « Hello, Ange ») : ces relances restent en anglais. La réplique suivante du journaliste dit « On salue Ange. Merci, Mika… ».
 
 ## Contrôles
 
-- Segments : 70 sur 78 identiques ; le reste, ce sont des homophones.
-- Mix complet : français à 100 %, 0,8 % d'écart (homophones uniquement).
+- Mix complet : français à 100 %, 0,9 % d'écart, uniquement des homophones et l'orthographe des noms dans la transcription.
 - Calage : aucune phrase française ne démarre avant l'anglais et aucune ne se chevauche.
 
 ## Commandes
@@ -99,6 +100,6 @@ Les fichiers sont dans `output/mika_salo_v2/`.
 ```bash
 python3 voiceover/segment.py data/mika_salo_v2/transcript_en_scribe.json data/mika_salo_v2/segments.json --journalist speaker_0 --guest mika_salo --lag-turn 0.8 --lag-seg 0.4
 LEVEL_MIN_GAIN_DB=-15 voiceover/clean_en.sh <V2_ITW_Mica_Salo.mp3> data/mika_salo_v2/transcript_en_scribe.json work/v2_en_clean.wav work/v2_en
-ELEVENLABS_API_KEY=... python3 voiceover/tts.py data/mika_salo_v2/translation_fr.json data/mika_salo_v2/tts_fr_v3 --model eleven_v3 --format mp3_44100_192
-python3 voiceover/mix.py data/mika_salo_v2/segments.json data/mika_salo_v2/translation_fr.json data/mika_salo_v2/tts_fr_v3 work/v2_en_clean.wav output/mika_salo_v2 work/v2_mix --name interview_mika_salo_v2 --pre -0.25
+ELEVENLABS_API_KEY=... python3 voiceover/tts.py data/mika_salo_v2/translation_fr.json data/mika_salo_v2/tts_fr_v4 --model eleven_v4 --format mp3_44100_192 --tag "[calm]" --seed s11=7,s12=7,s36=7,s45=7,s49=7,s50=7,s58=7
+python3 voiceover/mix.py data/mika_salo_v2/segments.json data/mika_salo_v2/translation_fr.json data/mika_salo_v2/tts_fr_v4 work/v2_en_clean.wav output/mika_salo_v2 work/v2_mix --name interview_mika_salo_v2 --pre -0.25
 ```

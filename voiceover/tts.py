@@ -47,6 +47,7 @@ def main():
     ap.add_argument("--voice-journaliste", default=JOURNALIST_VOICE)
     ap.add_argument("--model", default=MODEL)
     ap.add_argument("--format", default="mp3_44100_128", help="mp3_44100_192 sur les offres Creator et plus")
+    ap.add_argument("--tag", default="", help="consigne de ton en tête de texte pour v3/v4, ex. [calm]")
     a = ap.parse_args()
     key = os.environ["ELEVENLABS_API_KEY"]
     voice_of = lambda spk: a.voice_journaliste if spk == "journaliste" else GUEST_VOICE
@@ -75,6 +76,12 @@ def main():
         }
         if a.model.endswith("v2_5"):
             payload["language_code"] = "fr"     # les modèles v2.5 acceptent de forcer la langue
+        if a.model == "eleven_v4":
+            # v4 : plus de réglage de vitesse ; ton guidé par une consigne entre crochets (non prononcée)
+            payload["voice_settings"] = {"stability": 0.9, "similarity_boost": 0.8}
+            payload["language_code"] = "fr"
+            if a.tag:
+                payload["text"] = f"{a.tag} {payload['text']}"
         if a.model == "eleven_v3":
             # v3 : stabilité 1.0 (« robuste », la plus sobre) ; pas de vitesse ni de contexte précédent/suivant
             payload["voice_settings"] = {"stability": 1.0, "similarity_boost": 0.8}
