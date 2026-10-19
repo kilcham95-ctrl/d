@@ -453,7 +453,7 @@
   "speaker": "mika_salo",
   "en": "We did, uh, Formula Ford together.",
   "fr": "On a fait la Formula Ford ensemble.",
-  "fr_tts": "On a fait la Formula Ford ensemble."
+  "fr_tts": "On a fait la Formoula Ford ensemble."
  },
  {
   "id": "s58",
@@ -484,8 +484,8 @@
   "turn": 22,
   "speaker": "journaliste",
   "en": "It's a long story between you and him",
-  "fr": "Une longue histoire entre vous.",
-  "fr_tts": "Une longue histoire entre vous."
+  "fr": "Une longue histoire entre vous deux.",
+  "fr_tts": "Une longue histoire entre vous deux."
  },
  {
   "id": "s62",

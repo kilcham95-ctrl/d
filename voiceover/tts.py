@@ -14,7 +14,7 @@ import time
 import urllib.error
 import urllib.request
 
-API = "https://api.elevenlabs.io/v1/text-to-speech/{voice}?output_format=mp3_44100_128"
+API = "https://api.elevenlabs.io/v1/text-to-speech/{voice}?output_format={fmt}"
 MODEL = "eleven_multilingual_v2"
 GUEST_VOICE = "JBFqnCBsd6RMkjVDRZzb"       # George — posé, chaleureux, français standard vérifié (l'invité)
 JOURNALIST_VOICE = "iP95p4xoKVk53GoZ742B"  # Chris — plus grave, distinct de George
@@ -22,8 +22,8 @@ SETTINGS = {"stability": 0.7, "similarity_boost": 0.8, "style": 0.0, "use_speake
 SEED = 1996
 
 
-def synth(key, voice, payload):
-    req = urllib.request.Request(API.format(voice=voice), data=json.dumps(payload).encode(),
+def synth(key, voice, payload, fmt="mp3_44100_128"):
+    req = urllib.request.Request(API.format(voice=voice, fmt=fmt), data=json.dumps(payload).encode(),
                                  headers={"xi-api-key": key, "Content-Type": "application/json"})
     for attempt in range(5):
         try:
@@ -46,6 +46,7 @@ def main():
     ap.add_argument("--seed", default="", help="graine par segment pour une nouvelle prise, ex. s04=7")
     ap.add_argument("--voice-journaliste", default=JOURNALIST_VOICE)
     ap.add_argument("--model", default=MODEL)
+    ap.add_argument("--format", default="mp3_44100_128", help="mp3_44100_192 sur les offres Creator et plus")
     a = ap.parse_args()
     key = os.environ["ELEVENLABS_API_KEY"]
     voice_of = lambda spk: a.voice_journaliste if spk == "journaliste" else GUEST_VOICE
@@ -74,13 +75,19 @@ def main():
         }
         if a.model.endswith("v2_5"):
             payload["language_code"] = "fr"     # les modèles v2.5 acceptent de forcer la langue
+        if a.model == "eleven_v3":
+            # v3 : stabilité 1.0 (« robuste », la plus sobre) ; pas de vitesse ni de contexte précédent/suivant
+            payload["voice_settings"] = {"stability": 1.0, "similarity_boost": 0.8}
+            payload.pop("previous_text", None)
+            payload.pop("next_text", None)
         payload = {k: v for k, v in payload.items() if v is not None}
         voice = voice_of(s["speaker"])
-        h = hashlib.sha1(json.dumps([voice, payload], sort_keys=True).encode()).hexdigest()[:12]
+        key_parts = [voice, payload] + ([a.format] if a.format != "mp3_44100_128" else [])
+        h = hashlib.sha1(json.dumps(key_parts, sort_keys=True).encode()).hexdigest()[:12]
         f = out / f"{s['id']}.mp3"
         if f.exists() and manifest.get(s["id"], {}).get("hash") == h:
             continue
-        audio, headers = synth(key, voice, payload)
+        audio, headers = synth(key, voice, payload, a.format)
         f.write_bytes(audio)
         cost = headers.get("character-cost") or headers.get("x-character-count") or str(len(s["fr_tts"]))
         billed += int(cost)

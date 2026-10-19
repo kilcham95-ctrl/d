@@ -51,23 +51,26 @@ Les segments de voix déjà générés sont dans `data/tts_fr/`. Pour changer le
 
 Les fichiers sont dans `output/mika_salo/` et suivent la même structure que pour Eddie Irvine.
 
-## Différences avec Eddie Irvine
+## Rendu final
 
-- **Modèle** : `eleven_turbo_v2_5`, avec les mêmes voix (George pour Mika Salo, Chris pour le journaliste). Il coûte deux fois moins cher, ce qui était nécessaire pour tenir dans le quota gratuit.
+- **Modèle et voix** : `eleven_v3`, le modèle ElevenLabs le plus récent, en stabilité « robuste » (la plus sobre), à 192 kb/s. Voix : George pour Mika Salo, Chris pour le journaliste.
+- **Pourquoi v3** : sur le test comparatif, c'est le seul modèle qui prononce correctement « Ross Brawn ou Jean Todt » avec la voix du journaliste. Une première version faite avec Turbo est remplacée.
 - **Interjections** : « Yes », « Mm », « Aye yai yai », « Excuse me » et le « Bye-bye. Thank you. » final restent en anglais, sans voix off.
 - **Fin du fichier** (à partir de 478,5 s) : elle est déjà en français. Ce sont les prises du présentateur qui annoncent l'interview de Luca Badoer. Elles sont gardées à pleine voix (`--keep-from 478.5`).
 - **Corrections de transcription** : « John » est rendu par « Jean » (Jean Todt prononcé à la finlandaise) et « Ange Pasquale » par « Ange Pasquali ».
+- **« Formula Ford »** : il est écrit « Formoula Ford » dans le texte envoyé à la synthèse, sinon la voix dit « Formule Ford ». Les sous-titres gardent « Formula Ford ».
 
-## Reprises et limites connues
+## Contrôles
 
-- Défauts corrigés par une nouvelle prise : s33, s73, s93. s86 a été coupé au montage (un « une » parasite en fin de phrase).
-- s37 a été monté : le début vient de la prise Turbo, « ou Jean Todt » a été regénéré avec `eleven_multilingual_v2`. Le prénom reste prononcé à l'anglaise ; le crédit était épuisé, donc pas d'autre essai.
-- s83 : « tous types » est lu avec le « s » prononcé.
+- Segments, en une seule retranscription : 84 sur 94 sont identiques ; le reste, ce sont des homophones.
+- Mix complet : français détecté à 100 %, 1,2 % d'écart, uniquement des homophones et des accords.
 
 ## Commandes
 
 ```bash
 python3 voiceover/segment.py data/mika_salo/transcript_en_scribe.json data/mika_salo/segments.json --journalist speaker_1 --guest mika_salo --en-until 478.5
 LEVEL_MIN_GAIN_DB=-15 voiceover/clean_en.sh <itv_gphi-mika_salo.mp3> data/mika_salo/transcript_en_scribe.json work/mika_en_clean.wav work/mika_en
-python3 voiceover/mix.py data/mika_salo/segments.json data/mika_salo/translation_fr.json data/mika_salo/tts_fr work/mika_en_clean.wav output/mika_salo work/mika_mix --name interview_mika_salo --keep-from 478.5
+ELEVENLABS_API_KEY=... python3 voiceover/tts.py data/mika_salo/translation_fr.json data/mika_salo/tts_fr_v3 --model eleven_v3 --format mp3_44100_192 --seed s57=7
+python3 voiceover/mix.py data/mika_salo/segments.json data/mika_salo/translation_fr.json data/mika_salo/tts_fr_v3 work/mika_en_clean.wav output/mika_salo work/mika_mix --name interview_mika_salo --keep-from 478.5
+ELEVENLABS_API_KEY=... python3 voiceover/qa_vo.py data/mika_salo/translation_fr.json data/mika_salo/tts_fr_v3 work/qa.json --concat
 ```
