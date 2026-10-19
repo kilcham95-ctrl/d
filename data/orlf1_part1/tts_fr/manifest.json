@@ -1,0 +1,142 @@
+{
+ "s001": {
+  "hash": "74526f50ffb5",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Alors maintenant, on parle anglais, tranquillement.",
+  "cost": 26
+ },
+ "s002": {
+  "hash": "1339bf6d130d",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "On commence par la première Ferrari de Michael, bien sûr.",
+  "cost": 28
+ },
+ "s003": {
+  "hash": "def45c042090",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "En mille neuf cent quatre-vingt-seize.",
+  "cost": 20
+ },
+ "s004": {
+  "hash": "3ee904faccc5",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "Mais avant, il y a eu la dernière Ferrari à douze cylindres, la 412, et c'est celle-ci.",
+  "cost": 41
+ },
+ "s005": {
+  "hash": "9ba1ed2029da",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "Alors, Giorgio, c'était une voiture malchanceuse, avec beaucoup de puissance, mais pas vraiment compétitive.",
+  "cost": 51
+ },
+ "s006": {
+  "hash": "463f3cfeeb25",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Non, c'était au début de la carrière de Michael Schumacher chez Ferrari.",
+  "cost": 35
+ },
+ "s007": {
+  "hash": "d4fcb499eb26",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "C'était son premier essai.",
+  "cost": 15
+ },
+ "s008": {
+  "hash": "97725374ba55",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Oui, le premier essai. Et bien sûr, on voit que c'est quand même une voiture assez intéressante, car c'était la première à introduire le turning vane.",
+  "cost": 69
+ },
+ "s009": {
+  "hash": "6f7fb4c76878",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Chez Ferrari, cet élément aérodynamique ne s'appelait pas encore bargeboard, mais c'était le premier turning vane.",
+  "cost": 53
+ },
+ "s010": {
+  "hash": "254d622c3170",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et vous le voyez aussi au milieu de la suspension avant.",
+  "cost": 28
+ },
+ "s011": {
+  "hash": "0fcda674ce7e",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Donc, ce n'était pas un prototype.",
+  "cost": 18
+ },
+ "s012": {
+  "hash": "05d2341452f2",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Le début de l'ère Jean Todt.",
+  "cost": 15
+ },
+ "s014": {
+  "hash": "bb3c6a64718b",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "L'année suivante, Michael Schumacher est arrivé chez Ferrari et a introduit un nouveau moteur, derrière vous, le V10.",
+  "cost": 55
+ },
+ "s015": {
+  "hash": "52e41aa2432d",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Peut-être un mot sur cette voiture, ce moteur, très compact face au V12.",
+  "cost": 35
+ },
+ "s016": {
+  "hash": "75d1abd6a653",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "Oui, c'est un nouveau règlement.",
+  "cost": 17
+ },
+ "s017": {
+  "hash": "5248bcd75c4d",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "Et chaque équipe a fait un V10.",
+  "cost": 17
+ },
+ "s018": {
+  "hash": "6855c458fc47",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "Et c'était le premier V10 de l'histoire de Ferrari en F un.",
+  "cost": 29
+ },
+ "s019": {
+  "hash": "b7d88e7c23b1",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Oui. Mais il faut dire que le moteur le plus légendaire, c'était le V12 à plat, celui des Ferrari 312T et T2.",
+  "cost": 51
+ },
+ "s020": {
+  "hash": "3928792fe12d",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "À la fin, ils ont dû en changer, parce que ce moteur était très bon, avec un centre de gravité très bas, mais très large.",
+  "cost": 56
+ },
+ "s021": {
+  "hash": "ca492d388a59",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et avec la voiture à effet de sol, le fait que le moteur était très large perturbait le canal, le diffuseur.",
+  "cost": 51
+ }
+}

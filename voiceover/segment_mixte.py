@@ -112,6 +112,14 @@ def main():
         fr_next = min([z[0] for z in zones if z[0] >= s["start"]] or [1e9])
         s["window"] = round(min(nxt, fr_next - 0.3) - s["vo_start"] - GAP, 2)
         s["char_budget"] = max(0, int(s["window"] * CHARS_PER_SEC))
+    # deux zones sans anglais doublé entre elles n'en font qu'une : l'original ne baisse pas dans les pauses
+    merged = []
+    for z in zones:
+        if merged and not any(merged[-1][1] <= s["start"] < z[0] for s in segs):
+            merged[-1][1] = z[1]
+        else:
+            merged.append(z)
+    zones = merged
     json.dump(segs, open(a.segments, "w"), ensure_ascii=False, indent=1)
     json.dump([[round(z0, 2), round(z1, 2)] for z0, z1 in zones], open(a.zones, "w"))
     for s in sents:

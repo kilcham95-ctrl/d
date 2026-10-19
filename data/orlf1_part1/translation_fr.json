@@ -1,0 +1,170 @@
+[
+ {
+  "id": "s001",
+  "turn": 1,
+  "speaker": "journaliste",
+  "en": "So now we speak in English quietly.",
+  "fr": "Alors maintenant, on parle anglais, tranquillement.",
+  "fr_tts": "Alors maintenant, on parle anglais, tranquillement."
+ },
+ {
+  "id": "s002",
+  "turn": 1,
+  "speaker": "journaliste",
+  "en": "We begin by the first car of Michael, of course, in Ferrari.",
+  "fr": "On commence par la première Ferrari de Michael, bien sûr.",
+  "fr_tts": "On commence par la première Ferrari de Michael, bien sûr."
+ },
+ {
+  "id": "s003",
+  "turn": 1,
+  "speaker": "journaliste",
+  "en": "It is in 1996.",
+  "fr": "En 1996.",
+  "fr_tts": "En mille neuf cent quatre-vingt-seize."
+ },
+ {
+  "id": "s004",
+  "turn": 2,
+  "speaker": "guido",
+  "en": "But before, there was the last 12-cylinder Ferrari, the 412, and this is the car.",
+  "fr": "Mais avant, il y a eu la dernière Ferrari à 12 cylindres, la 412, et c'est celle-ci.",
+  "fr_tts": "Mais avant, il y a eu la dernière Ferrari à douze cylindres, la 412, et c'est celle-ci."
+ },
+ {
+  "id": "s005",
+  "turn": 2,
+  "speaker": "guido",
+  "en": "And so, Giorgio, was an unlucky car with a lot of power, but not really competitive.",
+  "fr": "Alors, Giorgio, c'était une voiture malchanceuse, avec beaucoup de puissance, mais pas vraiment compétitive.",
+  "fr_tts": "Alors, Giorgio, c'était une voiture malchanceuse, avec beaucoup de puissance, mais pas vraiment compétitive."
+ },
+ {
+  "id": "s006",
+  "turn": 3,
+  "speaker": "giorgio",
+  "en": "No, it was at the beginning of the career of Michael Schumacher to Ferrari.",
+  "fr": "Non, c'était au début de la carrière de Michael Schumacher chez Ferrari.",
+  "fr_tts": "Non, c'était au début de la carrière de Michael Schumacher chez Ferrari."
+ },
+ {
+  "id": "s007",
+  "turn": 4,
+  "speaker": "guido",
+  "en": "He made a test, the first test.",
+  "fr": "C'était son premier essai.",
+  "fr_tts": "C'était son premier essai."
+ },
+ {
+  "id": "s008",
+  "turn": 5,
+  "speaker": "giorgio",
+  "en": "Yes, the first test. And of course, we see it's a car quite interesting anyway, because it was the first car to introduce the turning vane.",
+  "fr": "Oui, le premier essai. Et bien sûr, on voit que c'est quand même une voiture assez intéressante, car c'était la première à introduire le turning vane.",
+  "fr_tts": "Oui, le premier essai. Et bien sûr, on voit que c'est quand même une voiture assez intéressante, car c'était la première à introduire le turning vane."
+ },
+ {
+  "id": "s009",
+  "turn": 5,
+  "speaker": "giorgio",
+  "en": "In Ferrari, this aerodynamic element, they are not called bargeboard as we do now, but it was the first turning vane.",
+  "fr": "Chez Ferrari, cet élément aérodynamique ne s'appelait pas encore bargeboard, mais c'était le premier turning vane.",
+  "fr_tts": "Chez Ferrari, cet élément aérodynamique ne s'appelait pas encore bargeboard, mais c'était le premier turning vane."
+ },
+ {
+  "id": "s010",
+  "turn": 5,
+  "speaker": "giorgio",
+  "en": "And you see also in the middle of the front suspension.",
+  "fr": "Et vous le voyez aussi au milieu de la suspension avant.",
+  "fr_tts": "Et vous le voyez aussi au milieu de la suspension avant."
+ },
+ {
+  "id": "s011",
+  "turn": 6,
+  "speaker": "journaliste",
+  "en": "Yeah. So it was not a prototype.",
+  "fr": "Donc, ce n'était pas un prototype.",
+  "fr_tts": "Donc, ce n'était pas un prototype."
+ },
+ {
+  "id": "s012",
+  "turn": 6,
+  "speaker": "journaliste",
+  "en": "Beginning of the era of Jean Todt.",
+  "fr": "Le début de l'ère Jean Todt.",
+  "fr_tts": "Le début de l'ère Jean Todt."
+ },
+ {
+  "id": "s013",
+  "turn": 7,
+  "speaker": "giorgio",
+  "en": "Yes, yes.",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s014",
+  "turn": 8,
+  "speaker": "journaliste",
+  "en": "And the next year, Michael Schumacher arrived at Ferrari and introduced a new engine behind you, the V10.",
+  "fr": "L'année suivante, Michael Schumacher est arrivé chez Ferrari et a introduit un nouveau moteur, derrière vous, le V10.",
+  "fr_tts": "L'année suivante, Michael Schumacher est arrivé chez Ferrari et a introduit un nouveau moteur, derrière vous, le V10."
+ },
+ {
+  "id": "s015",
+  "turn": 8,
+  "speaker": "journaliste",
+  "en": "Maybe you can say a word about this car, this engine, because it's really compact compared to the V12.",
+  "fr": "Peut-être un mot sur cette voiture, ce moteur, très compact face au V12.",
+  "fr_tts": "Peut-être un mot sur cette voiture, ce moteur, très compact face au V12."
+ },
+ {
+  "id": "s016",
+  "turn": 9,
+  "speaker": "guido",
+  "en": "Yes, it's new rules. And",
+  "fr": "Oui, c'est un nouveau règlement.",
+  "fr_tts": "Oui, c'est un nouveau règlement."
+ },
+ {
+  "id": "s017",
+  "turn": 9,
+  "speaker": "guido",
+  "en": "every team made a V10. And it",
+  "fr": "Et chaque équipe a fait un V10.",
+  "fr_tts": "Et chaque équipe a fait un V10."
+ },
+ {
+  "id": "s018",
+  "turn": 9,
+  "speaker": "guido",
+  "en": "was the first V10 in the Ferrari history in Formula One.",
+  "fr": "Et c'était le premier V10 de l'histoire de Ferrari en F1.",
+  "fr_tts": "Et c'était le premier V10 de l'histoire de Ferrari en F un."
+ },
+ {
+  "id": "s019",
+  "turn": 10,
+  "speaker": "giorgio",
+  "en": "Yes. But we have to say the most legendary engine was the V12 flat, the one of the Ferrari 312T and T2,",
+  "fr": "Oui. Mais il faut dire que le moteur le plus légendaire, c'était le V12 à plat, celui des Ferrari 312T et T2.",
+  "fr_tts": "Oui. Mais il faut dire que le moteur le plus légendaire, c'était le V12 à plat, celui des Ferrari 312T et T2."
+ },
+ {
+  "id": "s020",
+  "turn": 10,
+  "speaker": "giorgio",
+  "en": "that at the end, they had to change because that engine was very good, very low for the center of gravity, but very wide.",
+  "fr": "À la fin, ils ont dû en changer, parce que ce moteur était très bon, avec un centre de gravité très bas, mais très large.",
+  "fr_tts": "À la fin, ils ont dû en changer, parce que ce moteur était très bon, avec un centre de gravité très bas, mais très large."
+ },
+ {
+  "id": "s021",
+  "turn": 10,
+  "speaker": "giorgio",
+  "en": "And with the ground effect car, the fact that the engine was very wide was disturbing the channel, the diffuser.",
+  "fr": "Et avec la voiture à effet de sol, le fait que le moteur était très large perturbait le canal, le diffuseur.",
+  "fr_tts": "Et avec la voiture à effet de sol, le fait que le moteur était très large perturbait le canal, le diffuseur."
+ }
+]

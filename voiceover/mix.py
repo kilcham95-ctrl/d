@@ -170,6 +170,11 @@ def main(seg_path, tr_path, tts_dir, en_path, outdir, workdir, name="interview_e
     kg.append(GAP_DB)
     order = np.argsort(kt, kind="stable")
     duck_db = np.interp(t, np.array(kt)[order], np.array(kg)[order])
+    zones = [list(z) for z in zones]
+    if zones and all(r["vo_start"] >= zones[0][0] for r in report):    # le fichier s'ouvre en français
+        zones[0][0] = 0.0
+    if zones and all(r["vo_end"] <= zones[-1][1] for r in report):     # et/ou se termine en français
+        zones[-1][1] = total
     for z0, z1 in zones:
         duck_db = np.where((t >= z0) & (t <= z1), 0.0, duck_db)
         for edge, sgn in ((z0, -1), (z1, 1)):   # rampes de 0,3 s autour des zones
