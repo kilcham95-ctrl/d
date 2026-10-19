@@ -224,7 +224,7 @@
   "cost": 30
  },
  "s45": {
-  "hash": "e2532bf805c8",
+  "hash": "67e34656e111",
   "voice": "JBFqnCBsd6RMkjVDRZzb",
   "speed": 0.92,
   "text": "On a fait la Formoula Ford ensemble.",
@@ -355,5 +355,194 @@
   "speed": 0.92,
   "text": "Merci beaucoup.",
   "cost": 7
+ },
+ "s01": {
+  "hash": "48b9ad504863",
+  "voice": "iP95p4xoKVk53GoZ742B",
+  "speed": 0.92,
+  "text": "Alors, vous êtes arrivé à la Scuderia en mille neuf cent quatre-vingt-dix-neuf, après l'accident de Michael Schumacher à Silverstone. Comment ça s'est passé, exactement ? Vous avez reçu un appel ?",
+  "cost": 86
+ },
+ "s02": {
+  "hash": "c8667f18afcc",
+  "voice": "iP95p4xoKVk53GoZ742B",
+  "speed": 0.92,
+  "text": "Pouvez-vous nous raconter ce moment ?",
+  "cost": 16
+ },
+ "s16": {
+  "hash": "8b08d40ee980",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "speed": 0.92,
+  "text": "Tu viens à Maranello maintenant.",
+  "cost": 14
+ },
+ "s19": {
+  "hash": "7eaa3c97253f",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "speed": 0.92,
+  "text": "On était vraiment bien chez Jean, à Maranello.",
+  "cost": 20
+ },
+ "s20": {
+  "hash": "529d6aae3f11",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "speed": 0.92,
+  "text": "Jean est un bourreau de travail, il ne s'arrête jamais.",
+  "cost": 24
+ },
+ "s22": {
+  "hash": "b3f8ea96d9f0",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "speed": 0.92,
+  "text": "J'avais très faim chez lui, car il n'y avait rien à manger, alors Ross Brawn m'a apporté à dîner.",
+  "cost": 43
+ },
+ "s23": {
+  "hash": "1ab59fb6522a",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "speed": 0.92,
+  "text": "Mais je me suis senti si bien accueilli d'emblée. À l'usine, tous m'aidaient, et j'avais aussi Michael au téléphone,",
+  "cost": 51
+ },
+ "s24": {
+  "hash": "4ad07d8677fc",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "speed": 0.92,
+  "text": "et Michael m'a aidé à vite m'adapter à l'équipe, car on courait déjà une semaine après.",
+  "cost": 38
+ },
+ "s33": {
+  "hash": "5766b9cf47f2",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "speed": 0.92,
+  "text": "J'avais Heinz-Harald Frentzen derrière, la voiture jaune.",
+  "cost": 25
+ },
+ "s53": {
+  "hash": "e8424836a6d8",
+  "voice": "iP95p4xoKVk53GoZ742B",
+  "speed": 0.92,
+  "text": "Je sais que vous avez eu des expériences chez Toyota et dans d'autres équipes.",
+  "cost": 34
+ },
+ "s58": {
+  "hash": "25325b9ee8fc",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "speed": 0.92,
+  "text": "Avant, j'étais chez Tyrrell et Arrows, de plus petites équipes.",
+  "cost": 28
+ },
+ "s59": {
+  "hash": "0371a0b439b5",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "speed": 0.92,
+  "text": "Et bien sûr, ça m'a ouvert les yeux sur beaucoup de choses.",
+  "cost": 26
+ },
+ "s60": {
+  "hash": "93422d6aaf35",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "speed": 0.92,
+  "text": "Leur réactivité : un besoin pour la voiture, c'était fait aussitôt, sans y réfléchir deux semaines, et",
+  "cost": 45
+ },
+ "s61": {
+  "hash": "039834ef74b4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "speed": 0.92,
+  "text": "monté tout de suite. L'usine tournait sans arrêt, avec les moyens qu'ils ont, et on testait tellement.",
+  "cost": 45
+ },
+ "s66": {
+  "hash": "2eec36dfb890",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "speed": 0.92,
+  "text": "Ils me réveillaient : viens ici. J'y allais et je faisais trois tours sur les vibreurs.",
+  "cost": 38
+ },
+ "s67": {
+  "hash": "9bd1553e61b7",
+  "voice": "iP95p4xoKVk53GoZ742B",
+  "speed": 0.92,
+  "text": "Et cette expérience chez Ferrari, je crois, a été",
+  "cost": 22
+ },
+ "s68": {
+  "hash": "87a4f393223c",
+  "voice": "iP95p4xoKVk53GoZ742B",
+  "speed": 0.92,
+  "text": "formidable pour vous, car elle vous a donné une grande visibilité mondiale, avec vos résultats incroyables.",
+  "cost": 47
+ },
+ "s69": {
+  "hash": "e840dedd2495",
+  "voice": "iP95p4xoKVk53GoZ742B",
+  "speed": 0.92,
+  "text": "Une chance pour vous d'aller ensuite chez Toyota.",
+  "cost": 22
+ },
+ "s70": {
+  "hash": "5355b25a2eed",
+  "voice": "iP95p4xoKVk53GoZ742B",
+  "speed": 0.92,
+  "text": "C'est Ferrari qui vous a permis d'aller chez Toyota ?",
+  "cost": 23
+ },
+ "s71": {
+  "hash": "4372e051e836",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "speed": 0.92,
+  "text": "Oui, plus ou moins : d'abord chez Sauber, car ils avaient un moteur Ferrari.",
+  "cost": 33
+ },
+ "s73": {
+  "hash": "deef71c0aac3",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "speed": 0.92,
+  "text": "Mais ensuite, il y a eu Toyota, et Toyota, c'était ma chance",
+  "cost": 26
+ },
+ "s75": {
+  "hash": "2eca01f2c893",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "speed": 0.92,
+  "text": "Seul problème : Toyota avait Ange Pasquali. Il était le seul problème, mais,",
+  "cost": 33
+ },
+ "s77": {
+  "hash": "cdf07922202d",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "speed": 0.92,
+  "text": "Non, je plaisante.",
+  "cost": 8
+ },
+ "s78": {
+  "hash": "9face5c43497",
+  "voice": "iP95p4xoKVk53GoZ742B",
+  "speed": 0.92,
+  "text": "Oui, je sais.",
+  "cost": 6
+ },
+ "s80": {
+  "hash": "6ed5a4fd919f",
+  "voice": "iP95p4xoKVk53GoZ742B",
+  "speed": 0.92,
+  "text": "On dit bonjour à,",
+  "cost": 7
+ },
+ "s81": {
+  "hash": "d0dff4705f6b",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "speed": 0.92,
+  "text": "Salut, Ange.",
+  "cost": 5
+ },
+ "s82": {
+  "hash": "11c35b949dee",
+  "voice": "iP95p4xoKVk53GoZ742B",
+  "speed": 0.92,
+  "text": "On salue Ange. Merci, Mika, pour cette interview. J'espère qu'on fera une grande émission avec vous, quand vous pourrez.",
+  "cost": 53
  }
 }

@@ -74,3 +74,31 @@ ELEVENLABS_API_KEY=... python3 voiceover/tts.py data/mika_salo/translation_fr.js
 python3 voiceover/mix.py data/mika_salo/segments.json data/mika_salo/translation_fr.json data/mika_salo/tts_fr_v3 work/mika_en_clean.wav output/mika_salo work/mika_mix --name interview_mika_salo --keep-from 478.5
 ELEVENLABS_API_KEY=... python3 voiceover/qa_vo.py data/mika_salo/translation_fr.json data/mika_salo/tts_fr_v3 work/qa.json --concat
 ```
+
+---
+
+# Interview Mika Salo — V2 (nouveau montage)
+
+Les fichiers sont dans `output/mika_salo_v2/`.
+
+## Ce qui change par rapport à la première version
+
+- **Modèle** : `eleven_v3`, en stabilité « robuste », à 192 kb/s. Mêmes voix : George pour Mika Salo, Chris pour le journaliste.
+- **Calage** : le français démarre toujours après l'anglais, 0,8 s après le début de chaque prise de parole et 0,4 s après chaque phrase suivante. L'anglais ne baisse qu'au moment où la voix française commence (`--lag-turn 0.8 --lag-seg 0.4 --pre -0.25`).
+- **Traduction** : 54 segments identiques à la V1 reprennent la traduction validée et leur voix déjà contrôlée. Les 30 segments nouveaux ou redécoupés sont passés par le même workflow (3 traducteurs, synthèse, 3 relectures adversariales).
+- **Échange rapide de la fin** (« Yeah, I know », « We say hello to… », « Hello, Ange ») : ces relances restent en anglais comme les interjections. La réplique suivante du journaliste dit « On salue Ange. Merci, Mika… ».
+
+## Contrôles
+
+- Segments : 70 sur 78 identiques ; le reste, ce sont des homophones.
+- Mix complet : français à 100 %, 0,8 % d'écart (homophones uniquement).
+- Calage : aucune phrase française ne démarre avant l'anglais et aucune ne se chevauche.
+
+## Commandes
+
+```bash
+python3 voiceover/segment.py data/mika_salo_v2/transcript_en_scribe.json data/mika_salo_v2/segments.json --journalist speaker_0 --guest mika_salo --lag-turn 0.8 --lag-seg 0.4
+LEVEL_MIN_GAIN_DB=-15 voiceover/clean_en.sh <V2_ITW_Mica_Salo.mp3> data/mika_salo_v2/transcript_en_scribe.json work/v2_en_clean.wav work/v2_en
+ELEVENLABS_API_KEY=... python3 voiceover/tts.py data/mika_salo_v2/translation_fr.json data/mika_salo_v2/tts_fr_v3 --model eleven_v3 --format mp3_44100_192
+python3 voiceover/mix.py data/mika_salo_v2/segments.json data/mika_salo_v2/translation_fr.json data/mika_salo_v2/tts_fr_v3 work/v2_en_clean.wav output/mika_salo_v2 work/v2_mix --name interview_mika_salo_v2 --pre -0.25
+```
