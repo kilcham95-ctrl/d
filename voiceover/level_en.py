@@ -14,6 +14,7 @@ import numpy as np
 SR = 48000
 TARGET_DBFS = -24.0     # niveau visé avant compression / loudnorm
 MAX_GAIN_DB = 28.0
+MIN_GAIN_DB = float(__import__("os").environ.get("LEVEL_MIN_GAIN_DB", "0"))   # < 0 : autorise aussi à baisser les passages trop forts
 SIGMA = 0.9             # lissage temporel des niveaux (s)
 SMOOTH = 0.12           # lissage final de la courbe de gain (s)
 
@@ -61,7 +62,7 @@ def main(src, transcript, dst, report):
         for i, w in enumerate(turn):
             k = np.exp(-0.5 * ((t - t[i]) / SIGMA) ** 2) * d
             lvl = 10 * np.log10((k * e).sum() / k.sum() + 1e-12)
-            g = float(np.clip(TARGET_DBFS - lvl, 0, MAX_GAIN_DB))
+            g = float(np.clip(TARGET_DBFS - lvl, MIN_GAIN_DB, MAX_GAIN_DB))
             knots_t += [w["start"], w["end"]]
             knots_g += [g, g]
             rows.append({"t": round(w["t"], 2), "speaker": w["speaker"], "level_dbfs": round(lvl, 1), "gain_db": round(g, 1)})

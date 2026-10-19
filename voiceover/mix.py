@@ -6,6 +6,8 @@
 3. duck : l'anglais descend sous la VF et ne remonte un peu que dans les vrais silences
 4. mix final normalisé à -16 LUFS, crête vraie ≤ -1,5 dBTP ; export MP3 + SRT
 Usage : mix.py <segments.json> <translation_fr.json> <tts_dir> <en_clean.wav> <outdir> <workdir>
+              [--name interview_eddie_irvine] [--keep-from SECONDES]
+--keep-from : à partir de ce temps l'original est déjà en français, il repasse à pleine voix.
 """
 import json
 import pathlib
@@ -74,9 +76,10 @@ def srt_time(t):
     return f"{ms // 3600000:02d}:{ms // 60000 % 60:02d}:{ms // 1000 % 60:02d},{ms % 1000:03d}"
 
 
-def main(seg_path, tr_path, tts_dir, en_path, outdir, workdir):
-    segs = json.load(open(seg_path))
+def main(seg_path, tr_path, tts_dir, en_path, outdir, workdir, name="interview_eddie_irvine", keep_from=None):
     tr = {s["id"]: s for s in json.load(open(tr_path))}
+    # un segment sans texte français = interjection laissée en anglais
+    segs = [s for s in json.load(open(seg_path)) if tr[s["id"]]["fr_tts"].strip()]
     out = pathlib.Path(outdir)
     out.mkdir(parents=True, exist_ok=True)
     wd = pathlib.Path(workdir)
@@ -102,9 +105,9 @@ def main(seg_path, tr_path, tts_dir, en_path, outdir, workdir):
 
     # tempo minimal par prise de parole pour finir avant le départ prévu de la suivante (recherche dichotomique)
     r_turn = {}
-    for t in turns[:-1]:
+    for k, t in enumerate(turns[:-1]):
         ids = [s["id"] for s in segs if s["turn"] == t]
-        limit = first_want[t + 1] - TURN_MARGIN
+        limit = first_want[turns[k + 1]] - TURN_MARGIN
         if all(x["window"] < 1.0 for x in segs if x["turn"] == t):
             continue    # politesses finales très courtes : on les laisse déborder plutôt que de les accélérer
 
@@ -159,6 +162,10 @@ def main(seg_path, tr_path, tts_dir, en_path, outdir, workdir):
     kg.append(GAP_DB)
     order = np.argsort(kt, kind="stable")
     duck_db = np.interp(t, np.array(kt)[order], np.array(kg)[order])
+    if keep_from is not None:
+        duck_db = np.where(t >= keep_from, 0.0, duck_db)
+        duck_db = np.where((t > keep_from - 0.5) & (t < keep_from),
+                           np.interp(t, [keep_from - 0.5, keep_from], [GAP_DB, 0.0]), duck_db)
 
     en = decode(en_path)
     en = np.pad(en, (0, max(0, n - len(en))))[:n]
@@ -184,14 +191,13 @@ def main(seg_path, tr_path, tts_dir, en_path, outdir, workdir):
     run(["ffmpeg", "-v", "error", "-y", "-i", str(final), "-af",
          f"volume={corr:.2f}dB,alimiter=limit=0.79:attack=3:release=60:level=disabled", "-c:a", "pcm_s24le", str(fixed)])
     final = fixed
-    name = "interview_eddie_irvine"
     run(["ffmpeg", "-v", "error", "-y", "-i", str(final), "-c:a", "libmp3lame", "-b:a", "256k",
-         "-metadata", "title=Interview Eddie Irvine — voice-over VF", str(out / f"{name}_VF_voiceover.mp3")])
+         "-metadata", f"title={name} — voice-over VF", str(out / f"{name}_VF_voiceover.mp3")])
     run(["ffmpeg", "-v", "error", "-y", "-i", str(wd / "vo_only.wav"), "-af",
          f"volume={g:.2f}dB,alimiter=limit=0.79:level=disabled", "-c:a", "libmp3lame", "-b:a", "192k",
          str(out / f"{name}_voix_FR_seule.mp3")])
     run(["ffmpeg", "-v", "error", "-y", "-i", str(en_path), "-ac", "2", "-c:a", "libmp3lame", "-b:a", "256k",
-         "-metadata", "title=Interview Eddie Irvine — anglais remixé", str(out / f"{name}_EN_remixee.mp3")])
+         "-metadata", f"title={name} — anglais remixé", str(out / f"{name}_EN_remixee.mp3")])
 
     with open(out / f"{name}_VF.srt", "w") as f:
         for k, r in enumerate(report, 1):
@@ -209,4 +215,11 @@ def main(seg_path, tr_path, tts_dir, en_path, outdir, workdir):
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:7])
+    import argparse
+    ap = argparse.ArgumentParser()
+    for a in ("segments", "translation", "tts_dir", "en_clean", "outdir", "workdir"):
+        ap.add_argument(a)
+    ap.add_argument("--name", default="interview_eddie_irvine")
+    ap.add_argument("--keep-from", type=float, default=None)
+    a = ap.parse_args()
+    main(a.segments, a.translation, a.tts_dir, a.en_clean, a.outdir, a.workdir, a.name, a.keep_from)

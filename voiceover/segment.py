@@ -1,7 +1,6 @@
 """Découpe la transcription Scribe (mots horodatés + locuteurs) en phrases pour la voice-over."""
 import json
 import re
-import sys
 
 LAG_TURN = 0.5      # la VF démarre 0,5 s après le début de la prise de parole anglaise
 LAG_SEG = 0.15      # décalage pour les phrases suivantes d'une même prise de parole
@@ -59,15 +58,16 @@ def split_turn(words):
     return merged
 
 
-def main(src, dst):
+def main(src, dst, journalist="speaker_0", guest="eddie_irvine", en_until=None):
     data = json.load(open(src))
+    words = [w for w in data["words"] if en_until is None or w["start"] < en_until]
     segs = []
-    for t_idx, turn in enumerate(turns_from_words(data["words"])):
+    for t_idx, turn in enumerate(turns_from_words(words)):
         for k, ws in enumerate(split_turn(turn["words"])):
             segs.append({
                 "id": f"s{len(segs) + 1:02d}",
                 "turn": t_idx + 1,
-                "speaker": "journaliste" if turn["speaker"] == "speaker_0" else "eddie_irvine",
+                "speaker": "journaliste" if turn["speaker"] == journalist else guest,
                 "first_in_turn": k == 0,
                 "start": round(ws[0]["start"], 2),
                 "end": round(ws[-1]["end"], 2),
@@ -85,4 +85,12 @@ def main(src, dst):
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:3])
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("src")
+    ap.add_argument("dst")
+    ap.add_argument("--journalist", default="speaker_0", help="id Scribe du journaliste")
+    ap.add_argument("--guest", default="eddie_irvine", help="nom de l'invité")
+    ap.add_argument("--en-until", type=float, default=None, help="ignore les mots après ce temps (partie déjà en français)")
+    a = ap.parse_args()
+    main(a.src, a.dst, a.journalist, a.guest, a.en_until)
