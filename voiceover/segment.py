@@ -58,7 +58,7 @@ def split_turn(words):
     return merged
 
 
-def main(src, dst, journalist="speaker_0", guest="eddie_irvine", en_until=None):
+def main(src, dst, journalist="speaker_0", guest="eddie_irvine", en_until=None, lag_turn=LAG_TURN, lag_seg=LAG_SEG):
     data = json.load(open(src))
     words = [w for w in data["words"] if en_until is None or w["start"] < en_until]
     segs = []
@@ -74,7 +74,7 @@ def main(src, dst, journalist="speaker_0", guest="eddie_irvine", en_until=None):
                 "en": " ".join(w["text"] for w in ws),
             })
     for i, s in enumerate(segs):
-        s["vo_start"] = round(s["start"] + (LAG_TURN if s["first_in_turn"] else LAG_SEG), 2)
+        s["vo_start"] = round(s["start"] + (lag_turn if s["first_in_turn"] else lag_seg), 2)
     for i, s in enumerate(segs):
         nxt = segs[i + 1]["vo_start"] if i + 1 < len(segs) else s["end"] + 2.0
         s["window"] = round(nxt - s["vo_start"] - GAP, 2)
@@ -92,5 +92,7 @@ if __name__ == "__main__":
     ap.add_argument("--journalist", default="speaker_0", help="id Scribe du journaliste")
     ap.add_argument("--guest", default="eddie_irvine", help="nom de l'invité")
     ap.add_argument("--en-until", type=float, default=None, help="ignore les mots après ce temps (partie déjà en français)")
+    ap.add_argument("--lag-turn", type=float, default=LAG_TURN, help="avance de l'anglais au début d'une prise de parole (s)")
+    ap.add_argument("--lag-seg", type=float, default=LAG_SEG, help="avance de l'anglais pour les phrases suivantes (s)")
     a = ap.parse_args()
-    main(a.src, a.dst, a.journalist, a.guest, a.en_until)
+    main(a.src, a.dst, a.journalist, a.guest, a.en_until, a.lag_turn, a.lag_seg)

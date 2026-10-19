@@ -76,7 +76,7 @@ def srt_time(t):
     return f"{ms // 3600000:02d}:{ms // 60000 % 60:02d}:{ms // 1000 % 60:02d},{ms % 1000:03d}"
 
 
-def main(seg_path, tr_path, tts_dir, en_path, outdir, workdir, name="interview_eddie_irvine", keep_from=None):
+def main(seg_path, tr_path, tts_dir, en_path, outdir, workdir, name="interview_eddie_irvine", keep_from=None, pre=PRE):
     tr = {s["id"]: s for s in json.load(open(tr_path))}
     # un segment sans texte français = interjection laissée en anglais
     segs = [s for s in json.load(open(seg_path)) if tr[s["id"]]["fr_tts"].strip()]
@@ -157,7 +157,7 @@ def main(seg_path, tr_path, tts_dir, en_path, outdir, workdir, name="interview_e
     t = np.arange(n) / SR
     kt, kg = [0.0], [GAP_DB]
     for a, b in merged:
-        kt += [max(0.0, a - PRE - ATTACK), max(0.0, a - PRE), b, b + RELEASE]
+        kt += [max(0.0, a - pre - ATTACK), max(0.0, a - pre), b, b + RELEASE]
         kg += [GAP_DB, DUCK_DB, DUCK_DB, GAP_DB]
     kt.append(total)
     kg.append(GAP_DB)
@@ -221,5 +221,6 @@ if __name__ == "__main__":
         ap.add_argument(a)
     ap.add_argument("--name", default="interview_eddie_irvine")
     ap.add_argument("--keep-from", type=float, default=None)
+    ap.add_argument("--pre", type=float, default=PRE, help="l'anglais commence à baisser autant de secondes avant la VF (0 = au départ de la VF)")
     a = ap.parse_args()
-    main(a.segments, a.translation, a.tts_dir, a.en_clean, a.outdir, a.workdir, a.name, a.keep_from)
+    main(a.segments, a.translation, a.tts_dir, a.en_clean, a.outdir, a.workdir, a.name, a.keep_from, a.pre)
