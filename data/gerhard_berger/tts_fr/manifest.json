@@ -1,0 +1,261 @@
+{
+ "s01": {
+  "hash": "dbf8ad9a4b52",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Revenons à votre carrière chez Ferrari, et à une victoire spéciale : pour vous, je suppose, Monza en mille neuf cent quatre-vingt-huit.",
+  "cost": 62
+ },
+ "s02": {
+  "hash": "343926e56af1",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "C'était le jour de la mort d'Enzo Ferrari.",
+  "cost": 22
+ },
+ "s03": {
+  "hash": "f9020dad3057",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Un moment particulier pour vous, cette victoire ?",
+  "cost": 25
+ },
+ "s04": {
+  "hash": "c66710ff8cd2",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Eh bien, je dois d'abord dire que pour un pilote Ferrari,",
+  "cost": 28
+ },
+ "s05": {
+  "hash": "1c9fddee76fd",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "plus maintenant, car ça n'existe plus, mais à mon époque, travailler encore avec Enzo Ferrari, c'était vraiment spécial.",
+  "cost": 56
+ },
+ "s06": {
+  "hash": "92b4fcba4d03",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Je veux dire, le dernier contrat avec Enzo Ferrari, je l'ai signé avec lui, dans son bureau, en mille neuf cent quatre-vingt-six,",
+  "cost": 60
+ },
+ "s07": {
+  "hash": "b37ab3382b6f",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "et la première année, j'ai travaillé avec lui alors qu'il était encore là, sur la piste, à Maranello, et c'est quelque chose",
+  "cost": 58
+ },
+ "s08": {
+  "hash": "dadee555fe2b",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "de très, très spécial dans mes souvenirs de course.",
+  "cost": 26
+ },
+ "s09": {
+  "hash": "f41a8411917c",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et puis, lui offrir la victoire à Monza après sa mort, c'était un très beau cadeau pour lui.",
+  "cost": 44
+ },
+ "s10": {
+  "hash": "4702d51ec762",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et les fans italiens surtout l'ont beaucoup apprécié.",
+  "cost": 26
+ },
+ "s11": {
+  "hash": "9cec2e0dc27d",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et aujourd'hui encore, je dois le dire, gagner à Monza avec une Ferrari juste après la mort de Monsieur Ferrari,",
+  "cost": 52
+ },
+ "s12": {
+  "hash": "25374ab950e5",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "c'était parfait, une victoire parfaite.",
+  "cost": 20
+ },
+ "s13": {
+  "hash": "9b5bc9ded58f",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "J'ai lu récemment une interview de Jean Todt à propos de lui et d'Ayrton Senna,",
+  "cost": 38
+ },
+ "s14": {
+  "hash": "5c610b747c1b",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "et il a dit qu'en mille neuf cent quatre-vingt-treize, Ayrton avait failli rejoindre Ferrari.",
+  "cost": 44
+ },
+ "s15": {
+  "hash": "4ce03dabb9ae",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Mais Jean a dit qu'il honorerait le contrat en place, car vous étiez sous contrat avec lui,",
+  "cost": 43
+ },
+ "s16": {
+  "hash": "791c71ca8d00",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Jean aussi. Il a dit : Non, Ayrton, tu ne peux pas venir maintenant.",
+  "cost": 33
+ },
+ "s17": {
+  "hash": "dd57d52e79fe",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Attends encore un an. L'année où Ayrton a rejoint Williams.",
+  "cost": 29
+ },
+ "s18": {
+  "hash": "a56acdb8af3c",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Je sais que vous étiez très proche d'Ayrton Senna. Vous en parliez à l'époque ?",
+  "cost": 38
+ },
+ "s19": {
+  "hash": "f606d4ae6200",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Oui, oui. Ayrton m'a dit, au moment où je suis passé de McLaren à Ferrari : Gerhard, vas-y, c'est super que tu ailles chez Ferrari.",
+  "cost": 61
+ },
+ "s20": {
+  "hash": "78ccfaa5685b",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Je viendrai l'an prochain. Et j'ai dit : Tu peux être sûr que je ferai tout pour que tu ne viennes pas. Car je ne voulais pas le retrouver dans l'équipe.",
+  "cost": 70
+ },
+ "s21": {
+  "hash": "6b87c64fd653",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Mais c'était pour rire. Je sais qu'il négociait dur, mais je sais aussi que son premier choix, émotionnellement, c'était Ferrari,",
+  "cost": 60
+ },
+ "s22": {
+  "hash": "227b53707c5f",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "mais techniquement, c'était Williams, et il guettait toujours le moment de passer chez Williams, avec Adrian Newey et tout ça.",
+  "cost": 59
+ },
+ "s23": {
+  "hash": "5d33b1e92dfd",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Donc Ayrton était bien moins émotif que moi.",
+  "cost": 22
+ },
+ "s24": {
+  "hash": "7dc5e425422e",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Moi, ma décision était surtout émotionnelle.",
+  "cost": 22
+ },
+ "s25": {
+  "hash": "4bb8df3c6314",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Lui, sa décision, c'était surtout de voir où trouver le meilleur ensemble technique.",
+  "cost": 40
+ },
+ "s26": {
+  "hash": "a0dd469994cd",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Donc le plan, c'était Ferrari plus tard, peut-être après un ou deux titres avec Williams ?",
+  "cost": 43
+ },
+ "s27": {
+  "hash": "6517964511ee",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Eh bien, difficile à dire, parce que je pense qu'on aurait vu une F un tellement différente si Ayrton n'était pas mort à Imola.",
+  "cost": 59
+ },
+ "s28": {
+  "hash": "a185161b7e53",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Parce qu'on sait qu'ils avaient quelques problèmes avec la voiture en début de saison, et déjà là,",
+  "cost": 46
+ },
+ "s29": {
+  "hash": "205ef6f0a3a5",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Ayrton gagnait ou était tout près de gagner, et on sait que la voiture a été mise au point après quelques courses,",
+  "cost": 53
+ },
+ "s30": {
+  "hash": "35bb7a0d986d",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "puis ça a été un âge d'or pour Williams, qui a gagné avec",
+  "cost": 29
+ },
+ "s32": {
+  "hash": "1c92f32e6b1d",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Jacques, avec Damon, avec divers pilotes.",
+  "cost": 21
+ },
+ "s33": {
+  "hash": "e49dff426207",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Mais on sait aussi qu'Ayrton aurait été un cran au-dessus.",
+  "cost": 29
+ },
+ "s34": {
+  "hash": "252c64bc071b",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Ayrton aurait gagné toutes les courses.",
+  "cost": 20
+ },
+ "s36": {
+  "hash": "7f0d4dcf5763",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et ça aussi, ça aurait été intéressant, parce que c'était déjà l'époque de Michael Schumacher : voir comment Michael aurait progressé dans la Benetton",
+  "cost": 70
+ },
+ "s37": {
+  "hash": "656ac2ed68eb",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "par rapport à Ayrton dans la Williams, car je pense que c'était alors la meilleure voiture.",
+  "cost": 43
+ },
+ "s38": {
+  "hash": "1634ca80378e",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Merci beaucoup, Gerhard.",
+  "cost": 14
+ },
+ "s39": {
+  "hash": "2bffe143b11f",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Avec plaisir.",
+  "cost": 9
+ }
+}

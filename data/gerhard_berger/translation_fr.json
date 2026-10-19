@@ -1,0 +1,322 @@
+[
+ {
+  "id": "s01",
+  "turn": 1,
+  "speaker": "journaliste",
+  "en": "Uh, come back to your, uh, career in, in Ferrari, uh, and spe- a special victory, I guess for you it is the victory in Monza in 1988.",
+  "fr": "Revenons à votre carrière chez Ferrari, et à une victoire spéciale : pour vous, je suppose, Monza en 1988.",
+  "fr_tts": "Revenons à votre carrière chez Ferrari, et à une victoire spéciale : pour vous, je suppose, Monza en mille neuf cent quatre-vingt-huit."
+ },
+ {
+  "id": "s02",
+  "turn": 1,
+  "speaker": "journaliste",
+  "en": "It was, uh, uh, the day of the, uh, of the, um, Enzo Ferrari's death.",
+  "fr": "C'était le jour de la mort d'Enzo Ferrari.",
+  "fr_tts": "C'était le jour de la mort d'Enzo Ferrari."
+ },
+ {
+  "id": "s03",
+  "turn": 1,
+  "speaker": "journaliste",
+  "en": "It was a, a particular moment for you, this victory?",
+  "fr": "Un moment particulier pour vous, cette victoire ?",
+  "fr_tts": "Un moment particulier pour vous, cette victoire ?"
+ },
+ {
+  "id": "s04",
+  "turn": 2,
+  "speaker": "gerhard_berger",
+  "en": "Well, uh, first I have to say for a Ferrari driver,",
+  "fr": "Eh bien, je dois d'abord dire que pour un pilote Ferrari,",
+  "fr_tts": "Eh bien, je dois d'abord dire que pour un pilote Ferrari,"
+ },
+ {
+  "id": "s05",
+  "turn": 2,
+  "speaker": "gerhard_berger",
+  "en": "not anymore now because it's, it's not happening, but at my time it was still being a Ferrari driver working with Enzo Ferrari was super special.",
+  "fr": "plus maintenant, car ça n'existe plus, mais à mon époque, travailler encore avec Enzo Ferrari, c'était vraiment spécial.",
+  "fr_tts": "plus maintenant, car ça n'existe plus, mais à mon époque, travailler encore avec Enzo Ferrari, c'était vraiment spécial."
+ },
+ {
+  "id": "s06",
+  "turn": 2,
+  "speaker": "gerhard_berger",
+  "en": "I mean, uh, I did my last contract, uh, with Enzo Ferrari, where I did, uh, the last contract, uh, together with Enzo Ferrari in his office back in 1986,",
+  "fr": "Je veux dire, le dernier contrat avec Enzo Ferrari, je l'ai signé avec lui, dans son bureau, en 1986,",
+  "fr_tts": "Je veux dire, le dernier contrat avec Enzo Ferrari, je l'ai signé avec lui, dans son bureau, en mille neuf cent quatre-vingt-six,"
+ },
+ {
+  "id": "s07",
+  "turn": 2,
+  "speaker": "gerhard_berger",
+  "en": "and, uh, worked in the first year with him still being around on the racetrack in Maranello, and this is something",
+  "fr": "et la première année, j'ai travaillé avec lui alors qu'il était encore là, sur la piste, à Maranello, et c'est quelque chose",
+  "fr_tts": "et la première année, j'ai travaillé avec lui alors qu'il était encore là, sur la piste, à Maranello, et c'est quelque chose"
+ },
+ {
+  "id": "s08",
+  "turn": 2,
+  "speaker": "gerhard_berger",
+  "en": "what, what is very, very special in my racing memory.",
+  "fr": "de très, très spécial dans mes souvenirs de course.",
+  "fr_tts": "de très, très spécial dans mes souvenirs de course."
+ },
+ {
+  "id": "s09",
+  "turn": 2,
+  "speaker": "gerhard_berger",
+  "en": "And then to give him the win in Monza after he died was, uh, was a great present for him. And, uh,",
+  "fr": "Et puis, lui offrir la victoire à Monza après sa mort, c'était un très beau cadeau pour lui.",
+  "fr_tts": "Et puis, lui offrir la victoire à Monza après sa mort, c'était un très beau cadeau pour lui."
+ },
+ {
+  "id": "s10",
+  "turn": 2,
+  "speaker": "gerhard_berger",
+  "en": "and yes, uh, especially the Italian fans appreciated it a lot.",
+  "fr": "Et les fans italiens surtout l'ont beaucoup apprécié.",
+  "fr_tts": "Et les fans italiens surtout l'ont beaucoup apprécié."
+ },
+ {
+  "id": "s11",
+  "turn": 2,
+  "speaker": "gerhard_berger",
+  "en": "And still today, I have to say yes, to win in Monza with a Ferrari just after Mr.",
+  "fr": "Et aujourd'hui encore, je dois le dire, gagner à Monza avec une Ferrari juste après la mort de Monsieur Ferrari,",
+  "fr_tts": "Et aujourd'hui encore, je dois le dire, gagner à Monza avec une Ferrari juste après la mort de Monsieur Ferrari,"
+ },
+ {
+  "id": "s12",
+  "turn": 2,
+  "speaker": "gerhard_berger",
+  "en": "Ferrari died was perfect, perfect victory.",
+  "fr": "c'était parfait, une victoire parfaite.",
+  "fr_tts": "c'était parfait, une victoire parfaite."
+ },
+ {
+  "id": "s13",
+  "turn": 3,
+  "speaker": "journaliste",
+  "en": "I, I, I read interview of Jean Todt recently about, uh, about, um, about him and Ayrton Senna,",
+  "fr": "J'ai lu récemment une interview de Jean Todt à propos de lui et d'Ayrton Senna,",
+  "fr_tts": "J'ai lu récemment une interview de Jean Todt à propos de lui et d'Ayrton Senna,"
+ },
+ {
+  "id": "s14",
+  "turn": 3,
+  "speaker": "journaliste",
+  "en": "and he said that in 1993, uh, Ayrton was close to join Ferrari.",
+  "fr": "et il a dit qu'en 1993, Ayrton avait failli rejoindre Ferrari.",
+  "fr_tts": "et il a dit qu'en mille neuf cent quatre-vingt-treize, Ayrton avait failli rejoindre Ferrari."
+ },
+ {
+  "id": "s15",
+  "turn": 3,
+  "speaker": "journaliste",
+  "en": "But Jean said that, uh, he would honor the contract already in place because you, you,",
+  "fr": "Mais Jean a dit qu'il honorerait le contrat en place, car vous étiez sous contrat avec lui,",
+  "fr_tts": "Mais Jean a dit qu'il honorerait le contrat en place, car vous étiez sous contrat avec lui,"
+ },
+ {
+  "id": "s16",
+  "turn": 3,
+  "speaker": "journaliste",
+  "en": "you are in contract with him, and Jean is it too, and he said, \"No, Ayrton, you can't come now.",
+  "fr": "Jean aussi. Il a dit : « Non, Ayrton, tu ne peux pas venir maintenant.",
+  "fr_tts": "Jean aussi. Il a dit : Non, Ayrton, tu ne peux pas venir maintenant."
+ },
+ {
+  "id": "s17",
+  "turn": 3,
+  "speaker": "journaliste",
+  "en": "You have to wait one more year,\" the year of only at Williams.",
+  "fr": "Attends encore un an », l'année où Ayrton a rejoint Williams.",
+  "fr_tts": "Attends encore un an. L'année où Ayrton a rejoint Williams."
+ },
+ {
+  "id": "s18",
+  "turn": 3,
+  "speaker": "journaliste",
+  "en": "Uh, I know that you were very close to Ayrton Senna. Do you talk about that on this time? You-",
+  "fr": "Je sais que vous étiez très proche d'Ayrton Senna. Vous en parliez à l'époque ?",
+  "fr_tts": "Je sais que vous étiez très proche d'Ayrton Senna. Vous en parliez à l'époque ?"
+ },
+ {
+  "id": "s19",
+  "turn": 4,
+  "speaker": "gerhard_berger",
+  "en": "Yes, yes. Uh, Ayrton told me at the time when I changed from McLaren to Ferrari, say, uh, \"Gerhard, uh, go, great that you go to Ferrari.",
+  "fr": "Oui, oui. Ayrton m'a dit, au moment où je suis passé de McLaren à Ferrari : « Gerhard, vas-y, c'est super que tu ailles chez Ferrari.",
+  "fr_tts": "Oui, oui. Ayrton m'a dit, au moment où je suis passé de McLaren à Ferrari : Gerhard, vas-y, c'est super que tu ailles chez Ferrari."
+ },
+ {
+  "id": "s20",
+  "turn": 4,
+  "speaker": "gerhard_berger",
+  "en": "I will come next year.\" And I say, \"You can be sure I will do everything that you don't come,\" because I didn't want to have him again in the team.",
+  "fr": "Je viendrai l'an prochain. » Et j'ai dit : « Tu peux être sûr que je ferai tout pour que tu ne viennes pas », car je ne voulais pas le retrouver dans l'équipe.",
+  "fr_tts": "Je viendrai l'an prochain. Et j'ai dit : Tu peux être sûr que je ferai tout pour que tu ne viennes pas. Car je ne voulais pas le retrouver dans l'équipe."
+ },
+ {
+  "id": "s21",
+  "turn": 4,
+  "speaker": "gerhard_berger",
+  "en": "Uh, but, uh, that was joking, but I know he was, uh, negotiating hard, but I know also that his first choice was emotionally Ferrari,",
+  "fr": "Mais c'était pour rire. Je sais qu'il négociait dur, mais je sais aussi que son premier choix, émotionnellement, c'était Ferrari,",
+  "fr_tts": "Mais c'était pour rire. Je sais qu'il négociait dur, mais je sais aussi que son premier choix, émotionnellement, c'était Ferrari,"
+ },
+ {
+  "id": "s22",
+  "turn": 4,
+  "speaker": "gerhard_berger",
+  "en": "but technically was Williams, and he always had a look when he should jump to Williams with Adrian Newey and things like this. So,",
+  "fr": "mais techniquement, c'était Williams, et il guettait toujours le moment de passer chez Williams, avec Adrian Newey et tout ça.",
+  "fr_tts": "mais techniquement, c'était Williams, et il guettait toujours le moment de passer chez Williams, avec Adrian Newey et tout ça."
+ },
+ {
+  "id": "s23",
+  "turn": 4,
+  "speaker": "gerhard_berger",
+  "en": "uh, Ayrton was much less emotional than me.",
+  "fr": "Donc Ayrton était bien moins émotif que moi.",
+  "fr_tts": "Donc Ayrton était bien moins émotif que moi."
+ },
+ {
+  "id": "s24",
+  "turn": 4,
+  "speaker": "gerhard_berger",
+  "en": "Me, my decision was mainly emotional.",
+  "fr": "Moi, ma décision était surtout émotionnelle.",
+  "fr_tts": "Moi, ma décision était surtout émotionnelle."
+ },
+ {
+  "id": "s25",
+  "turn": 4,
+  "speaker": "gerhard_berger",
+  "en": "His decision was mainly thinking where can he get the be- best technical package.",
+  "fr": "Lui, sa décision, c'était surtout de voir où trouver le meilleur ensemble technique.",
+  "fr_tts": "Lui, sa décision, c'était surtout de voir où trouver le meilleur ensemble technique."
+ },
+ {
+  "id": "s26",
+  "turn": 5,
+  "speaker": "journaliste",
+  "en": "So it was a plan to go to Ferrari maybe later after maybe one or two championship with Williams.",
+  "fr": "Donc le plan, c'était Ferrari plus tard, peut-être après un ou deux titres avec Williams ?",
+  "fr_tts": "Donc le plan, c'était Ferrari plus tard, peut-être après un ou deux titres avec Williams ?"
+ },
+ {
+  "id": "s27",
+  "turn": 6,
+  "speaker": "gerhard_berger",
+  "en": "Well, difficult to say because I think we would have seen such a different Formula 1 if Ayrton wouldn't die in, in Imola because",
+  "fr": "Eh bien, difficile à dire, parce que je pense qu'on aurait vu une F1 tellement différente si Ayrton n'était pas mort à Imola.",
+  "fr_tts": "Eh bien, difficile à dire, parce que je pense qu'on aurait vu une F un tellement différente si Ayrton n'était pas mort à Imola."
+ },
+ {
+  "id": "s28",
+  "turn": 6,
+  "speaker": "gerhard_berger",
+  "en": "we know that they had some problems on, on the car in the beginning of the season, and already there, uh,",
+  "fr": "Parce qu'on sait qu'ils avaient quelques problèmes avec la voiture en début de saison, et déjà là,",
+  "fr_tts": "Parce qu'on sait qu'ils avaient quelques problèmes avec la voiture en début de saison, et déjà là,"
+ },
+ {
+  "id": "s29",
+  "turn": 6,
+  "speaker": "gerhard_berger",
+  "en": "Ayrton was winning or close to winning, and we know that the s- the car was sorted out after a couple of races,",
+  "fr": "Ayrton gagnait ou était tout près de gagner, et on sait que la voiture a été mise au point après quelques courses,",
+  "fr_tts": "Ayrton gagnait ou était tout près de gagner, et on sait que la voiture a été mise au point après quelques courses,"
+ },
+ {
+  "id": "s30",
+  "turn": 6,
+  "speaker": "gerhard_berger",
+  "en": "and then was one of the most successful time of Williams winning with-",
+  "fr": "puis ça a été un âge d'or pour Williams, qui a gagné avec…",
+  "fr_tts": "puis ça a été un âge d'or pour Williams, qui a gagné avec"
+ },
+ {
+  "id": "s31",
+  "turn": 7,
+  "speaker": "journaliste",
+  "en": "Sure",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s32",
+  "turn": 8,
+  "speaker": "gerhard_berger",
+  "en": "... Jacques, winning with, uh, Damon, winning with different drivers.",
+  "fr": "… Jacques, avec Damon, avec divers pilotes.",
+  "fr_tts": "Jacques, avec Damon, avec divers pilotes."
+ },
+ {
+  "id": "s33",
+  "turn": 8,
+  "speaker": "gerhard_berger",
+  "en": "But we also know that Ayrton would be a level above.",
+  "fr": "Mais on sait aussi qu'Ayrton aurait été un cran au-dessus.",
+  "fr_tts": "Mais on sait aussi qu'Ayrton aurait été un cran au-dessus."
+ },
+ {
+  "id": "s34",
+  "turn": 8,
+  "speaker": "gerhard_berger",
+  "en": "Ayrton would win just all the races.",
+  "fr": "Ayrton aurait gagné toutes les courses.",
+  "fr_tts": "Ayrton aurait gagné toutes les courses."
+ },
+ {
+  "id": "s35",
+  "turn": 9,
+  "speaker": "journaliste",
+  "en": "Mm-hmm.",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s36",
+  "turn": 10,
+  "speaker": "gerhard_berger",
+  "en": "And that would also be interesting because that was then already time, time of Michael Schumacher, and would've been interesting to see how Michael would develop in the Benetton compared to Frank,",
+  "fr": "Et ça aussi, ça aurait été intéressant, parce que c'était déjà l'époque de Michael Schumacher : voir comment Michael aurait progressé dans la Benetton",
+  "fr_tts": "Et ça aussi, ça aurait été intéressant, parce que c'était déjà l'époque de Michael Schumacher : voir comment Michael aurait progressé dans la Benetton"
+ },
+ {
+  "id": "s37",
+  "turn": 10,
+  "speaker": "gerhard_berger",
+  "en": "uh, compared to Ayrton in the Williams, because I think Williams was at the time the best car.",
+  "fr": "par rapport à Ayrton dans la Williams, car je pense que c'était alors la meilleure voiture.",
+  "fr_tts": "par rapport à Ayrton dans la Williams, car je pense que c'était alors la meilleure voiture."
+ },
+ {
+  "id": "s38",
+  "turn": 11,
+  "speaker": "journaliste",
+  "en": "Thanks a lot, Gerhard. Thank you.",
+  "fr": "Merci beaucoup, Gerhard.",
+  "fr_tts": "Merci beaucoup, Gerhard."
+ },
+ {
+  "id": "s39",
+  "turn": 12,
+  "speaker": "gerhard_berger",
+  "en": "Pleasure.",
+  "fr": "Avec plaisir.",
+  "fr_tts": "Avec plaisir."
+ },
+ {
+  "id": "s40",
+  "turn": 13,
+  "speaker": "journaliste",
+  "en": "Thank you very much.",
+  "fr": "",
+  "fr_tts": ""
+ }
+]
