@@ -20,7 +20,7 @@ VOICES = {
     "eddie_irvine": "JBFqnCBsd6RMkjVDRZzb",   # George — posé, chaleureux, français standard vérifié
     "journaliste": "iP95p4xoKVk53GoZ742B",    # Chris — plus grave, distinct de George
 }
-SETTINGS = {"stability": 0.7, "similarity_boost": 0.8, "style": 0.0, "use_speaker_boost": True, "speed": 1.0}
+SETTINGS = {"stability": 0.7, "similarity_boost": 0.8, "style": 0.0, "use_speaker_boost": True, "speed": 0.92}
 SEED = 1996
 
 
@@ -45,11 +45,13 @@ def main():
     ap.add_argument("outdir")
     ap.add_argument("--only", default="")
     ap.add_argument("--speed", default="")
+    ap.add_argument("--seed", default="", help="graine par segment pour une nouvelle prise, ex. s04=7")
     ap.add_argument("--voice-journaliste", default=VOICES["journaliste"])
     a = ap.parse_args()
     key = os.environ["ELEVENLABS_API_KEY"]
     voices = dict(VOICES, journaliste=a.voice_journaliste)
     speeds = dict(kv.split("=") for kv in a.speed.split(",") if kv)
+    seeds = {k: int(v) for k, v in (kv.split("=") for kv in a.seed.split(",") if kv)}
     only = set(x for x in a.only.split(",") if x)
     segs = json.load(open(a.translation))
     out = pathlib.Path(a.outdir)
@@ -66,8 +68,9 @@ def main():
             "text": s["fr_tts"],
             "model_id": MODEL,
             "voice_settings": settings,
-            "seed": SEED,
-            "previous_text": segs[i - 1]["fr_tts"] if same(i - 1) else None,
+            "seed": seeds.get(s["id"], SEED),
+            # les répliques très courtes sont instables seules : on leur donne toujours le contexte précédent
+            "previous_text": segs[i - 1]["fr_tts"] if same(i - 1) or (i > 0 and len(s["fr_tts"]) < 15) else None,
             "next_text": segs[i + 1]["fr_tts"] if same(i + 1) else None,
         }
         payload = {k: v for k, v in payload.items() if v is not None}

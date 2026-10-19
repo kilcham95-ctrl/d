@@ -18,7 +18,7 @@ SR = 48000
 GAP_SAME = 0.15          # respiration entre deux phrases d'une même voix
 GAP_SWITCH = 0.35        # entre deux voix
 TURN_MARGIN = 0.25       # la VF d'une prise de parole doit finir avant le départ prévu de la suivante
-MAX_TEMPO = 1.15
+MAX_TEMPO = 1.10
 VO_LUFS = -16.0
 DUCK_DB = -17.0          # anglais sous la VF
 GAP_DB = -9.0            # anglais dans les silences de la VF (reste bas)
@@ -177,6 +177,13 @@ def main(seg_path, tr_path, tts_dir, en_path, outdir, workdir):
     run(["ffmpeg", "-v", "error", "-y", "-i", str(wd / "mix_raw.wav"), "-af",
          f"volume={g:.2f}dB,alimiter=limit=0.79:attack=3:release=60:level=disabled,aresample=48000",
          "-ac", "2", "-c:a", "pcm_s24le", str(final)])
+    # correction mesurée sur le fichier stéréo final (l'upmix mono -> stéréo décale légèrement la mesure)
+    p = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(final), "-af", "ebur128", "-f", "null", "-"], capture_output=True)
+    corr = -16.0 - float([l for l in p.stderr.decode().splitlines() if l.strip().startswith("I:")][-1].split()[1])
+    fixed = wd / "mix_final_16lufs.wav"
+    run(["ffmpeg", "-v", "error", "-y", "-i", str(final), "-af",
+         f"volume={corr:.2f}dB,alimiter=limit=0.79:attack=3:release=60:level=disabled", "-c:a", "pcm_s24le", str(fixed)])
+    final = fixed
     name = "interview_eddie_irvine"
     run(["ffmpeg", "-v", "error", "-y", "-i", str(final), "-c:a", "libmp3lame", "-b:a", "256k",
          "-metadata", "title=Interview Eddie Irvine — voice-over VF", str(out / f"{name}_VF_voiceover.mp3")])
