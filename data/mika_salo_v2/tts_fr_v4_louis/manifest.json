@@ -1,0 +1,527 @@
+{
+ "s01": {
+  "hash": "08c6cdeab82a",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Alors, vous êtes arrivé à la Scuderia en mille neuf cent quatre-vingt-dix-neuf, après l'accident de Michael Schumacher à Silverstone. Comment ça s'est passé, exactement ? Vous avez reçu un appel ?",
+  "cost": 89
+ },
+ "s02": {
+  "hash": "bf76dc08a0ad",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Pouvez-vous nous raconter ce moment ?",
+  "cost": 19
+ },
+ "s03": {
+  "hash": "df50935dd563",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "En fait, j'étais à Silverstone pour,",
+  "cost": 19
+ },
+ "s04": {
+  "hash": "13fa3682ced6",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "je crois, les essais du vendredi, et je suis rentré en Finlande",
+  "cost": 31
+ },
+ "s05": {
+  "hash": "1030c97d80c1",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "le dimanche matin, et j'ai vu l'accident de Michael à la télé, à l'aéroport.",
+  "cost": 37
+ },
+ "s06": {
+  "hash": "58cfcba1488b",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Je n'y ai pas trop pensé, car ça n'avait pas l'air grave, donc j'espérais juste qu'il allait bien.",
+  "cost": 46
+ },
+ "s07": {
+  "hash": "8e42309bfc6b",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Puis, quelques heures après, j'ai appris qu'il s'était cassé la jambe, sans me poser de questions.",
+  "cost": 46
+ },
+ "s08": {
+  "hash": "ae9791af0b3f",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Alors, je me mariais la semaine suivante.",
+  "cost": 21
+ },
+ "s09": {
+  "hash": "11534fa5ddc2",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "On avait une répétition du mariage le lundi, et là, j'ai reçu un appel de Jean Todt.",
+  "cost": 40
+ },
+ "s11": {
+  "hash": "b6897194ecac",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Il m'a appelé pendant qu'on répétait ce mariage.",
+  "cost": 24
+ },
+ "s12": {
+  "hash": "e492fd632746",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et il m'a dit : je veux que tu viennes à Maranello. Et j'ai pensé : ah, d'accord. Bien sûr, j'ai tout de suite fait le lien entre les deux.",
+  "cost": 64
+ },
+ "s13": {
+  "hash": "57d9a507ec15",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "J'ai demandé : quand ? Il a dit : maintenant.",
+  "cost": 23
+ },
+ "s14": {
+  "hash": "8fd170ede073",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Il ne m'a pas laissé le choix.",
+  "cost": 16
+ },
+ "s15": {
+  "hash": "2e18a1103a6b",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "J'ai dit : je répète mon mariage. Et il a dit : peu importe.",
+  "cost": 29
+ },
+ "s16": {
+  "hash": "03175448f6af",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Tu viens à Maranello maintenant.",
+  "cost": 17
+ },
+ "s17": {
+  "hash": "684c08b0edd7",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Oui, Ferrari a été très gentille à mon arrivée.",
+  "cost": 24
+ },
+ "s18": {
+  "hash": "b50863363962",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Je me suis senti très bien accueilli d'emblée.",
+  "cost": 23
+ },
+ "s19": {
+  "hash": "330a43297859",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "On était vraiment bien chez Jean, à Maranello.",
+  "cost": 23
+ },
+ "s20": {
+  "hash": "6ad3335c53ce",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Jean est un bourreau de travail, il ne s'arrête jamais.",
+  "cost": 27
+ },
+ "s21": {
+  "hash": "4c7c0920213c",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Il dort deux heures par nuit et travaille tout le reste du temps : je ne le voyais jamais.",
+  "cost": 43
+ },
+ "s22": {
+  "hash": "39b37d91208d",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "J'avais très faim chez lui, car il n'y avait rien à manger, alors Ross Brawn m'a apporté à dîner.",
+  "cost": 46
+ },
+ "s23": {
+  "hash": "66aaec7ac693",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Mais je me suis senti si bien accueilli d'emblée. À l'usine, tous m'aidaient, et j'avais aussi Michael au téléphone,",
+  "cost": 54
+ },
+ "s24": {
+  "hash": "235e27ca2dcd",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "et Michael m'a aidé à vite m'adapter à l'équipe, car on courait déjà une semaine après.",
+  "cost": 41
+ },
+ "s25": {
+  "hash": "38e380504131",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Il vous a alors aidé à vous faire,",
+  "cost": 18
+ },
+ "s27": {
+  "hash": "d0e8e9c97c17",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "à la voiture ?",
+  "cost": 9
+ },
+ "s28": {
+  "hash": "d1b590312fae",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "J'ai beaucoup parlé avec Michael au téléphone, on a fait des appels vidéo, et il m'aidait beaucoup,",
+  "cost": 47
+ },
+ "s29": {
+  "hash": "b4026ca67fa3",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "en m'expliquant qui était qui dans l'équipe, à qui m'adresser pour un besoin précis sur la voiture.",
+  "cost": 47
+ },
+ "s30": {
+  "hash": "b4b60b582a75",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Il m'a donc donné les noms des gens à qui je devais parler, et ça a été très, très facile de m'adapter.",
+  "cost": 48
+ },
+ "s31": {
+  "hash": "86f4caffc4b2",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et bien sûr, je connaissais déjà Eddie, donc c'était assez facile d'avoir son aide aussi.",
+  "cost": 42
+ },
+ "s32": {
+  "hash": "bbdc0c5571a3",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Et vous avez vite été compétitif, car quelques semaines plus tard, en Allemagne, vous étiez près de gagner.",
+  "cost": 50
+ },
+ "s33": {
+  "hash": "3d962c8b97da",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "J'avais Heinz-Harald Frentzen derrière, la voiture jaune.",
+  "cost": 28
+ },
+ "s34": {
+  "hash": "23f1e0894d32",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "J'espérais sans cesse : oui, reste là, reste là. Puis",
+  "cost": 27
+ },
+ "s35": {
+  "hash": "5547979a48e9",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Eddie a passé Heinz aux arrêts au stand, j'ai vu la voiture rouge derrière moi, j'ai pensé : ah, d'accord,",
+  "cost": 50
+ },
+ "s36": {
+  "hash": "d6c74b905173",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "là, je connais la suite. Très vite, Ross Brawn, à la radio, de sa voix calme : Mika, je veux que tu laisses passer Eddie à ce tour.",
+  "cost": 61
+ },
+ "s37": {
+  "hash": "3f8d8c212cfc",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Oui. Vous avez sacrifié votre,",
+  "cost": 16
+ },
+ "s39": {
+  "hash": "69a85dfda449",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Et vous avez sacrifié votre première victoire pour le bonheur de la Scuderia, et aussi pour donner le maximum de chances à Eddie Irvine.",
+  "cost": 63
+ },
+ "s40": {
+  "hash": "bd01e1ea712e",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Vous aviez une relation particulière avec Michael Schumacher à l'époque.",
+  "cost": 35
+ },
+ "s41": {
+  "hash": "8c4f6cf84b6b",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Nous, en tant que fans, nous avons l'image d'un pilote très",
+  "cost": 29
+ },
+ "s42": {
+  "hash": "b60597a8c0db",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "impliqué, très sérieux dans son travail.",
+  "cost": 21
+ },
+ "s43": {
+  "hash": "579cef558251",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Et tous ceux qu'on a vus aujourd'hui au Mugello ont dit : un pilote si gentil, un gentleman dans la vie.",
+  "cost": 49
+ },
+ "s44": {
+  "hash": "42858d9d49af",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Oui, il était sympa. On se connaissait déjà du karting, on y courait.",
+  "cost": 33
+ },
+ "s45": {
+  "hash": "c03d0e8292c1",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "On a fait la Formula Ford ensemble.",
+  "cost": 18
+ },
+ "s46": {
+  "hash": "d2d29b284a37",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "En fait, je l'y ai battu : j'ai gagné le championnat d'Europe, Michael a fini deuxième.",
+  "cost": 41
+ },
+ "s47": {
+  "hash": "a2cfa0024b2c",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et en F trois, au Grand Prix de Macao, Michael a gagné, j'étais deuxième et Eddie troisième.",
+  "cost": 44
+ },
+ "s48": {
+  "hash": "6c4bf876c0c1",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Donc on a grandi,",
+  "cost": 11
+ },
+ "s49": {
+  "hash": "17a1e06b48d9",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Une longue histoire entre vous deux.",
+  "cost": 19
+ },
+ "s50": {
+  "hash": "1061eb7c04a4",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "On a grandi ensemble, donc je le connais depuis longtemps.",
+  "cost": 29
+ },
+ "s51": {
+  "hash": "2469bf0786f7",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Oui. Et après cette expérience, vous avez une vision différente de la F un, car c'était peut-être l'équipe la plus importante",
+  "cost": 59
+ },
+ "s52": {
+  "hash": "f4f8602d6781",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "pour laquelle vous ayez couru à l'époque.",
+  "cost": 21
+ },
+ "s53": {
+  "hash": "b4fb02e0e0ce",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Je sais que vous avez eu des expériences chez Toyota et dans d'autres équipes.",
+  "cost": 37
+ },
+ "s54": {
+  "hash": "c506112eabd6",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Mais c'était une stratégie différente, une organisation différente.",
+  "cost": 33
+ },
+ "s55": {
+  "hash": "9f7549f2bd50",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "C'est une énorme usine.",
+  "cost": 13
+ },
+ "s56": {
+  "hash": "09a93e219f1c",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "C'est vraiment une autre culture, un autre ADN, chez Ferrari.",
+  "cost": 30
+ },
+ "s57": {
+  "hash": "3ecb9bc9db6e",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Oui, ma première grande équipe.",
+  "cost": 17
+ },
+ "s58": {
+  "hash": "bd2cebd1d99d",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Avant, j'étais chez Tyrrell et Arrows, des équipes plus petites.",
+  "cost": 31
+ },
+ "s59": {
+  "hash": "6d2fe8b39dce",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et bien sûr, ça m'a ouvert les yeux sur beaucoup de choses.",
+  "cost": 29
+ },
+ "s60": {
+  "hash": "8e37f9e3a01e",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Leur réactivité : un besoin pour la voiture, c'était fait aussitôt, sans y réfléchir deux semaines, et",
+  "cost": 48
+ },
+ "s61": {
+  "hash": "f06f05828d2c",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "monté tout de suite. L'usine tournait sans arrêt, avec les moyens qu'ils ont, et on testait tellement.",
+  "cost": 48
+ },
+ "s62": {
+  "hash": "0b6e2420b01b",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Une autre équipe d'essais attendait après chaque course.",
+  "cost": 28
+ },
+ "s63": {
+  "hash": "b681b3491c22",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "On allait sur divers circuits, où elle nous attendait,",
+  "cost": 27
+ },
+ "s64": {
+  "hash": "72e0337a2ba7",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Tant de tours, tant d'essais.",
+  "cost": 16
+ },
+ "s65": {
+  "hash": "95f539148c04",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Parfois, on m'appelait en pleine nuit à Maranello : un ingénieur avait trouvé quelque chose aux amortisseurs.",
+  "cost": 51
+ },
+ "s66": {
+  "hash": "3e663ea4cc2f",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Ils me réveillaient : viens ici. J'y allais et je faisais trois tours sur les vibreurs.",
+  "cost": 41
+ },
+ "s67": {
+  "hash": "95ee596db2a6",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Et cette expérience chez Ferrari, je crois, a été",
+  "cost": 25
+ },
+ "s68": {
+  "hash": "91d9594085f3",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "formidable pour vous, car elle vous a donné une grande visibilité mondiale, avec vos résultats incroyables.",
+  "cost": 50
+ },
+ "s69": {
+  "hash": "37d557ba940a",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Une chance pour vous d'aller ensuite chez Toyota.",
+  "cost": 25
+ },
+ "s70": {
+  "hash": "1f62958375aa",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "C'est Ferrari qui vous a permis d'aller chez Toyota ?",
+  "cost": 26
+ },
+ "s71": {
+  "hash": "f5625bf3e8fb",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Oui, plus ou moins : d'abord chez Sauber, car ils avaient un moteur Ferrari.",
+  "cost": 37
+ },
+ "s72": {
+  "hash": "79699483e86b",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Jean voulait m'y mettre, pour rester dans la famille, disons.",
+  "cost": 30
+ },
+ "s73": {
+  "hash": "82392632ae21",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Mais ensuite, il y a eu Toyota, et Toyota, c'était ma chance",
+  "cost": 30
+ },
+ "s74": {
+  "hash": "ec9bf354d134",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "d'entrer dans une autre grande équipe.",
+  "cost": 20
+ },
+ "s75": {
+  "hash": "ea929f1a7205",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Seul problème : Toyota avait Ange Pasquali. Il était le seul problème, mais,",
+  "cost": 37
+ },
+ "s77": {
+  "hash": "7d3f41bdcec1",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Non, je plaisante.",
+  "cost": 11
+ },
+ "s82": {
+  "hash": "15aef7dea753",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "On salue Ange. Merci, Mika, pour cette interview. J'espère qu'on fera une grande émission avec vous, quand vous pourrez.",
+  "cost": 56
+ },
+ "s83": {
+  "hash": "8bd33a0fd66c",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Merci beaucoup.",
+  "cost": 10
+ }
+}

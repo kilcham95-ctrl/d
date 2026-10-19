@@ -1,9 +1,9 @@
 1
-00:00:01,220 --> 00:00:07,510
+00:00:01,220 --> 00:00:07,960
 Juste un mot sur Michael, car il y a une célébration spéciale pour l'âge d'or des cinq titres qu'il a remportés avec Ferrari.
 
 2
-00:00:10,440 --> 00:00:19,140
+00:00:10,440 --> 00:00:19,980
 Avez-vous senti, en arrivant en 96, le début d'une fabuleuse légende, d'une fabuleuse histoire : la renaissance de Ferrari à l'époque ?
 
 3
@@ -35,15 +35,15 @@ C'était donc une période vraiment importante de l'histoire de Ferrari, et ils 
 Mais c'était une période d'énormes investissements et d'énormes efforts de la part de tous ceux qui étaient là.
 
 10
-00:01:06,140 --> 00:01:11,110
+00:01:06,140 --> 00:01:11,590
 Après l'accident de Michael en 1999, de mémoire, à Silverstone,
 
 11
-00:01:12,600 --> 00:01:16,360
+00:01:12,600 --> 00:01:16,140
 vous êtes devenu numéro un, et vous avez frôlé le titre.
 
 12
-00:01:16,860 --> 00:01:22,120
+00:01:16,860 --> 00:01:22,430
 Est-ce que ça a changé votre état d'esprit, votre approche, d'être le leader de la Scuderia Ferrari ?
 
 13
@@ -95,23 +95,23 @@ Quand je suis rentré au moment idéal, parce qu'il commençait à pleuvoir, ils
 C'était une situation très difficile, et le fait d'avoir joué le titre jusqu'à la dernière course, c'était plutôt bien.
 
 25
-00:02:32,880 --> 00:02:36,530
+00:02:32,880 --> 00:02:36,820
 L'époque où vous étiez pilote de la Scuderia, c'était ce qu'on appelle
 
 26
-00:02:38,320 --> 00:02:45,490
+00:02:38,320 --> 00:02:46,000
 l'âge d'or de Ferrari, avec une équipe de rêve, avec vous, avec Michael, avec Jean Todt, avec Brawn,
 
 27
-00:02:47,080 --> 00:02:49,090
+00:02:47,080 --> 00:02:49,070
 avec beaucoup de très bons éléments.
 
 28
-00:02:50,300 --> 00:02:54,720
+00:02:50,300 --> 00:02:55,390
 Vous sentiez que c'était un bon mélange, un bon cocktail pour redevenir champion ?
 
 29
-00:02:56,060 --> 00:02:59,870
+00:02:56,060 --> 00:03:00,060
 Car on attendait un titre de champion du monde depuis 20 ans, à l'époque.
 
 30
@@ -151,19 +151,19 @@ et Jean Todt a apporté le sien, et tous les deux ont soutenu Ross et Rory, et �
 Et ils ont simplement gardé ces gens-là, et pas à pas…
 
 39
-00:03:51,760 --> 00:03:56,190
+00:03:51,760 --> 00:03:56,100
 Année après année : il faut peut-être quatre, cinq ans pour regagner le titre.
 
 40
-00:03:56,540 --> 00:04:04,340
+00:03:56,450 --> 00:04:04,250
 Exactement. La F1 n'est pas facile. Regardez Aston Martin : ils sont arrivés, Lawrence a beaucoup d'argent, il est intelligent.
 
 41
-00:04:04,500 --> 00:04:13,310
+00:04:04,410 --> 00:04:13,220
 Il a monté une super équipe, mais ça ne se fait pas en un jour. Regardez où ils en sont. Adrian est là maintenant. Ça prend du temps. C'est fantastique
 
 42
-00:04:13,470 --> 00:04:14,900
+00:04:13,380 --> 00:04:14,810
 qu'Aston Martin soit là.
 
 43
@@ -175,10 +175,10 @@ Aston Martin, c'est la Ferrari du Royaume-Uni, donc
 c'est vraiment bien, mais ce n'est pas facile, et ça prendra du temps.
 
 45
-00:04:24,320 --> 00:04:26,110
+00:04:24,320 --> 00:04:25,980
 Merci beaucoup, Eddie.
 
 46
-00:04:26,460 --> 00:04:27,270
+00:04:26,330 --> 00:04:27,140
 Merci.
 

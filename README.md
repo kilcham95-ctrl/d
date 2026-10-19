@@ -86,7 +86,7 @@ Les fichiers sont dans `output/mika_salo_v2/`.
 - **Modèle** : `eleven_v4`, sorti le 28 septembre 2026, le plus récent d'ElevenLabs. Stabilité 0,9, consigne de ton `[calm]` en tête de chaque phrase (elle n'est pas prononcée), contexte des phrases voisines, français forcé, 192 kb/s.
 - **Voix françaises natives**, sans accent, tirées de la bibliothèque ElevenLabs. Elles ont été choisies sur un panel de 11 comédiens français, sur deux critères : retranscription exacte et intonation la plus posée.
   - **Guillaume** (« Narrator », `Qrl71rx6Yg8RvyPYRGCQ`) pour Mika Salo : voix chaude et grave, la plus régulière du panel.
-  - **Léo** (accent parisien, `AfbuxQ9DVtS4azaxN1W7`) pour le journaliste : la plus mesurée sur les questions, et bien distincte de Guillaume.
+  - **Louis** (« French Documentary Narrator », `jGGIwkfv43kUFffPXEEO`) pour le journaliste. Il remplace Léo, jugé trop suave : c'est une voix nette et neutre de narration documentaire, choisie parmi 9 voix neutres auditionnées. Remplaçants possibles : Noah (`OSc8NW5kpGzPyeZB3Wjq`), Sébastien (`5DgHTbl1HXudcxdBp5pQ`).
   - Les voix anglophones George et Chris des versions précédentes avaient un accent en français ; elles ne sont plus utilisées ici.
 - **Fins de fragments** : v4 coupe net la dernière syllabe d'un segment qui s'arrête au milieu d'une phrase. `tts.py` ajoute donc automatiquement « … » au texte envoyé à la voix, et la voix retombe naturellement.
 - **Comparaison avec v3** : v4 prononce juste « Jean Todt » et « Formula Ford » sans astuce de graphie. Même avec `[calm]`, son intonation reste environ 20 % plus variée que v3 : plus naturelle, un peu moins neutre. Les segments v3 restent dans `data/mika_salo_v2/tts_fr_v3/` pour revenir en arrière.
@@ -105,8 +105,8 @@ Les fichiers sont dans `output/mika_salo_v2/`.
 ```bash
 python3 voiceover/segment.py data/mika_salo_v2/transcript_en_scribe.json data/mika_salo_v2/segments.json --journalist speaker_0 --guest mika_salo --lag-turn 0.8 --lag-seg 0.4
 LEVEL_MIN_GAIN_DB=-15 voiceover/clean_en.sh <V2_ITW_Mica_Salo.mp3> data/mika_salo_v2/transcript_en_scribe.json work/v2_en_clean.wav work/v2_en
-ELEVENLABS_API_KEY=... python3 voiceover/tts.py data/mika_salo_v2/translation_fr.json data/mika_salo_v2/tts_fr_v4_natif --model eleven_v4 --format mp3_44100_192 --tag "[calm]" --voice-invite Qrl71rx6Yg8RvyPYRGCQ --voice-journaliste AfbuxQ9DVtS4azaxN1W7 --seed s03=7,s45=11,s60=7,s75=7
-python3 voiceover/mix.py data/mika_salo_v2/segments.json data/mika_salo_v2/translation_fr.json data/mika_salo_v2/tts_fr_v4_natif work/v2_en_clean.wav output/mika_salo_v2 work/v2_mix --name interview_mika_salo_v2 --pre -0.25
+ELEVENLABS_API_KEY=... python3 voiceover/tts.py data/mika_salo_v2/translation_fr.json data/mika_salo_v2/tts_fr_v4_louis --model eleven_v4 --format mp3_44100_192 --tag "[calm]" --voice-invite Qrl71rx6Yg8RvyPYRGCQ --voice-journaliste jGGIwkfv43kUFffPXEEO --seed s03=7,s45=11,s60=7,s75=7
+python3 voiceover/mix.py data/mika_salo_v2/segments.json data/mika_salo_v2/translation_fr.json data/mika_salo_v2/tts_fr_v4_louis work/v2_en_clean.wav output/mika_salo_v2 work/v2_mix --name interview_mika_salo_v2 --pre -0.25
 ```
 
 ---
@@ -115,7 +115,7 @@ python3 voiceover/mix.py data/mika_salo_v2/segments.json data/mika_salo_v2/trans
 
 Les fichiers sont dans `output/eddie_irvine_v2/`. Réglages identiques à Mika Salo V2 :
 
-- **Voix et modèle** : `eleven_v4` avec des voix françaises natives, Guillaume pour Eddie Irvine et Léo pour le journaliste. Consigne `[calm]`, 192 kb/s.
+- **Voix et modèle** : `eleven_v4` avec des voix françaises natives, Guillaume pour Eddie Irvine et Louis pour le journaliste (il remplace Léo, jugé trop suave). Consigne `[calm]`, 192 kb/s.
 - **Calage** : le français démarre toujours après l'anglais (0,8 s en début de prise de parole, 0,4 s ensuite). L'anglais baisse au moment où la voix française commence.
 - **Traduction** : 34 segments sur 47 reprennent la traduction validée de la première version. Les 13 redécoupés sont passés par le workflow (3 traducteurs, synthèse, 3 relectures adversariales). « La F1 » est lu « la F un ». Le « Bye-bye » final reste en anglais.
 - **Piste anglaise** : le micro d'Eddie (−35 à −38 LUFS) est remonté. Toutes les prises de parole sont entre −15,7 et −17 LUFS.
@@ -124,6 +124,6 @@ Les fichiers sont dans `output/eddie_irvine_v2/`. Réglages identiques à Mika S
 ```bash
 python3 voiceover/segment.py data/eddie_irvine_v2/transcript_en_scribe.json data/eddie_irvine_v2/segments.json --journalist speaker_0 --guest eddie_irvine --lag-turn 0.8 --lag-seg 0.4
 LEVEL_MIN_GAIN_DB=-15 voiceover/clean_en.sh <ITW_Eddy_Irvine_A_traduire.mp3> data/eddie_irvine_v2/transcript_en_scribe.json work/e2_en_clean.wav work/e2_en
-ELEVENLABS_API_KEY=... python3 voiceover/tts.py data/eddie_irvine_v2/translation_fr.json data/eddie_irvine_v2/tts_fr_v4_natif --model eleven_v4 --format mp3_44100_192 --tag "[calm]" --voice-invite Qrl71rx6Yg8RvyPYRGCQ --voice-journaliste AfbuxQ9DVtS4azaxN1W7
-python3 voiceover/mix.py data/eddie_irvine_v2/segments.json data/eddie_irvine_v2/translation_fr.json data/eddie_irvine_v2/tts_fr_v4_natif work/e2_en_clean.wav output/eddie_irvine_v2 work/e2_mix --name interview_eddie_irvine_v2 --pre -0.25
+ELEVENLABS_API_KEY=... python3 voiceover/tts.py data/eddie_irvine_v2/translation_fr.json data/eddie_irvine_v2/tts_fr_v4_louis --model eleven_v4 --format mp3_44100_192 --tag "[calm]" --voice-invite Qrl71rx6Yg8RvyPYRGCQ --voice-journaliste jGGIwkfv43kUFffPXEEO
+python3 voiceover/mix.py data/eddie_irvine_v2/segments.json data/eddie_irvine_v2/translation_fr.json data/eddie_irvine_v2/tts_fr_v4_louis work/e2_en_clean.wav output/eddie_irvine_v2 work/e2_mix --name interview_eddie_irvine_v2 --pre -0.25
 ```

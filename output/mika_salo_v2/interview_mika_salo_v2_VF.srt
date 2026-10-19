@@ -1,5 +1,5 @@
 1
-00:00:01,380 --> 00:00:11,650
+00:00:01,380 --> 00:00:12,540
 Alors, vous êtes arrivé à la Scuderia en 1999, après l'accident de Michael Schumacher à Silverstone. Comment ça s'est passé, exactement ? Vous avez reçu un appel ?
 
 2
@@ -91,15 +91,15 @@ Mais je me suis senti si bien accueilli d'emblée. À l'usine, tous m'aidaient, 
 et Michael m'a aidé à vite m'adapter à l'équipe, car on courait déjà une semaine après.
 
 24
-00:02:02,400 --> 00:02:04,700
+00:02:02,400 --> 00:02:04,670
 Il vous a alors aidé à vous faire…
 
 25
-00:02:04,980 --> 00:02:05,990
+00:02:04,980 --> 00:02:05,950
 … à la voiture ?
 
 26
-00:02:06,340 --> 00:02:11,860
+00:02:06,300 --> 00:02:11,820
 J'ai beaucoup parlé avec Michael au téléphone, on a fait des appels vidéo, et il m'aidait beaucoup,
 
 27
@@ -115,7 +115,7 @@ Il m'a donc donné les noms des gens à qui je devais parler, et ça a été tr�
 Et bien sûr, je connaissais déjà Eddie, donc c'était assez facile d'avoir son aide aussi.
 
 30
-00:02:34,480 --> 00:02:40,310
+00:02:34,480 --> 00:02:40,510
 Et vous avez vite été compétitif, car quelques semaines plus tard, en Allemagne, vous étiez près de gagner.
 
 31
@@ -135,27 +135,27 @@ Eddie a passé Heinz aux arrêts au stand, j'ai vu la voiture rouge derrière mo
 là, je connais la suite. » Très vite, Ross Brawn, à la radio, de sa voix calme : « Mika, je veux que tu laisses passer Eddie à ce tour. »
 
 35
-00:03:05,620 --> 00:03:08,300
+00:03:05,620 --> 00:03:08,410
 Oui. Vous avez sacrifié votre…
 
 36
-00:03:08,680 --> 00:03:15,920
+00:03:08,680 --> 00:03:16,590
 Et vous avez sacrifié votre première victoire pour le bonheur de la Scuderia, et aussi pour donner le maximum de chances à Eddie Irvine.
 
 37
-00:03:18,520 --> 00:03:22,420
+00:03:18,520 --> 00:03:22,380
 Vous aviez une relation particulière avec Michael Schumacher à l'époque.
 
 38
-00:03:23,180 --> 00:03:27,330
+00:03:23,180 --> 00:03:27,530
 Nous, en tant que fans, nous avons l'image d'un pilote très
 
 39
-00:03:29,920 --> 00:03:32,490
+00:03:29,920 --> 00:03:32,770
 impliqué, très sérieux dans son travail.
 
 40
-00:03:33,820 --> 00:03:39,760
+00:03:33,820 --> 00:03:40,160
 Et tous ceux qu'on a vus aujourd'hui au Mugello ont dit : un pilote si gentil, un gentleman dans la vie.
 
 41
@@ -179,47 +179,47 @@ Et en F3, au Grand Prix de Macao, Michael a gagné, j'étais deuxième et Eddie 
 Donc on a grandi…
 
 46
-00:04:01,940 --> 00:04:03,780
+00:04:01,940 --> 00:04:03,680
 Une longue histoire entre vous deux.
 
 47
-00:04:04,120 --> 00:04:07,210
+00:04:04,030 --> 00:04:07,110
 On a grandi ensemble, donc je le connais depuis longtemps.
 
 48
-00:04:07,560 --> 00:04:14,690
+00:04:07,460 --> 00:04:14,720
 Oui. Et après cette expérience, vous avez une vision différente de la F1, car c'était peut-être l'équipe la plus importante
 
 49
-00:04:17,700 --> 00:04:19,500
+00:04:17,700 --> 00:04:19,570
 pour laquelle vous ayez couru à l'époque.
 
 50
-00:04:19,900 --> 00:04:23,750
+00:04:19,900 --> 00:04:23,820
 Je sais que vous avez eu des expériences chez Toyota et dans d'autres équipes.
 
 51
-00:04:25,740 --> 00:04:29,550
+00:04:25,740 --> 00:04:29,780
 Mais c'était une stratégie différente, une organisation différente.
 
 52
-00:04:30,560 --> 00:04:32,230
+00:04:30,560 --> 00:04:32,150
 C'est une énorme usine.
 
 53
-00:04:32,380 --> 00:04:36,260
+00:04:32,320 --> 00:04:36,210
 C'est vraiment une autre culture, un autre ADN, chez Ferrari.
 
 54
-00:04:36,610 --> 00:04:38,850
+00:04:36,560 --> 00:04:38,800
 Oui, ma première grande équipe.
 
 55
-00:04:39,000 --> 00:04:42,830
+00:04:38,950 --> 00:04:42,780
 Avant, j'étais chez Tyrrell et Arrows, des équipes plus petites.
 
 56
-00:04:42,980 --> 00:04:46,180
+00:04:42,930 --> 00:04:46,130
 Et bien sûr, ça m'a ouvert les yeux sur beaucoup de choses.
 
 57
@@ -251,19 +251,19 @@ Parfois, on m'appelait en pleine nuit à Maranello : un ingénieur avait trouvé
 Ils me réveillaient : « Viens ici. » J'y allais et je faisais trois tours sur les vibreurs.
 
 64
-00:05:24,560 --> 00:05:27,880
+00:05:24,560 --> 00:05:28,400
 Et cette expérience chez Ferrari, je crois, a été
 
 65
-00:05:29,600 --> 00:05:35,980
+00:05:29,600 --> 00:05:35,870
 formidable pour vous, car elle vous a donné une grande visibilité mondiale, avec vos résultats incroyables.
 
 66
-00:05:37,560 --> 00:05:39,750
+00:05:37,560 --> 00:05:39,930
 Une chance pour vous d'aller ensuite chez Toyota.
 
 67
-00:05:40,840 --> 00:05:43,350
+00:05:40,840 --> 00:05:43,420
 C'est Ferrari qui vous a permis d'aller chez Toyota ?
 
 68
@@ -291,7 +291,7 @@ Seul problème : Toyota avait Ange Pasquali. Il était le seul problème, mais�
 Non, je plaisante.
 
 74
-00:06:11,800 --> 00:06:18,000
+00:06:11,800 --> 00:06:18,440
 On salue Ange. Merci, Mika, pour cette interview. J'espère qu'on fera une grande émission avec vous, quand vous pourrez.
 
 75
