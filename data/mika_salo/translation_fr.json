@@ -1,0 +1,802 @@
+[
+ {
+  "id": "s01",
+  "turn": 1,
+  "speaker": "mika_salo",
+  "en": "It's, um, I was, I was actually in Silverstone for,",
+  "fr": "En fait, j'étais à Silverstone pour,",
+  "fr_tts": "En fait, j'étais à Silverstone pour,"
+ },
+ {
+  "id": "s02",
+  "turn": 1,
+  "speaker": "mika_salo",
+  "en": "I think it was Friday practice, and I went back to Finland and, uh, on",
+  "fr": "je crois, les essais du vendredi, et je suis rentré en Finlande",
+  "fr_tts": "je crois, les essais du vendredi, et je suis rentré en Finlande"
+ },
+ {
+  "id": "s03",
+  "turn": 1,
+  "speaker": "mika_salo",
+  "en": "Sunday morning, and, uh, I saw Michael's accident on the TV in the airport.",
+  "fr": "le dimanche matin, et j'ai vu l'accident de Michael à la télé, à l'aéroport.",
+  "fr_tts": "le dimanche matin, et j'ai vu l'accident de Michael à la télé, à l'aéroport."
+ },
+ {
+  "id": "s04",
+  "turn": 1,
+  "speaker": "mika_salo",
+  "en": "And, uh, I didn't think much of it and, uh, because it didn't look big, so I, I was just hoping he's fine.",
+  "fr": "Je n'y ai pas trop pensé, car ça n'avait pas l'air grave, donc j'espérais juste qu'il allait bien.",
+  "fr_tts": "Je n'y ai pas trop pensé, car ça n'avait pas l'air grave, donc j'espérais juste qu'il allait bien."
+ },
+ {
+  "id": "s05",
+  "turn": 1,
+  "speaker": "mika_salo",
+  "en": "And, uh, then a couple hours later I heard he broke his leg and, uh, didn't think anything.",
+  "fr": "Puis, quelques heures après, j'ai appris qu'il s'était cassé la jambe, sans me poser de questions.",
+  "fr_tts": "Puis, quelques heures après, j'ai appris qu'il s'était cassé la jambe, sans me poser de questions."
+ },
+ {
+  "id": "s06",
+  "turn": 1,
+  "speaker": "mika_salo",
+  "en": "So, uh, I was getting married during the next week.",
+  "fr": "Alors, je me mariais la semaine suivante.",
+  "fr_tts": "Alors, je me mariais la semaine suivante."
+ },
+ {
+  "id": "s07",
+  "turn": 1,
+  "speaker": "mika_salo",
+  "en": "We had a, like, a wedding rehearsal on Monday, and then I had a phone call from Jean Todt.",
+  "fr": "On avait une répétition du mariage le lundi, et là, j'ai reçu un appel de Jean Todt.",
+  "fr_tts": "On avait une répétition du mariage le lundi, et là, j'ai reçu un appel de Jean Todt."
+ },
+ {
+  "id": "s08",
+  "turn": 2,
+  "speaker": "journaliste",
+  "en": "Aye, yai, yai.",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s09",
+  "turn": 3,
+  "speaker": "mika_salo",
+  "en": "And, uh, he called me when we were practicing this wedding and, uh, and, um,",
+  "fr": "Il m'a appelé pendant qu'on répétait ce mariage, et",
+  "fr_tts": "Il m'a appelé pendant qu'on répétait ce mariage, et"
+ },
+ {
+  "id": "s10",
+  "turn": 3,
+  "speaker": "mika_salo",
+  "en": "he said, uh, \"I want you to come to Maranello.\" And I thought, \"Oh, okay.\" Uh, I- of course immediately I can connect these two things and, uh, he, uh...",
+  "fr": "il m'a dit : « Je veux que tu viennes à Maranello. » Et j'ai pensé : « Ah, d'accord. » Bien sûr, j'ai tout de suite fait le lien entre les deux.",
+  "fr_tts": "il m'a dit : je veux que tu viennes à Maranello. Et j'ai pensé : ah, d'accord. Bien sûr, j'ai tout de suite fait le lien entre les deux."
+ },
+ {
+  "id": "s11",
+  "turn": 3,
+  "speaker": "mika_salo",
+  "en": "I asked, \"When?\" He said, \"Now.\"",
+  "fr": "J'ai demandé : « Quand ? » Il a dit : « Maintenant. »",
+  "fr_tts": "J'ai demandé : quand ? Il a dit : maintenant."
+ },
+ {
+  "id": "s12",
+  "turn": 3,
+  "speaker": "mika_salo",
+  "en": "So he did not give me option.",
+  "fr": "Il ne m'a pas laissé le choix.",
+  "fr_tts": "Il ne m'a pas laissé le choix."
+ },
+ {
+  "id": "s13",
+  "turn": 3,
+  "speaker": "mika_salo",
+  "en": "I said, \"I'm my wed- I'm in my wedding re- rehearsal.\" And he said, \"It doesn't matter.",
+  "fr": "J'ai dit : « Je répète mon mariage. » Et il a dit : « Peu importe.",
+  "fr_tts": "J'ai dit : je répète mon mariage. Et il a dit : peu importe."
+ },
+ {
+  "id": "s14",
+  "turn": 3,
+  "speaker": "mika_salo",
+  "en": "You come to Maranello now.\" Two hours later I was in airplane.",
+  "fr": "Viens à Maranello maintenant. » Deux heures après, j'étais dans l'avion.",
+  "fr_tts": "Viens à Maranello maintenant. Deux heures après, j'étais dans l'avion."
+ },
+ {
+  "id": "s15",
+  "turn": 4,
+  "speaker": "journaliste",
+  "en": "So, uh, to take the wheel of the car for Michael Schumacher is not easy because it is a- he had all his crew behind him. Uh,",
+  "fr": "Alors, prendre le volant de la voiture de Michael Schumacher, ce n'est pas facile, car il avait toute son équipe derrière lui.",
+  "fr_tts": "Alors, prendre le volant de la voiture de Michael Schumacher, ce n'est pas facile, car il avait toute son équipe derrière lui."
+ },
+ {
+  "id": "s16",
+  "turn": 4,
+  "speaker": "journaliste",
+  "en": "it was a particular moment, I think a, a difficult moment for you to, to, to adapt at, at his style of, of driving, for example?",
+  "fr": "C'était un moment particulier, je pense, un moment difficile pour vous adapter à son style de pilotage, par exemple ?",
+  "fr_tts": "C'était un moment particulier, je pense, un moment difficile pour vous adapter à son style de pilotage, par exemple ?"
+ },
+ {
+  "id": "s17",
+  "turn": 5,
+  "speaker": "mika_salo",
+  "en": "Yeah, it was... Ferrari was very kind to me when I went there.",
+  "fr": "Oui, Ferrari a été très gentille à mon arrivée.",
+  "fr_tts": "Oui, Ferrari a été très gentille à mon arrivée."
+ },
+ {
+  "id": "s18",
+  "turn": 5,
+  "speaker": "mika_salo",
+  "en": "It was, I felt very welcome from day one.",
+  "fr": "Je me suis senti très bien accueilli d'emblée.",
+  "fr_tts": "Je me suis senti très bien accueilli d'emblée."
+ },
+ {
+  "id": "s19",
+  "turn": 5,
+  "speaker": "mika_salo",
+  "en": "We had a really good time of staying in Jean's house in Maranello, and, uh, Jean, Jean is like a workaholic. He works non-stop.",
+  "fr": "On était vraiment bien chez Jean à Maranello. Jean est un bourreau de travail, il ne s'arrête jamais.",
+  "fr_tts": "On était vraiment bien chez Jean à Maranello. Jean est un bourreau de travail, il ne s'arrête jamais."
+ },
+ {
+  "id": "s20",
+  "turn": 5,
+  "speaker": "mika_salo",
+  "en": "Uh, he sleeps, like, two hours a night, and then he works all the other time, so I never saw him.",
+  "fr": "Il dort deux heures par nuit et travaille tout le reste du temps : je ne le voyais jamais.",
+  "fr_tts": "Il dort deux heures par nuit et travaille tout le reste du temps : je ne le voyais jamais."
+ },
+ {
+  "id": "s21",
+  "turn": 5,
+  "speaker": "mika_salo",
+  "en": "And, uh, I was getting very hungry in his house because there was no food, so, uh, Ross Brawn brought me some food in the evening to eat and, uh, but, uh, I felt so welcomed from beginning.",
+  "fr": "J'avais très faim chez lui, rien à manger, alors Ross Brawn m'apportait à dîner. Mais je me suis senti si bien accueilli dès le début.",
+  "fr_tts": "J'avais très faim chez lui, rien à manger, alors Ross Brawn m'apportait à dîner. Mais je me suis senti si bien accueilli dès le début."
+ },
+ {
+  "id": "s22",
+  "turn": 5,
+  "speaker": "mika_salo",
+  "en": "And, uh, every time I went to factory and everybody was helping me, and I had phone calls with Michael also, and Michael helped me how to adapt in the team quickly.",
+  "fr": "À l'usine, tout le monde m'aidait toujours, et au téléphone, Michael aussi m'a aidé à vite m'adapter à l'équipe,",
+  "fr_tts": "À l'usine, tout le monde m'aidait toujours, et au téléphone, Michael aussi m'a aidé à vite m'adapter à l'équipe,"
+ },
+ {
+  "id": "s23",
+  "turn": 5,
+  "speaker": "mika_salo",
+  "en": "Quickly and because next race was already one week later.",
+  "fr": "car on courait déjà une semaine après.",
+  "fr_tts": "car on courait déjà une semaine après."
+ },
+ {
+  "id": "s24",
+  "turn": 6,
+  "speaker": "journaliste",
+  "en": "So he was supportive on this time to, to help you to find-",
+  "fr": "Il vous a alors aidé à vous faire…",
+  "fr_tts": "Il vous a alors aidé à vous faire,"
+ },
+ {
+  "id": "s25",
+  "turn": 7,
+  "speaker": "mika_salo",
+  "en": "Yes",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s26",
+  "turn": 8,
+  "speaker": "journaliste",
+  "en": "... the best way to adapt to the car.",
+  "fr": "… à la voiture ?",
+  "fr_tts": "à la voiture ?"
+ },
+ {
+  "id": "s27",
+  "turn": 9,
+  "speaker": "mika_salo",
+  "en": "I, I talked a lot with Michael on the phone and, uh, we had video calls and, uh, and, uh, he was helping me a lot, um,",
+  "fr": "J'ai beaucoup parlé avec Michael au téléphone, on a fait des appels vidéo, et il m'aidait beaucoup,",
+  "fr_tts": "J'ai beaucoup parlé avec Michael au téléphone, on a fait des appels vidéo, et il m'aidait beaucoup,"
+ },
+ {
+  "id": "s28",
+  "turn": 9,
+  "speaker": "mika_salo",
+  "en": "to teach me about the people in team, who I need to go if I need something specific for the car.",
+  "fr": "en m'expliquant qui était qui dans l'équipe, à qui m'adresser pour un besoin précis sur la voiture.",
+  "fr_tts": "en m'expliquant qui était qui dans l'équipe, à qui m'adresser pour un besoin précis sur la voiture."
+ },
+ {
+  "id": "s29",
+  "turn": 9,
+  "speaker": "mika_salo",
+  "en": "So he told me the names which are who I need to talk and, uh, it just, uh, it, it was very, very easy to adapt.",
+  "fr": "Il m'a donc donné les noms des gens à qui je devais parler, et ça a été très, très facile de m'adapter.",
+  "fr_tts": "Il m'a donc donné les noms des gens à qui je devais parler, et ça a été très, très facile de m'adapter."
+ },
+ {
+  "id": "s30",
+  "turn": 9,
+  "speaker": "mika_salo",
+  "en": "And of course I knew Eddie from before also, so it was quite easy, easy to get help from him also.",
+  "fr": "Et bien sûr, je connaissais déjà Eddie, donc c'était assez facile d'avoir son aide aussi.",
+  "fr_tts": "Et bien sûr, je connaissais déjà Eddie, donc c'était assez facile d'avoir son aide aussi."
+ },
+ {
+  "id": "s31",
+  "turn": 10,
+  "speaker": "journaliste",
+  "en": "And you, you were quickly competitive because some, uh, weeks a- after that in Germany you are close to, to win.",
+  "fr": "Et vous avez vite été compétitif, car quelques semaines plus tard, en Allemagne, vous étiez près de gagner.",
+  "fr_tts": "Et vous avez vite été compétitif, car quelques semaines plus tard, en Allemagne, vous étiez près de gagner."
+ },
+ {
+  "id": "s32",
+  "turn": 11,
+  "speaker": "mika_salo",
+  "en": "Yes. Um, first race was Austria and, uh, it was sort of okay, but, uh,",
+  "fr": "Oui. La première course, c'était l'Autriche, ça allait à peu près, mais",
+  "fr_tts": "Oui. La première course, c'était l'Autriche, ça allait à peu près, mais"
+ },
+ {
+  "id": "s33",
+  "turn": 11,
+  "speaker": "mika_salo",
+  "en": "I did got no testing at all straight there.",
+  "fr": "j'y suis allé direct, sans aucun essai.",
+  "fr_tts": "j'y suis allé direct, sans aucun essai."
+ },
+ {
+  "id": "s34",
+  "turn": 11,
+  "speaker": "mika_salo",
+  "en": "And then after Austria we came here to Mugello for I think three days. I drove non-stop from morning.",
+  "fr": "Puis on est venus ici, au Mugello, trois jours, je crois. J'ai roulé non-stop dès le matin.",
+  "fr_tts": "Puis on est venus ici, au Mugello, trois jours, je crois. J'ai roulé non-stop dès le matin."
+ },
+ {
+  "id": "s35",
+  "turn": 11,
+  "speaker": "mika_salo",
+  "en": "We could play a little bit with the car and it was more comfortable for me, and then in Germany I could have won it.",
+  "fr": "On a pu jouer un peu avec la voiture, j'étais plus à l'aise, et en Allemagne, j'aurais pu gagner.",
+  "fr_tts": "On a pu jouer un peu avec la voiture, j'étais plus à l'aise, et en Allemagne, j'aurais pu gagner."
+ },
+ {
+  "id": "s36",
+  "turn": 12,
+  "speaker": "journaliste",
+  "en": "And it was a particular moment for you because, uh, you, you were in ahead and close to win, and you have a call on the radio.",
+  "fr": "Un moment particulier pour vous : en tête, près de gagner, vous avez eu un appel radio,",
+  "fr_tts": "Un moment particulier pour vous : en tête, près de gagner, vous avez eu un appel radio,"
+ },
+ {
+  "id": "s37",
+  "turn": 12,
+  "speaker": "journaliste",
+  "en": "I don't know if it was Ross Brawn or Jean Todt-",
+  "fr": "Je ne sais pas si c'était Ross Brawn ou Jean Todt…",
+  "fr_tts": "Je ne sais pas si c'était Ross Brawn ou Jean Todt,"
+ },
+ {
+  "id": "s38",
+  "turn": 13,
+  "speaker": "mika_salo",
+  "en": "Yes",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s39",
+  "turn": 14,
+  "speaker": "journaliste",
+  "en": "... who asked you to let Eddie Irvine to, to win because he was, uh, uh, fighting for the championship.",
+  "fr": "… vous demandant de laisser gagner Eddie Irvine, car il se battait pour le championnat.",
+  "fr_tts": "vous demandant de laisser gagner Eddie Irvine, car il se battait pour le championnat."
+ },
+ {
+  "id": "s40",
+  "turn": 15,
+  "speaker": "mika_salo",
+  "en": "Mm.",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s41",
+  "turn": 16,
+  "speaker": "journaliste",
+  "en": "I presume it was a very, uh, tough moment for you.",
+  "fr": "J'imagine que ça a été un moment très dur pour vous.",
+  "fr_tts": "J'imagine que ça a été un moment très dur pour vous."
+ },
+ {
+  "id": "s42",
+  "turn": 17,
+  "speaker": "mika_salo",
+  "en": "Yeah, but we, we talked about this, uh, before my first race.",
+  "fr": "Oui, mais on en a parlé avant ma première course.",
+  "fr_tts": "Oui, mais on en a parlé avant ma première course."
+ },
+ {
+  "id": "s43",
+  "turn": 17,
+  "speaker": "mika_salo",
+  "en": "Uh, Jean gave me, like, a two-hour lesson how important it is that I help team and Eddie only to win the championship because I have no chance to win.",
+  "fr": "Jean m'a expliqué deux heures l'importance d'aider l'équipe et Eddie seul à gagner le titre, car je n'avais aucune chance.",
+  "fr_tts": "Jean m'a expliqué deux heures l'importance d'aider l'équipe et Eddie seul à gagner le titre, car je n'avais aucune chance."
+ },
+ {
+  "id": "s44",
+  "turn": 17,
+  "speaker": "mika_salo",
+  "en": "So, uh, if this situation comes up that Eddie is behind me, I need to let him pass.",
+  "fr": "Si Eddie était derrière moi, je devais le laisser passer.",
+  "fr_tts": "Si Eddie était derrière moi, je devais le laisser passer."
+ },
+ {
+  "id": "s45",
+  "turn": 17,
+  "speaker": "mika_salo",
+  "en": "And so I knew of course the whole Hockenheim race when I was leading, I had, uh, Heinz-Harald Frentzen behind me. I s- it was yellow car.",
+  "fr": "Bien sûr, je le savais toute la course à Hockenheim : en tête, Heinz-Harald Frentzen derrière moi, la voiture jaune.",
+  "fr_tts": "Bien sûr, je le savais toute la course à Hockenheim : en tête, Heinz-Harald Frentzen derrière moi, la voiture jaune."
+ },
+ {
+  "id": "s46",
+  "turn": 17,
+  "speaker": "mika_salo",
+  "en": "I was all the time hoping, \"Yes, stay there. Stay there.\" And then",
+  "fr": "J'espérais sans cesse : « Oui, reste là. Reste là. » Puis",
+  "fr_tts": "J'espérais sans cesse : oui, reste là, reste là. Puis"
+ },
+ {
+  "id": "s47",
+  "turn": 17,
+  "speaker": "mika_salo",
+  "en": "Eddie managed to pass Heinz during pit stops, and then I saw red car behind me and I thought, \"Oh, okay,",
+  "fr": "Eddie a passé Heinz aux arrêts au stand, j'ai vu la voiture rouge derrière moi, j'ai pensé : « Ah, d'accord,",
+  "fr_tts": "Eddie a passé Heinz aux arrêts au stand, j'ai vu la voiture rouge derrière moi, j'ai pensé : ah, d'accord,"
+ },
+ {
+  "id": "s48",
+  "turn": 17,
+  "speaker": "mika_salo",
+  "en": "and now I know what's gonna happen next.\" And then very soon came the radio call from Ross Brawn with his calm voice that, \"Mika, I want you to let Eddie pass this lap.\"",
+  "fr": "là, je connais la suite. » Très vite, Ross Brawn, à la radio, de sa voix calme : « Mika, je veux que tu laisses passer Eddie à ce tour. »",
+  "fr_tts": "là, je connais la suite. Très vite, Ross Brawn, à la radio, de sa voix calme : Mika, je veux que tu laisses passer Eddie à ce tour."
+ },
+ {
+  "id": "s49",
+  "turn": 18,
+  "speaker": "journaliste",
+  "en": "Yeah. And you sacrificed your-",
+  "fr": "Oui. Vous avez sacrifié votre…",
+  "fr_tts": "Oui. Vous avez sacrifié votre,"
+ },
+ {
+  "id": "s50",
+  "turn": 19,
+  "speaker": "mika_salo",
+  "en": "Excuse me.",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s51",
+  "turn": 20,
+  "speaker": "journaliste",
+  "en": "And you f- sacrificed your first victory for, for the, the happiness of the Scuderia and of- also for the giving the maximum chance for Eddie Irvine.",
+  "fr": "Et vous avez sacrifié votre première victoire pour le bonheur de la Scuderia, et aussi pour donner le maximum de chances à Eddie Irvine.",
+  "fr_tts": "Et vous avez sacrifié votre première victoire pour le bonheur de la Scuderia, et aussi pour donner le maximum de chances à Eddie Irvine."
+ },
+ {
+  "id": "s52",
+  "turn": 20,
+  "speaker": "journaliste",
+  "en": "Uh, uh, you have a, a special relationship with, uh, with, uh, Michael Schumacher on this time.",
+  "fr": "Vous aviez une relation particulière avec Michael Schumacher à l'époque.",
+  "fr_tts": "Vous aviez une relation particulière avec Michael Schumacher à l'époque."
+ },
+ {
+  "id": "s53",
+  "turn": 20,
+  "speaker": "journaliste",
+  "en": "We, um, like a fan, we, uh, we have the vision of a, a driver who is very, uh,",
+  "fr": "Nous, en tant que fans, nous avons l'image d'un pilote très",
+  "fr_tts": "Nous, en tant que fans, nous avons l'image d'un pilote très"
+ },
+ {
+  "id": "s54",
+  "turn": 20,
+  "speaker": "journaliste",
+  "en": "implicated in, uh, very serious in, in his jobs.",
+  "fr": "impliqué, très sérieux dans son travail.",
+  "fr_tts": "impliqué, très sérieux dans son travail."
+ },
+ {
+  "id": "s55",
+  "turn": 20,
+  "speaker": "journaliste",
+  "en": "And all people we met today in Mugello said he, he was a, a so kind driver, a so kind a gentleman in the life.",
+  "fr": "Et tous ceux qu'on a vus aujourd'hui au Mugello ont dit : un pilote si gentil, un gentleman dans la vie.",
+  "fr_tts": "Et tous ceux qu'on a vus aujourd'hui au Mugello ont dit : un pilote si gentil, un gentleman dans la vie."
+ },
+ {
+  "id": "s56",
+  "turn": 21,
+  "speaker": "mika_salo",
+  "en": "Yeah, he was nice guy. We, we knew each other from karting already, and we used to race karting.",
+  "fr": "Oui, il était sympa. On se connaissait déjà du karting, on y courait.",
+  "fr_tts": "Oui, il était sympa. On se connaissait déjà du karting, on y courait."
+ },
+ {
+  "id": "s57",
+  "turn": 21,
+  "speaker": "mika_salo",
+  "en": "We did, uh, Formula Ford together.",
+  "fr": "On a fait la Formula Ford ensemble.",
+  "fr_tts": "On a fait la Formula Ford ensemble."
+ },
+ {
+  "id": "s58",
+  "turn": 21,
+  "speaker": "mika_salo",
+  "en": "Actually, I beat him in Formula Ford quite, mm, I fin- won the European Championship, but Michael finished second.",
+  "fr": "En fait, je l'y ai battu : j'ai gagné le championnat d'Europe, Michael a fini deuxième.",
+  "fr_tts": "En fait, je l'y ai battu : j'ai gagné le championnat d'Europe, Michael a fini deuxième."
+ },
+ {
+  "id": "s59",
+  "turn": 21,
+  "speaker": "mika_salo",
+  "en": "And, uh, Formula 3 we were, uh, Macau Grand Prix, Michael won, I was second, and Eddie third.",
+  "fr": "Et en F3, au Grand Prix de Macao, Michael a gagné, j'étais deuxième et Eddie troisième.",
+  "fr_tts": "Et en F trois, au Grand Prix de Macao, Michael a gagné, j'étais deuxième et Eddie troisième."
+ },
+ {
+  "id": "s60",
+  "turn": 21,
+  "speaker": "mika_salo",
+  "en": "So it's, we, we've been, we've been growing up-",
+  "fr": "Donc on a grandi…",
+  "fr_tts": "Donc on a grandi,"
+ },
+ {
+  "id": "s61",
+  "turn": 22,
+  "speaker": "journaliste",
+  "en": "It's a long story between you and him",
+  "fr": "Une longue histoire entre vous.",
+  "fr_tts": "Une longue histoire entre vous."
+ },
+ {
+  "id": "s62",
+  "turn": 23,
+  "speaker": "mika_salo",
+  "en": "... we've been growing up together, so I know him from a long time.",
+  "fr": "… ensemble, donc je le connais depuis longtemps.",
+  "fr_tts": "ensemble, donc je le connais depuis longtemps."
+ },
+ {
+  "id": "s63",
+  "turn": 24,
+  "speaker": "journaliste",
+  "en": "Yeah. And after this, uh, experience you have a, um, a vision different of Formula One because it was maybe the, the most important, uh, uh, team, uh,",
+  "fr": "Oui. Et après cette expérience, vous avez une vision différente de la F1, car c'était peut-être l'équipe la plus importante",
+  "fr_tts": "Oui. Et après cette expérience, vous avez une vision différente de la F un, car c'était peut-être l'équipe la plus importante"
+ },
+ {
+  "id": "s64",
+  "turn": 24,
+  "speaker": "journaliste",
+  "en": "for who you drive on this time.",
+  "fr": "pour laquelle vous ayez couru à l'époque.",
+  "fr_tts": "pour laquelle vous ayez couru à l'époque."
+ },
+ {
+  "id": "s65",
+  "turn": 24,
+  "speaker": "journaliste",
+  "en": "I know you, you have experiences with, uh, with, uh, Toyota, you experiences with other crew.",
+  "fr": "Je sais que vous avez eu des expériences chez Toyota, dans d'autres équipes.",
+  "fr_tts": "Je sais que vous avez eu des expériences chez Toyota, dans d'autres équipes."
+ },
+ {
+  "id": "s66",
+  "turn": 24,
+  "speaker": "journaliste",
+  "en": "Uh, but it was a different strategy, different organization.",
+  "fr": "Mais c'était une stratégie différente, une organisation différente.",
+  "fr_tts": "Mais c'était une stratégie différente, une organisation différente."
+ },
+ {
+  "id": "s67",
+  "turn": 24,
+  "speaker": "journaliste",
+  "en": "It's a big, big factory.",
+  "fr": "C'est une énorme usine.",
+  "fr_tts": "C'est une énorme usine."
+ },
+ {
+  "id": "s68",
+  "turn": 24,
+  "speaker": "journaliste",
+  "en": "It's really a, a different culture, DNA in the Ferrari.",
+  "fr": "C'est vraiment une autre culture, un autre ADN, chez Ferrari.",
+  "fr_tts": "C'est vraiment une autre culture, un autre ADN, chez Ferrari."
+ },
+ {
+  "id": "s69",
+  "turn": 25,
+  "speaker": "mika_salo",
+  "en": "Yeah, it was my first, like, big team.",
+  "fr": "Oui, ma première grande équipe.",
+  "fr_tts": "Oui, ma première grande équipe."
+ },
+ {
+  "id": "s70",
+  "turn": 25,
+  "speaker": "mika_salo",
+  "en": "I was in Tyrrell and Arrows and, uh, smaller teams before, so it was first, like, a big team and, uh, of course it opened my eyes for many things. Uh,",
+  "fr": "Avant, j'étais chez Tyrrell et Arrows, de plus petites équipes. Et bien sûr, ça m'a ouvert les yeux sur beaucoup de choses.",
+  "fr_tts": "Avant, j'étais chez Tyrrell et Arrows, de plus petites équipes. Et bien sûr, ça m'a ouvert les yeux sur beaucoup de choses."
+ },
+ {
+  "id": "s71",
+  "turn": 25,
+  "speaker": "mika_salo",
+  "en": "how quick they can react for if you need something for the car and, uh, they would do it immediately, not think about it for two weeks, and, uh, it was in the car immediately.",
+  "fr": "Leur réactivité : un besoin pour la voiture, c'était fait aussitôt, sans y réfléchir deux semaines, et monté tout de suite.",
+  "fr_tts": "Leur réactivité : un besoin pour la voiture, c'était fait aussitôt, sans y réfléchir deux semaines, et monté tout de suite."
+ },
+ {
+  "id": "s72",
+  "turn": 25,
+  "speaker": "mika_salo",
+  "en": "And the factory was working non-stop and, uh, the resources they have, and we were testing so much.",
+  "fr": "L'usine tournait non-stop, avec les moyens qu'ils ont, et on testait tellement.",
+  "fr_tts": "L'usine tournait non-stop, avec les moyens qu'ils ont, et on testait tellement."
+ },
+ {
+  "id": "s73",
+  "turn": 25,
+  "speaker": "mika_salo",
+  "en": "We had a different test team waiting every time after the race.",
+  "fr": "Une autre équipe d'essais attendait après chaque course.",
+  "fr_tts": "Une autre équipe d'essais attendait après chaque course."
+ },
+ {
+  "id": "s74",
+  "turn": 25,
+  "speaker": "mika_salo",
+  "en": "We went to s- different circuits and there was a test team waiting and, uh-",
+  "fr": "On allait sur divers circuits, où elle nous attendait…",
+  "fr_tts": "On allait sur divers circuits, où elle nous attendait,"
+ },
+ {
+  "id": "s75",
+  "turn": 25,
+  "speaker": "mika_salo",
+  "en": "So many laps and so much testing.",
+  "fr": "Tant de tours, tant d'essais.",
+  "fr_tts": "Tant de tours, tant d'essais."
+ },
+ {
+  "id": "s76",
+  "turn": 25,
+  "speaker": "mika_salo",
+  "en": "Sometimes I got the call in the middle of the night in Maranello and some engineer found something in the dampers.",
+  "fr": "Parfois, on m'appelait en pleine nuit à Maranello : un ingénieur avait trouvé quelque chose aux amortisseurs.",
+  "fr_tts": "Parfois, on m'appelait en pleine nuit à Maranello : un ingénieur avait trouvé quelque chose aux amortisseurs."
+ },
+ {
+  "id": "s77",
+  "turn": 25,
+  "speaker": "mika_salo",
+  "en": "So I went to the middle of the night, they woke me up and come here.",
+  "fr": "Ils me réveillaient, et je venais ici.",
+  "fr_tts": "Ils me réveillaient, et je venais ici."
+ },
+ {
+  "id": "s78",
+  "turn": 25,
+  "speaker": "mika_salo",
+  "en": "I went there and did three laps over the curbs and then go back to sleep.",
+  "fr": "Je faisais trois tours sur les vibreurs, et je retournais dormir.",
+  "fr_tts": "Je faisais trois tours sur les vibreurs, et je retournais dormir."
+ },
+ {
+  "id": "s79",
+  "turn": 26,
+  "speaker": "journaliste",
+  "en": "This track here in Mugello has a particular",
+  "fr": "Ce circuit, ici au Mugello, a eu une importance particulière",
+  "fr_tts": "Ce circuit, ici au Mugello, a eu une importance particulière"
+ },
+ {
+  "id": "s80",
+  "turn": 26,
+  "speaker": "journaliste",
+  "en": "importance in the success of the Scuderia this time because to have a private",
+  "fr": "dans le succès de la Scuderia à l'époque, car avoir un circuit d'essais privé,",
+  "fr_tts": "dans le succès de la Scuderia à l'époque, car avoir un circuit d'essais privé,"
+ },
+ {
+  "id": "s81",
+  "turn": 26,
+  "speaker": "journaliste",
+  "en": "practice track, it was an element key for victory.",
+  "fr": "c'était un élément clé pour la victoire.",
+  "fr_tts": "c'était un élément clé pour la victoire."
+ },
+ {
+  "id": "s82",
+  "turn": 27,
+  "speaker": "mika_salo",
+  "en": "Yeah, we did a lot of laps here in Mugello and",
+  "fr": "Oui, on a fait beaucoup de tours ici, au Mugello, et",
+  "fr_tts": "Oui, on a fait beaucoup de tours ici, au Mugello, et"
+ },
+ {
+  "id": "s83",
+  "turn": 27,
+  "speaker": "mika_salo",
+  "en": "it's a very challenging track for the car setup wise. And there's every type of corners. There's high speed corners and",
+  "fr": "c'est un circuit très exigeant pour les réglages. Il y a tous types de virages, des virages rapides et des bosses,",
+  "fr_tts": "c'est un circuit très exigeant pour les réglages. Il y a tous types de virages, des virages rapides et des bosses,"
+ },
+ {
+  "id": "s84",
+  "turn": 27,
+  "speaker": "mika_salo",
+  "en": "there's some bumps and you get everything working here really well.",
+  "fr": "et ici, on met vraiment tout au point.",
+  "fr_tts": "et ici, on met vraiment tout au point."
+ },
+ {
+  "id": "s85",
+  "turn": 27,
+  "speaker": "mika_salo",
+  "en": "If the car works here, it will work everywhere.",
+  "fr": "Si la voiture marche ici, elle marchera partout.",
+  "fr_tts": "Si la voiture marche ici, elle marchera partout."
+ },
+ {
+  "id": "s86",
+  "turn": 28,
+  "speaker": "journaliste",
+  "en": "And this experience for Ferrari, I believe was wonderful for you because it gave you",
+  "fr": "Et cette expérience chez Ferrari, je crois, a été formidable pour vous, car elle vous a donné",
+  "fr_tts": "Et cette expérience chez Ferrari, je crois, a été formidable pour vous, car elle vous a donné"
+ },
+ {
+  "id": "s87",
+  "turn": 28,
+  "speaker": "journaliste",
+  "en": "a great exposition, worldwide exposition with your amazing results.",
+  "fr": "une grande visibilité, mondiale, avec vos résultats incroyables.",
+  "fr_tts": "une grande visibilité, mondiale, avec vos résultats incroyables."
+ },
+ {
+  "id": "s88",
+  "turn": 28,
+  "speaker": "journaliste",
+  "en": "It was a chance for you to go to Toyota behind.",
+  "fr": "Une chance pour vous d'aller ensuite chez Toyota.",
+  "fr_tts": "Une chance pour vous d'aller ensuite chez Toyota."
+ },
+ {
+  "id": "s89",
+  "turn": 28,
+  "speaker": "journaliste",
+  "en": "It's Ferrari who gave you this opportunity to go to Toyota?",
+  "fr": "C'est Ferrari qui vous a permis d'aller chez Toyota ?",
+  "fr_tts": "C'est Ferrari qui vous a permis d'aller chez Toyota ?"
+ },
+ {
+  "id": "s90",
+  "turn": 29,
+  "speaker": "mika_salo",
+  "en": "Yeah, sort of. I went to Sauber first because they had a Ferrari engine. So",
+  "fr": "Oui, plus ou moins. Je suis d'abord allé chez Sauber, car ils avaient un moteur Ferrari. Donc",
+  "fr_tts": "Oui, plus ou moins. Je suis d'abord allé chez Sauber, car ils avaient un moteur Ferrari. Donc"
+ },
+ {
+  "id": "s91",
+  "turn": 29,
+  "speaker": "mika_salo",
+  "en": "John wanted to put me in Sauber to stay in the family, kind of.",
+  "fr": "Jean voulait m'y mettre, pour rester dans la famille, disons.",
+  "fr_tts": "Jean voulait m'y mettre, pour rester dans la famille, disons."
+ },
+ {
+  "id": "s92",
+  "turn": 29,
+  "speaker": "mika_salo",
+  "en": "But then Toyota came up after that and Toyota was like",
+  "fr": "Mais ensuite, il y a eu Toyota, et c'était ma chance",
+  "fr_tts": "Mais ensuite, il y a eu Toyota, et c'était ma chance"
+ },
+ {
+  "id": "s93",
+  "turn": 29,
+  "speaker": "mika_salo",
+  "en": "my chance to get in another big team.",
+  "fr": "d'entrer dans une autre grande équipe.",
+  "fr_tts": "d'entrer dans une autre grande équipe."
+ },
+ {
+  "id": "s94",
+  "turn": 29,
+  "speaker": "mika_salo",
+  "en": "Only problem, Toyota had Ange Pasquale.",
+  "fr": "Seul problème : Toyota avait Ange Pasquali.",
+  "fr_tts": "Seul problème : Toyota avait Ange Pasquali."
+ },
+ {
+  "id": "s95",
+  "turn": 29,
+  "speaker": "mika_salo",
+  "en": "He was the only problem with the Toyota. No, it's a joke.",
+  "fr": "Il était le seul problème chez Toyota. Non, je plaisante.",
+  "fr_tts": "Il était le seul problème chez Toyota. Non, je plaisante."
+ },
+ {
+  "id": "s96",
+  "turn": 30,
+  "speaker": "journaliste",
+  "en": "Yeah, I know. We say hello to Ange.",
+  "fr": "Oui, je sais. On salue Ange.",
+  "fr_tts": "Oui, je sais. On salue Ange."
+ },
+ {
+  "id": "s97",
+  "turn": 30,
+  "speaker": "journaliste",
+  "en": "So thank you, Mika, for this interview.",
+  "fr": "Merci, Mika, pour cette interview.",
+  "fr_tts": "Merci, Mika, pour cette interview."
+ },
+ {
+  "id": "s98",
+  "turn": 30,
+  "speaker": "journaliste",
+  "en": "And I hope we can make a big show with you when you have a moment with us.",
+  "fr": "J'espère qu'on fera une grande émission avec vous, quand vous pourrez.",
+  "fr_tts": "J'espère qu'on fera une grande émission avec vous, quand vous pourrez."
+ },
+ {
+  "id": "s99",
+  "turn": 31,
+  "speaker": "mika_salo",
+  "en": "Thank you very much.",
+  "fr": "Merci beaucoup.",
+  "fr_tts": "Merci beaucoup."
+ },
+ {
+  "id": "s100",
+  "turn": 32,
+  "speaker": "journaliste",
+  "en": "Bye-bye. Thank you.",
+  "fr": "",
+  "fr_tts": ""
+ }
+]

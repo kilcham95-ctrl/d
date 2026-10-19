@@ -44,3 +44,30 @@ ELEVENLABS_API_KEY=... python3 voiceover/qa_vo.py data/translation_fr.json data/
 ```
 
 Les segments de voix déjà générés sont dans `data/tts_fr/`. Pour changer le niveau de l'anglais, modifiez `DUCK_DB` et `GAP_DB` dans `voiceover/mix.py` puis relancez le mix : aucun crédit ElevenLabs n'est consommé.
+
+---
+
+# Interview Mika Salo — voice-over française
+
+Les fichiers sont dans `output/mika_salo/` et suivent la même structure que pour Eddie Irvine.
+
+## Différences avec Eddie Irvine
+
+- **Modèle** : `eleven_turbo_v2_5`, avec les mêmes voix (George pour Mika Salo, Chris pour le journaliste). Il coûte deux fois moins cher, ce qui était nécessaire pour tenir dans le quota gratuit.
+- **Interjections** : « Yes », « Mm », « Aye yai yai », « Excuse me » et le « Bye-bye. Thank you. » final restent en anglais, sans voix off.
+- **Fin du fichier** (à partir de 478,5 s) : elle est déjà en français. Ce sont les prises du présentateur qui annoncent l'interview de Luca Badoer. Elles sont gardées à pleine voix (`--keep-from 478.5`).
+- **Corrections de transcription** : « John » est rendu par « Jean » (Jean Todt prononcé à la finlandaise) et « Ange Pasquale » par « Ange Pasquali ».
+
+## Reprises et limites connues
+
+- Défauts corrigés par une nouvelle prise : s33, s73, s93. s86 a été coupé au montage (un « une » parasite en fin de phrase).
+- s37 a été monté : le début vient de la prise Turbo, « ou Jean Todt » a été regénéré avec `eleven_multilingual_v2`. Le prénom reste prononcé à l'anglaise ; le crédit était épuisé, donc pas d'autre essai.
+- s83 : « tous types » est lu avec le « s » prononcé.
+
+## Commandes
+
+```bash
+python3 voiceover/segment.py data/mika_salo/transcript_en_scribe.json data/mika_salo/segments.json --journalist speaker_1 --guest mika_salo --en-until 478.5
+LEVEL_MIN_GAIN_DB=-15 voiceover/clean_en.sh <itv_gphi-mika_salo.mp3> data/mika_salo/transcript_en_scribe.json work/mika_en_clean.wav work/mika_en
+python3 voiceover/mix.py data/mika_salo/segments.json data/mika_salo/translation_fr.json data/mika_salo/tts_fr work/mika_en_clean.wav output/mika_salo work/mika_mix --name interview_mika_salo --keep-from 478.5
+```

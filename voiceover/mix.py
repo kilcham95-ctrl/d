@@ -133,7 +133,8 @@ def main(seg_path, tr_path, tts_dir, en_path, outdir, workdir, name="interview_e
               "dur": len(audio[s["id"]]) / SR} for s in segs]
     pos = place(items, None)
 
-    total = max(segs[-1]["end"] + 1.0, max(pos[s["id"]] + len(audio[s["id"]]) / SR for s in segs) + 0.8)
+    en = decode(en_path)
+    total = max(len(en) / SR, segs[-1]["end"] + 1.0, max(pos[s["id"]] + len(audio[s["id"]]) / SR for s in segs) + 0.8)
     n = int(total * SR)
     vo = np.zeros(n, dtype=np.float32)
     report = []
@@ -167,7 +168,6 @@ def main(seg_path, tr_path, tts_dir, en_path, outdir, workdir, name="interview_e
         duck_db = np.where((t > keep_from - 0.5) & (t < keep_from),
                            np.interp(t, [keep_from - 0.5, keep_from], [GAP_DB, 0.0]), duck_db)
 
-    en = decode(en_path)
     en = np.pad(en, (0, max(0, n - len(en))))[:n]
     en_ducked = en * 10 ** (duck_db / 20)
     mix = vo + en_ducked
