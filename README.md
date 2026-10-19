@@ -127,3 +127,31 @@ LEVEL_MIN_GAIN_DB=-15 voiceover/clean_en.sh <ITW_Eddy_Irvine_A_traduire.mp3> dat
 ELEVENLABS_API_KEY=... python3 voiceover/tts.py data/eddie_irvine_v2/translation_fr.json data/eddie_irvine_v2/tts_fr_v4_louis --model eleven_v4 --format mp3_44100_192 --tag "[calm]" --voice-invite Qrl71rx6Yg8RvyPYRGCQ --voice-journaliste jGGIwkfv43kUFffPXEEO
 python3 voiceover/mix.py data/eddie_irvine_v2/segments.json data/eddie_irvine_v2/translation_fr.json data/eddie_irvine_v2/tts_fr_v4_louis work/e2_en_clean.wav output/eddie_irvine_v2 work/e2_mix --name interview_eddie_irvine_v2 --pre -0.25
 ```
+
+---
+
+# Interviews Luca Badoer, Gerhard Berger, Riccardo Patrese
+
+Les fichiers sont dans `output/luca_badoer/`, `output/gerhard_berger/` et `output/riccardo_patrese/`. Les interviews ont été traitées l'une après l'autre, avec le même procédé :
+
+1. **Transcription** ElevenLabs Scribe v2 avec séparation des voix.
+2. **Découpe** en phrases (`segment.py --lag-turn 0.8 --lag-seg 0.4`).
+3. **Traduction** par workflow : 3 traducteurs (fidélité, adaptation voice-over, terminologie F1), synthèse, 3 relectures adversariales (sens, noms et prononciation, durée), puis correction finale.
+4. **Piste anglaise** nivelée mot par mot (`LEVEL_MIN_GAIN_DB=-15 clean_en.sh`).
+5. **Fin de chaîne** : `fin_de_chaine.sh` (eleven_v4, Guillaume pour l'invité, Louis pour le journaliste, consigne `[calm]`), contrôle par retranscription, détection des fins coupées, mix où le français arrive toujours après l'anglais, contrôle du mix complet.
+6. `coupe_queue.py` retire la bouffée parasite qu'eleven_v4 laisse parfois tout à la fin d'un segment (Badoer s05, Patrese s08 et s41).
+
+| Interview | Durée | Segments identiques au contrôle | Écart sur le mix complet | Retard max de la VF |
+|---|---|---|---|---|
+| Luca Badoer | 3:03 | 31/31 | 0,0 % | 1,3 s |
+| Gerhard Berger | 3:52 | 36/37 | 0,0 % | 1,0 s |
+| Riccardo Patrese | 3:31 | 38/39 | 0,0 % | 1,9 s (« D'accord, merci » final) |
+
+Choix particuliers :
+
+- **Badoer** : c'est un monologue (les questions ont été coupées au montage) ; le seul « Of course » du journaliste reste en anglais.
+- **Berger** : le lapsus « Frank » (corrigé aussitôt en « Ayrton ») n'est pas traduit, et « Mr. Ferrari » devient « Monsieur Ferrari ».
+- **Patrese** :
+  - « he's not anymore with us, even if he's with us in the heart » est traduit littéralement : « il n'est plus avec nous, même s'il est avec nous dans nos cœurs ».
+  - Les bouts de question du journaliste dans l'échange haché vers 1:00 (« He was your teammate at— … in Benetton? ») restent en anglais pour garder la synchro.
+  - « Franco Coppini » est gardé tel que transcrit.

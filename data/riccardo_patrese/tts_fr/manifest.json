@@ -1,0 +1,289 @@
+{
+ "s01": {
+  "hash": "f370da7f328b",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "C'est sûr, c'est fantastique qu'on ait un tel événement en Italie, ici au Mugello.",
+  "cost": 39
+ },
+ "s02": {
+  "hash": "7ee442181eb9",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Grâce à l'organisation de Ferrari, au circuit de Ferrari. Et puis, il y a aussi des courses, de vraies courses, c'est bien que les fans voient ça.",
+  "cost": 67
+ },
+ "s03": {
+  "hash": "4ab147140509",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Pour moi, c'est spécial, parce que…",
+  "cost": 18
+ },
+ "s04": {
+  "hash": "2acd86511497",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "je vais faire une parade avec une voiture que j'ai pilotée en mille neuf cent soixante-dix-huit, celle de Monsieur Franco Coppini.",
+  "cost": 60
+ },
+ "s05": {
+  "hash": "e19e7e41d20e",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et je pense que c'est un sentiment spécial, parce que les souvenirs, ils reviennent.",
+  "cost": 40
+ },
+ "s06": {
+  "hash": "b0523dad4495",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Bien sûr, j'étais bien plus jeune, mais j'espère quand même arriver à faire quelques tours.",
+  "cost": 43
+ },
+ "s07": {
+  "hash": "820a4c246b9c",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Il y a ici un événement spécial autour de la carrière de Michael Schumacher.",
+  "cost": 37
+ },
+ "s08": {
+  "hash": "88ccd481f6c8",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Ils essaient de célébrer son âge d'or historique chez Ferrari.",
+  "cost": 30
+ },
+ "s09": {
+  "hash": "847103ccbac5",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Ce n'est pas votre génération, bien sûr, mais vous l'avez rencontré,",
+  "cost": 33
+ },
+ "s10": {
+  "hash": "4fb9b27b3bc2",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "et affronté plusieurs fois.",
+  "cost": 15
+ },
+ "s11": {
+  "hash": "77c1987734b7",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Non, il était mon coéquipier.",
+  "cost": 16
+ },
+ "s12": {
+  "hash": "9c760f5d016a",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Votre coéquipier…",
+  "cost": 11
+ },
+ "s13": {
+  "hash": "8d38f031775a",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "En quatre-vingt-treize.",
+  "cost": 13
+ },
+ "s14": {
+  "hash": "3a7f56dac9b4",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "chez Benetton?",
+  "cost": 9
+ },
+ "s16": {
+  "hash": "322bbbfe6838",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Quel souvenir avez-vous de Michael?",
+  "cost": 18
+ },
+ "s17": {
+  "hash": "96f4700f1630",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "C'était vraiment un pilote spécial, comme Senna ou Alain Prost à cette époque, de ceux qui font toute la différence.",
+  "cost": 54
+ },
+ "s18": {
+  "hash": "53729d376b88",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Bien sûr, Michael a été l'un des meilleurs de l'histoire du sport automobile, de la F un.",
+  "cost": 42
+ },
+ "s19": {
+  "hash": "c08df83805ad",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Il l'a prouvé avec sept titres, plus de quatre-vingt-dix victoires en Grand Prix.",
+  "cost": 39
+ },
+ "s20": {
+  "hash": "03bd5a9658a8",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Mais à part ça, c'était quelqu'un de très gentil.",
+  "cost": 25
+ },
+ "s21": {
+  "hash": "bb6f3feed70f",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "C'était un très bon ami à moi, très poli, aimable. Vous savez, c'était différent,",
+  "cost": 39
+ },
+ "s22": {
+  "hash": "5991a7d541e9",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "quand il était sur le circuit, il était peut-être très concentré, mais en dehors, c'était vraiment quelqu'un de très, très sympathique.",
+  "cost": 62
+ },
+ "s23": {
+  "hash": "b2fda4cbca0e",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Un souvenir spécial, une histoire avec Michael dans votre carrière, que vous gardez en tête?",
+  "cost": 44
+ },
+ "s26": {
+  "hash": "055b7b8e5ead",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Avec Michael, c'était à la fin, ma dernière saison en F un.",
+  "cost": 29
+ },
+ "s27": {
+  "hash": "afd33daec33c",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et on est restés amis des années et des années après.",
+  "cost": 26
+ },
+ "s28": {
+  "hash": "8dd66d5c3f95",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Il faisait partie de l'équipe de football caritative de la Nazionale Piloti,",
+  "cost": 37
+ },
+ "s29": {
+  "hash": "07a4b944117e",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "et c'était bien, parce qu'il aimait beaucoup jouer au football.",
+  "cost": 31
+ },
+ "s30": {
+  "hash": "bb876876dbdf",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et il avait aussi la passion des chevaux, parce que sa femme et sa fille avaient cette passion.",
+  "cost": 45
+ },
+ "s31": {
+  "hash": "1c7cd2bea82c",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Alors, justement, la dernière année,",
+  "cost": 19
+ },
+ "s32": {
+  "hash": "8950a43651d8",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "de sa vraie vie, on a eu une rencontre fantastique à Genève,",
+  "cost": 29
+ },
+ "s33": {
+  "hash": "2273b4679b39",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "avec les chevaux, et je pense que c'était spécial d'être ensemble et de faire la fête ensemble.",
+  "cost": 45
+ },
+ "s34": {
+  "hash": "539e89514e00",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Malheureusement, il a eu la malchance d'avoir cet accident,",
+  "cost": 29
+ },
+ "s35": {
+  "hash": "6812a443db54",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "et c'est une question de destin, chacun a le sien dans la vie.",
+  "cost": 30
+ },
+ "s36": {
+  "hash": "14a7db04af5d",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et malheureusement, il n'est plus avec nous, même s'il est avec nous dans nos cœurs.",
+  "cost": 40
+ },
+ "s37": {
+  "hash": "a4d756ba3bb5",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Peut-être une toute dernière question sur sa décision de quitter Benetton pour Ferrari en quatre-vingt-quinze, alors double champion du monde.",
+  "cost": 66
+ },
+ "s38": {
+  "hash": "818904d25a17",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Ça vous a surpris qu'il décide de quitter Benetton?",
+  "cost": 26
+ },
+ "s39": {
+  "hash": "46b2a00e667a",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Dominer totalement la F un à l'époque, et aller chez Ferrari,",
+  "cost": 30
+ },
+ "s40": {
+  "hash": "298cbdda97d0",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "alors en grande difficulté.",
+  "cost": 15
+ },
+ "s41": {
+  "hash": "f9d85fe97744",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Avec Briatore, c'est toujours dur. Je pense qu'il voulait quitter Monsieur Briatore. C'est pour ça.",
+  "cost": 47
+ },
+ "s42": {
+  "hash": "bf4907c0ca0c",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Bien sûr, aller chez Ferrari est toujours un rêve.",
+  "cost": 25
+ },
+ "s43": {
+  "hash": "abf185b4e358",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Merci beaucoup.",
+  "cost": 10
+ },
+ "s44": {
+  "hash": "df77677a40e1",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "D'accord, merci.",
+  "cost": 10
+ }
+}

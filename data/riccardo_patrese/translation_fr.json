@@ -1,0 +1,354 @@
+[
+ {
+  "id": "s01",
+  "turn": 1,
+  "speaker": "riccardo_patrese",
+  "en": "Well, for sure it's fantastic that we have a, an event like this in Italy here in Mugello.",
+  "fr": "C'est sûr, c'est fantastique qu'on ait un tel événement en Italie, ici au Mugello.",
+  "fr_tts": "C'est sûr, c'est fantastique qu'on ait un tel événement en Italie, ici au Mugello."
+ },
+ {
+  "id": "s02",
+  "turn": 1,
+  "speaker": "riccardo_patrese",
+  "en": "Uh, thanks to Ferrari organization, the circuit of Ferrari, and anyway, there is also racing, real racing that, that is good for the fans to see.",
+  "fr": "Grâce à l'organisation de Ferrari, au circuit de Ferrari. Et puis, il y a aussi des courses, de vraies courses, c'est bien que les fans voient ça.",
+  "fr_tts": "Grâce à l'organisation de Ferrari, au circuit de Ferrari. Et puis, il y a aussi des courses, de vraies courses, c'est bien que les fans voient ça."
+ },
+ {
+  "id": "s03",
+  "turn": 1,
+  "speaker": "riccardo_patrese",
+  "en": "For me, special because, uh,",
+  "fr": "Pour moi, c'est spécial, parce que…",
+  "fr_tts": "Pour moi, c'est spécial, parce que…"
+ },
+ {
+  "id": "s04",
+  "turn": 1,
+  "speaker": "riccardo_patrese",
+  "en": "uh, I will do a parade with a car that I drove in 1978 with this car of Mr. Franco Coppini.",
+  "fr": "je vais faire une parade avec une voiture que j'ai pilotée en 1978, celle de Monsieur Franco Coppini.",
+  "fr_tts": "je vais faire une parade avec une voiture que j'ai pilotée en mille neuf cent soixante-dix-huit, celle de Monsieur Franco Coppini."
+ },
+ {
+  "id": "s05",
+  "turn": 1,
+  "speaker": "riccardo_patrese",
+  "en": "Uh, and, uh, I think, uh, is a special feeling because memories, they come back.",
+  "fr": "Et je pense que c'est un sentiment spécial, parce que les souvenirs, ils reviennent.",
+  "fr_tts": "Et je pense que c'est un sentiment spécial, parce que les souvenirs, ils reviennent."
+ },
+ {
+  "id": "s06",
+  "turn": 1,
+  "speaker": "riccardo_patrese",
+  "en": "Of course, I was much younger, but, uh, I hope that I can manage to do some laps anyway.",
+  "fr": "Bien sûr, j'étais bien plus jeune, mais j'espère quand même arriver à faire quelques tours.",
+  "fr_tts": "Bien sûr, j'étais bien plus jeune, mais j'espère quand même arriver à faire quelques tours."
+ },
+ {
+  "id": "s07",
+  "turn": 2,
+  "speaker": "journaliste",
+  "en": "Here there is a special event around the career of Michael Schumacher.",
+  "fr": "Il y a ici un événement spécial autour de la carrière de Michael Schumacher.",
+  "fr_tts": "Il y a ici un événement spécial autour de la carrière de Michael Schumacher."
+ },
+ {
+  "id": "s08",
+  "turn": 2,
+  "speaker": "journaliste",
+  "en": "They try to, uh, celebrate the historical, uh, golden age of Michael Schumacher at Ferrari.",
+  "fr": "Ils essaient de célébrer son âge d'or historique chez Ferrari.",
+  "fr_tts": "Ils essaient de célébrer son âge d'or historique chez Ferrari."
+ },
+ {
+  "id": "s09",
+  "turn": 2,
+  "speaker": "journaliste",
+  "en": "Um, it's not the same generation of you, of course, but you, you meet him several time.",
+  "fr": "Ce n'est pas votre génération, bien sûr, mais vous l'avez rencontré,",
+  "fr_tts": "Ce n'est pas votre génération, bien sûr, mais vous l'avez rencontré,"
+ },
+ {
+  "id": "s10",
+  "turn": 2,
+  "speaker": "journaliste",
+  "en": "You compete against here several time. W-which-",
+  "fr": "et affronté plusieurs fois.",
+  "fr_tts": "et affronté plusieurs fois."
+ },
+ {
+  "id": "s11",
+  "turn": 3,
+  "speaker": "riccardo_patrese",
+  "en": "No, well, I was my... He was my teammate.",
+  "fr": "Non, il était mon coéquipier.",
+  "fr_tts": "Non, il était mon coéquipier."
+ },
+ {
+  "id": "s12",
+  "turn": 4,
+  "speaker": "journaliste",
+  "en": "He was your teammate at, uh-",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s13",
+  "turn": 5,
+  "speaker": "riccardo_patrese",
+  "en": "'93",
+  "fr": "En 93.",
+  "fr_tts": "En quatre-vingt-treize."
+ },
+ {
+  "id": "s14",
+  "turn": 6,
+  "speaker": "journaliste",
+  "en": "... in Benetton?",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s15",
+  "turn": 7,
+  "speaker": "riccardo_patrese",
+  "en": "Yeah.",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s16",
+  "turn": 8,
+  "speaker": "journaliste",
+  "en": "Which, uh, remember do you have of, of, uh, Michael?",
+  "fr": "Quel souvenir avez-vous de Michael ?",
+  "fr_tts": "Quel souvenir avez-vous de Michael?"
+ },
+ {
+  "id": "s17",
+  "turn": 8,
+  "speaker": "journaliste",
+  "en": "Uh, it was really a, a special driver, uh, like was Senna or Alain Prost on this time with, uh, we make all the difference.",
+  "fr": "C'était vraiment un pilote spécial, comme Senna ou Alain Prost à cette époque, de ceux qui font toute la différence.",
+  "fr_tts": "C'était vraiment un pilote spécial, comme Senna ou Alain Prost à cette époque, de ceux qui font toute la différence."
+ },
+ {
+  "id": "s18",
+  "turn": 9,
+  "speaker": "riccardo_patrese",
+  "en": "Of course, Michael was one, one of the best of history of motor racing Formula One.",
+  "fr": "Bien sûr, Michael a été l'un des meilleurs de l'histoire du sport automobile, de la F1.",
+  "fr_tts": "Bien sûr, Michael a été l'un des meilleurs de l'histoire du sport automobile, de la F un."
+ },
+ {
+  "id": "s19",
+  "turn": 9,
+  "speaker": "riccardo_patrese",
+  "en": "He proved with seven titles, uh, more than 90 Grand Prix win.",
+  "fr": "Il l'a prouvé avec sept titres, plus de 90 victoires en Grand Prix.",
+  "fr_tts": "Il l'a prouvé avec sept titres, plus de quatre-vingt-dix victoires en Grand Prix."
+ },
+ {
+  "id": "s20",
+  "turn": 9,
+  "speaker": "riccardo_patrese",
+  "en": "But apart from that, he was a very nice person.",
+  "fr": "Mais à part ça, c'était quelqu'un de très gentil.",
+  "fr_tts": "Mais à part ça, c'était quelqu'un de très gentil."
+ },
+ {
+  "id": "s21",
+  "turn": 9,
+  "speaker": "riccardo_patrese",
+  "en": "He was a very good friend of mine, a very polite, uh, gentle, uh, you know, it was different",
+  "fr": "C'était un très bon ami à moi, très poli, aimable. Vous savez, c'était différent,",
+  "fr_tts": "C'était un très bon ami à moi, très poli, aimable. Vous savez, c'était différent,"
+ },
+ {
+  "id": "s22",
+  "turn": 9,
+  "speaker": "riccardo_patrese",
+  "en": "when he was in the circuit, maybe very much, uh, concentration, but outside the circuit, he was really a very, very friendly person.",
+  "fr": "quand il était sur le circuit, il était peut-être très concentré, mais en dehors, c'était vraiment quelqu'un de très, très sympathique.",
+  "fr_tts": "quand il était sur le circuit, il était peut-être très concentré, mais en dehors, c'était vraiment quelqu'un de très, très sympathique."
+ },
+ {
+  "id": "s23",
+  "turn": 10,
+  "speaker": "journaliste",
+  "en": "A special memory and a, of a, of a, a story you have with, uh, Michael during your career-",
+  "fr": "Un souvenir spécial, une histoire avec Michael dans votre carrière, que vous gardez en tête ?",
+  "fr_tts": "Un souvenir spécial, une histoire avec Michael dans votre carrière, que vous gardez en tête?"
+ },
+ {
+  "id": "s24",
+  "turn": 11,
+  "speaker": "riccardo_patrese",
+  "en": "Well, Michael at the end-",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s25",
+  "turn": 12,
+  "speaker": "journaliste",
+  "en": "... you keep in your mind",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s26",
+  "turn": 13,
+  "speaker": "riccardo_patrese",
+  "en": "... at the end, that was my last year, season in Formula One.",
+  "fr": "Avec Michael, c'était à la fin, ma dernière saison en F1.",
+  "fr_tts": "Avec Michael, c'était à la fin, ma dernière saison en F un."
+ },
+ {
+  "id": "s27",
+  "turn": 13,
+  "speaker": "riccardo_patrese",
+  "en": "And we stay friends many, many years after. He was,",
+  "fr": "Et on est restés amis des années et des années après.",
+  "fr_tts": "Et on est restés amis des années et des années après."
+ },
+ {
+  "id": "s28",
+  "turn": 13,
+  "speaker": "riccardo_patrese",
+  "en": "uh, he was, uh, um, involved in the football soc- the soccer team for charity of, uh, Nazionale Piloti,",
+  "fr": "Il faisait partie de l'équipe de football caritative de la Nazionale Piloti,",
+  "fr_tts": "Il faisait partie de l'équipe de football caritative de la Nazionale Piloti,"
+ },
+ {
+  "id": "s29",
+  "turn": 13,
+  "speaker": "riccardo_patrese",
+  "en": "and that was good because he liked to play football a lot.",
+  "fr": "et c'était bien, parce qu'il aimait beaucoup jouer au football.",
+  "fr_tts": "et c'était bien, parce qu'il aimait beaucoup jouer au football."
+ },
+ {
+  "id": "s30",
+  "turn": 13,
+  "speaker": "riccardo_patrese",
+  "en": "And, uh, also he had the passion of horses because, uh, his, uh, wife had, uh, and daughter had this passion. So",
+  "fr": "Et il avait aussi la passion des chevaux, parce que sa femme et sa fille avaient cette passion.",
+  "fr_tts": "Et il avait aussi la passion des chevaux, parce que sa femme et sa fille avaient cette passion."
+ },
+ {
+  "id": "s31",
+  "turn": 13,
+  "speaker": "riccardo_patrese",
+  "en": "just the last year of, uh,",
+  "fr": "Alors, justement, la dernière année",
+  "fr_tts": "Alors, justement, la dernière année,"
+ },
+ {
+  "id": "s32",
+  "turn": 13,
+  "speaker": "riccardo_patrese",
+  "en": "real life, uh, we had a fantastic meeting in Geneva",
+  "fr": "de sa vraie vie, on a eu une rencontre fantastique à Genève,",
+  "fr_tts": "de sa vraie vie, on a eu une rencontre fantastique à Genève,"
+ },
+ {
+  "id": "s33",
+  "turn": 13,
+  "speaker": "riccardo_patrese",
+  "en": "with the horses, and I think it was special to stay together and have party together.",
+  "fr": "avec les chevaux, et je pense que c'était spécial d'être ensemble et de faire la fête ensemble.",
+  "fr_tts": "avec les chevaux, et je pense que c'était spécial d'être ensemble et de faire la fête ensemble."
+ },
+ {
+  "id": "s34",
+  "turn": 13,
+  "speaker": "riccardo_patrese",
+  "en": "Unfortunately, he had the bad luck of his accident,",
+  "fr": "Malheureusement, il a eu la malchance d'avoir cet accident,",
+  "fr_tts": "Malheureusement, il a eu la malchance d'avoir cet accident,"
+ },
+ {
+  "id": "s35",
+  "turn": 13,
+  "speaker": "riccardo_patrese",
+  "en": "and, uh, that is a question everybody has his destiny in life.",
+  "fr": "et c'est une question de destin, chacun a le sien dans la vie.",
+  "fr_tts": "et c'est une question de destin, chacun a le sien dans la vie."
+ },
+ {
+  "id": "s36",
+  "turn": 13,
+  "speaker": "riccardo_patrese",
+  "en": "And unfortunately he's not anymore with us, even if he's with us in the heart.",
+  "fr": "Et malheureusement, il n'est plus avec nous, même s'il est avec nous dans nos cœurs.",
+  "fr_tts": "Et malheureusement, il n'est plus avec nous, même s'il est avec nous dans nos cœurs."
+ },
+ {
+  "id": "s37",
+  "turn": 14,
+  "speaker": "journaliste",
+  "en": "Yeah. Uh, maybe a very last question about his decision to leave Benetton to go to, uh, Ferrari, uh, in 1995 when he was a two-time world champion.",
+  "fr": "Peut-être une toute dernière question sur sa décision de quitter Benetton pour Ferrari en 95, alors double champion du monde.",
+  "fr_tts": "Peut-être une toute dernière question sur sa décision de quitter Benetton pour Ferrari en quatre-vingt-quinze, alors double champion du monde."
+ },
+ {
+  "id": "s38",
+  "turn": 14,
+  "speaker": "journaliste",
+  "en": "It was a surprise for you that he decided to leave Benetton?",
+  "fr": "Ça vous a surpris qu'il décide de quitter Benetton ?",
+  "fr_tts": "Ça vous a surpris qu'il décide de quitter Benetton?"
+ },
+ {
+  "id": "s39",
+  "turn": 14,
+  "speaker": "journaliste",
+  "en": "Was a total domination of Formula One this time to, to go to Ferrari.",
+  "fr": "Dominer totalement la F1 à l'époque, et aller chez Ferrari,",
+  "fr_tts": "Dominer totalement la F un à l'époque, et aller chez Ferrari,"
+ },
+ {
+  "id": "s40",
+  "turn": 14,
+  "speaker": "journaliste",
+  "en": "He was a lot of difficulties at the same time.",
+  "fr": "alors en grande difficulté.",
+  "fr_tts": "alors en grande difficulté."
+ },
+ {
+  "id": "s41",
+  "turn": 15,
+  "speaker": "riccardo_patrese",
+  "en": "Uh, to work with Briatore is always difficult, so I think he wanted to go away from Mr. Briatore. That's the reason.",
+  "fr": "Avec Briatore, c'est toujours dur. Je pense qu'il voulait quitter Monsieur Briatore. C'est pour ça.",
+  "fr_tts": "Avec Briatore, c'est toujours dur. Je pense qu'il voulait quitter Monsieur Briatore. C'est pour ça."
+ },
+ {
+  "id": "s42",
+  "turn": 15,
+  "speaker": "riccardo_patrese",
+  "en": "And of course, to go to Ferrari is always a dream.",
+  "fr": "Bien sûr, aller chez Ferrari est toujours un rêve.",
+  "fr_tts": "Bien sûr, aller chez Ferrari est toujours un rêve."
+ },
+ {
+  "id": "s43",
+  "turn": 16,
+  "speaker": "journaliste",
+  "en": "Thanks a lot.",
+  "fr": "Merci beaucoup.",
+  "fr_tts": "Merci beaucoup."
+ },
+ {
+  "id": "s44",
+  "turn": 17,
+  "speaker": "riccardo_patrese",
+  "en": "Okay. Thank you.",
+  "fr": "D'accord, merci.",
+  "fr_tts": "D'accord, merci."
+ }
+]
