@@ -48,12 +48,14 @@ def main():
     ap.add_argument("--seed", default="", help="graine par segment pour une nouvelle prise, ex. s04=7")
     ap.add_argument("--voice-journaliste", default=JOURNALIST_VOICE)
     ap.add_argument("--voice-invite", default=GUEST_VOICE)
+    ap.add_argument("--voice-map", default="", help="voix par intervenant, ex. giorgio=ID,guido=ID")
     ap.add_argument("--model", default=MODEL)
     ap.add_argument("--format", default="mp3_44100_128", help="mp3_44100_192 sur les offres Creator et plus")
     ap.add_argument("--tag", default="", help="consigne de ton en tête de texte pour v3/v4, ex. [calm]")
     a = ap.parse_args()
     key = os.environ["ELEVENLABS_API_KEY"]
-    voice_of = lambda spk: a.voice_journaliste if spk == "journaliste" else a.voice_invite
+    vmap = dict(kv.split("=") for kv in a.voice_map.split(",") if kv)
+    voice_of = lambda spk: vmap.get(spk) or (a.voice_journaliste if spk == "journaliste" else a.voice_invite)
     speeds = dict(kv.split("=") for kv in a.speed.split(",") if kv)
     seeds = {k: int(v) for k, v in (kv.split("=") for kv in a.seed.split(",") if kv)}
     only = set(x for x in a.only.split(",") if x)

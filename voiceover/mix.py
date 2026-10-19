@@ -76,7 +76,9 @@ def srt_time(t):
     return f"{ms // 3600000:02d}:{ms // 60000 % 60:02d}:{ms // 1000 % 60:02d},{ms % 1000:03d}"
 
 
-def main(seg_path, tr_path, tts_dir, en_path, outdir, workdir, name="interview_eddie_irvine", keep_from=None, pre=PRE):
+def main(seg_path, tr_path, tts_dir, en_path, outdir, workdir, name="interview_eddie_irvine", keep_from=None, pre=PRE,
+         zones=None):
+    zones = zones or []   # passages déjà en français : original à pleine voix, la VF ne doit pas y déborder
     tr = {s["id"]: s for s in json.load(open(tr_path))}
     # un segment sans texte français = interjection laissée en anglais
     segs = [s for s in json.load(open(seg_path)) if tr[s["id"]]["fr_tts"].strip()]
@@ -105,9 +107,14 @@ def main(seg_path, tr_path, tts_dir, en_path, outdir, workdir, name="interview_e
 
     # tempo minimal par prise de parole pour finir avant le départ prévu de la suivante (recherche dichotomique)
     r_turn = {}
-    for k, t in enumerate(turns[:-1]):
+    for k, t in enumerate(turns):
         ids = [s["id"] for s in segs if s["turn"] == t]
-        limit = first_want[turns[k + 1]] - TURN_MARGIN
+        t0 = next(s["start"] for s in segs if s["turn"] == t)
+        nxt = first_want[turns[k + 1]] - TURN_MARGIN if k + 1 < len(turns) else 1e9
+        zone_next = min([z0 for z0, z1 in zones if z0 >= t0] or [1e9]) - 0.3
+        limit = min(nxt, zone_next)
+        if limit >= 1e8:
+            continue
         if all(x["window"] < 1.0 for x in segs if x["turn"] == t):
             continue    # politesses finales très courtes : on les laisse déborder plutôt que de les accélérer
 
@@ -163,6 +170,11 @@ def main(seg_path, tr_path, tts_dir, en_path, outdir, workdir, name="interview_e
     kg.append(GAP_DB)
     order = np.argsort(kt, kind="stable")
     duck_db = np.interp(t, np.array(kt)[order], np.array(kg)[order])
+    for z0, z1 in zones:
+        duck_db = np.where((t >= z0) & (t <= z1), 0.0, duck_db)
+        for edge, sgn in ((z0, -1), (z1, 1)):   # rampes de 0,3 s autour des zones
+            m = (t > min(edge, edge + sgn * 0.3)) & (t < max(edge, edge + sgn * 0.3))
+            duck_db = np.where(m, np.maximum(duck_db, np.interp(np.abs(t - edge), [0, 0.3], [0.0, GAP_DB])), duck_db)
     if keep_from is not None:
         duck_db = np.where(t >= keep_from, 0.0, duck_db)
         duck_db = np.where((t > keep_from - 0.5) & (t < keep_from),
@@ -222,5 +234,7 @@ if __name__ == "__main__":
     ap.add_argument("--name", default="interview_eddie_irvine")
     ap.add_argument("--keep-from", type=float, default=None)
     ap.add_argument("--pre", type=float, default=PRE, help="l'anglais commence à baisser autant de secondes avant la VF (0 = au départ de la VF)")
+    ap.add_argument("--zones-fr", default=None, help="JSON [[début, fin], …] des passages déjà en français")
     a = ap.parse_args()
-    main(a.segments, a.translation, a.tts_dir, a.en_clean, a.outdir, a.workdir, a.name, a.keep_from, a.pre)
+    main(a.segments, a.translation, a.tts_dir, a.en_clean, a.outdir, a.workdir, a.name, a.keep_from, a.pre,
+         json.load(open(a.zones_fr)) if a.zones_fr else None)

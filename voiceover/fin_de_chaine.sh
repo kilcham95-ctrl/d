@@ -8,7 +8,8 @@ HERE=$(cd "$(dirname "$0")" && pwd)
 : "${ELEVENLABS_API_KEY:?ELEVENLABS_API_KEY manquante}"
 mkdir -p "$WD"
 python3 "$HERE/tts.py" "$D/translation_fr.json" "$D/tts_fr" --model eleven_v4 --format mp3_44100_192 --tag "[calm]" \
-  --voice-invite Qrl71rx6Yg8RvyPYRGCQ --voice-journaliste jGGIwkfv43kUFffPXEEO ${SEEDS:+--seed $SEEDS} | tail -1
+  --voice-invite Qrl71rx6Yg8RvyPYRGCQ --voice-journaliste jGGIwkfv43kUFffPXEEO ${SEEDS:+--seed $SEEDS} \
+  ${VOICE_MAP:+--voice-map $VOICE_MAP} | tail -1
 python3 "$HERE/qa_vo.py" "$D/translation_fr.json" "$D/tts_fr" "$WD/qa.json" --concat > /dev/null
 python3 - "$D" "$WD" "$HERE" <<'PY'
 import json, statistics, sys, glob, numpy as np
@@ -27,7 +28,8 @@ for f in sorted(glob.glob(f'{d}/tts_fr/*.mp3')):
     if (n - 1 - loud[-1]) * 5 < 60: ab.append(f.split('/')[-1][:-4])
 print('fins coupées :', ' '.join(ab) if ab else 'aucune')
 PY
-python3 "$HERE/mix.py" "$D/segments.json" "$D/translation_fr.json" "$D/tts_fr" "$EN" "$OUT" "$WD/mix" --name "$NAME" --pre -0.25 > "$WD/mix_log.txt"
+ZARG=""; [ -f "$D/zones_fr.json" ] && ZARG="--zones-fr $D/zones_fr.json"
+python3 "$HERE/mix.py" "$D/segments.json" "$D/translation_fr.json" "$D/tts_fr" "$EN" "$OUT" "$WD/mix" --name "$NAME" --pre -0.25 $ZARG > "$WD/mix_log.txt"
 cp "$WD/mix/placement.json" "$D/placement.json"
 python3 - "$WD" <<'PY'
 import json, sys
@@ -43,8 +45,15 @@ curl -sS --max-time 900 -X POST https://api.elevenlabs.io/v1/speech-to-text -H "
 python3 - "$D" "$WD" "$HERE" <<'PY'
 import json, sys, difflib
 d, wd, here = sys.argv[1:4]; sys.path.insert(0, here); import qa_vo
-st = json.load(open(f'{wd}/stt_final.json')); t = json.load(open(f'{d}/translation_fr.json'))
-ref = qa_vo.norm(' '.join(s['fr_tts'] for s in t if s['fr_tts'].strip())); hyp = qa_vo.norm(st['text'])
+import os
+st = json.load(open(f'{wd}/stt_final.json')); t = {s['id']: s for s in json.load(open(f'{d}/translation_fr.json'))}
+items = [(r['vo_start'], t[r['id']]['fr_tts']) for r in json.load(open(f'{wd}/mix/placement.json'))]
+if os.path.exists(f'{d}/zones_fr.json'):   # le français d'origine fait partie de ce qu'on doit entendre
+    zones = json.load(open(f'{d}/zones_fr.json'))
+    tr = json.load(open(f'{d}/transcript_scribe.json'))
+    items += [(w['start'], w['text']) for w in tr['words'] if w['type'] == 'word'
+              and any(z0 - 0.05 <= w['start'] <= z1 + 0.05 for z0, z1 in zones)]
+ref = qa_vo.norm(' '.join(x for _, x in sorted(items))); hyp = qa_vo.norm(st['text'])
 sm = difflib.SequenceMatcher(a=ref, b=hyp, autojunk=False)
 print(f"mix complet : {st['language_code']} {st['language_probability']:.2f}, écart {qa_vo.wer(ref, hyp):.3f} |",
       ' ; '.join(f"{' '.join(ref[a1:a2])} -> {' '.join(hyp[b1:b2])}" for op, a1, a2, b1, b2 in sm.get_opcodes() if op != 'equal'))
