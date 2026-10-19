@@ -93,24 +93,42 @@ def main(seg_path, tr_path, tts_dir, en_path, outdir, workdir):
 
     turns = sorted({s["turn"] for s in segs})
     first_want = {t: next(s["vo_start"] for s in segs if s["turn"] == t) for t in turns}
-    for _ in range(6):
+    base_dur = {k: len(v) / SR for k, v in audio.items()}
+
+    def simulate(r_by_turn):
         items = [{"id": s["id"], "turn": s["turn"], "speaker": s["speaker"], "want": s["vo_start"],
-                  "dur": len(audio[s["id"]]) / SR} for s in segs]
-        pos = place(items, None)
-        changed = False
-        for t in turns[:-1]:
-            ids = [s["id"] for s in segs if s["turn"] == t]
-            end = pos[ids[-1]] + len(audio[ids[-1]]) / SR
-            limit = first_want[t + 1] - TURN_MARGIN
-            if end > limit + 0.05 and tempo[ids[0]] < MAX_TEMPO - 1e-3:
-                speech = sum(len(audio[i]) / SR for i in ids)
-                need = min(MAX_TEMPO, tempo[ids[0]] * speech / max(speech - (end - limit), 0.5 * speech))
-                for i in ids:
-                    tempo[i] = need
-                    audio[i] = trim(decode(pathlib.Path(tts_dir) / f"{i}.mp3", need)) * voice_gain[tr[i]["speaker"]]
-                changed = True
-        if not changed:
-            break
+                  "dur": base_dur[s["id"]] / r_by_turn.get(s["turn"], 1.0)} for s in segs]
+        return place(items, None), {it["id"]: it["dur"] for it in items}
+
+    # tempo minimal par prise de parole pour finir avant le départ prévu de la suivante (recherche dichotomique)
+    r_turn = {}
+    for t in turns[:-1]:
+        ids = [s["id"] for s in segs if s["turn"] == t]
+        limit = first_want[t + 1] - TURN_MARGIN
+        if all(x["window"] < 1.0 for x in segs if x["turn"] == t):
+            continue    # politesses finales très courtes : on les laisse déborder plutôt que de les accélérer
+
+        def end_at(r):
+            p, d = simulate({**r_turn, t: r})
+            return p[ids[-1]] + d[ids[-1]]
+        if end_at(1.0) <= limit:
+            continue
+        lo, hi = 1.0, MAX_TEMPO
+        if end_at(hi) > limit:
+            r_turn[t] = hi
+            continue
+        for _ in range(20):
+            mid = (lo + hi) / 2
+            lo, hi = (mid, hi) if end_at(mid) > limit else (lo, mid)
+        r_turn[t] = round(hi + 0.003, 3)
+    for s in segs:
+        r = r_turn.get(s["turn"], 1.0)
+        tempo[s["id"]] = r
+        if r != 1.0:
+            audio[s["id"]] = trim(decode(pathlib.Path(tts_dir) / f"{s['id']}.mp3", r)) * voice_gain[s["speaker"]]
+    items = [{"id": s["id"], "turn": s["turn"], "speaker": s["speaker"], "want": s["vo_start"],
+              "dur": len(audio[s["id"]]) / SR} for s in segs]
+    pos = place(items, None)
 
     total = max(segs[-1]["end"] + 1.0, max(pos[s["id"]] + len(audio[s["id"]]) / SR for s in segs) + 0.8)
     n = int(total * SR)
