@@ -155,3 +155,47 @@ Choix particuliers :
   - « he's not anymore with us, even if he's with us in the heart » est traduit littéralement : « il n'est plus avec nous, même s'il est avec nous dans nos cœurs ».
   - Les bouts de question du journaliste dans l'échange haché vers 1:00 (« He was your teammate at— … in Benetton? ») restent en anglais pour garder la synchro.
   - « Franco Coppini » est gardé tel que transcrit.
+
+---
+
+# Émission orlf1 (3 parties) : expo Ferrari de l'ère Schumacher
+
+Les fichiers sont dans `output/orlf1_part1/`, `output/orlf1_part2/` et `output/orlf1_part3/`, avec une partie par dossier. L'émission est **bilingue**. Le présentateur parle français : ces passages restent **intacts**, à pleine voix et sans voix off. Les échanges en anglais avec Giorgio Piola et Guido reçoivent la VF, selon le même principe que les autres interviews.
+
+Spécificités du procédé :
+
+1. **`segment_mixte.py`** classe chaque phrase en français ou en anglais, à partir des mots-outils, des accents et de « euh » / « uh ».
+   - Une courte réplique anglaise (« Yeah, yeah ») au milieu d'un passage français en fait partie.
+   - `--keep-en` laisse en VO quelques phrases anglaises : ici le « Thanks a lot, guys » de la conclusion.
+   - Les passages français deviennent des zones (`zones_fr.json`). Deux zones qui ne sont séparées par aucun anglais doublé n'en forment qu'une.
+2. **`mix.py --zones-fr`** laisse l'original à 0 dB dans les zones, avec des rampes de 0,3 s. La VF n'y entre jamais : chaque prise de parole doit finir 0,3 s avant la zone suivante. Quand le fichier s'ouvre ou se termine en français, la zone va jusqu'au bord du fichier.
+3. **Trois voix** (`VOICE_MAP`) : Louis pour le journaliste, Guillaume pour Giorgio, Nicolas Narrator (`aQROLel5sQbj1vuIVi6B`) pour Guido. Les locuteurs ont été identifiés par empreinte vocale (Resemblyzer).
+4. **Partie 2** : la transcription d'origine avait sauté deux passages français (450,2-466,4 s et 663,3-689,3 s). Ils ont été retranscrits à part puis réinsérés dans `transcript_scribe.json`, sans quoi le mix les aurait baissés de 9 dB.
+
+| Partie | Durée | Segments doublés identiques au contrôle | Français intact | Écart sur le mix complet | Retard max de la VF |
+|---|---|---|---|---|---|
+| 1 | 3:14 | 20/20 | 75 s (intro) | 1,4 % | 1,8 s |
+| 2 | 11:42 | 102/111 (accords et pluriels homophones) | 80 s (5 passages) | 1,9 % | 1,2 s |
+| 3 | 13:12 | 127/133 (accords homophones) | 79 s (5 passages) | 1,5 % | 2,1 s |
+
+Noms et choix :
+
+- **Poltrona Frau** (partie 2, vers 1:20) et **Poltronesofà** (vers 9:00) sont des marques italiennes : elles sont gardées telles quelles, et leur prononciation a été vérifiée par retranscription.
+- « turning vane » et « bargeboard » restent en anglais, comme Giorgio les présente dans la partie 1.
+- Partie 2 :
+  - « Missou » (erreur de transcription) devient **Migeot**.
+  - « Only third and third victory- » (échange rapide qui chevauche) reste en anglais.
+- Partie 3 :
+  - le nom transcrit « Rudy Arnault » est rendu par **Rory Byrne**, selon la réécoute ;
+  - « a Le Mans key of his car » devient « un moment clé de sa carrière » ;
+  - la conclusion française est **en double** dans le fichier source (même prise de 12:34 à 12:52, puis de 12:53 à 13:11). Elle est laissée telle quelle.
+
+```bash
+# exemple, partie 2
+python3 voiceover/segment_mixte.py data/orlf1_part2/transcript_scribe.json data/orlf1_part2/segments.json data/orlf1_part2/zones_fr.json \
+  --speakers speaker_0=journaliste,speaker_1=guido,speaker_2=giorgio
+LEVEL_MIN_GAIN_DB=-15 voiceover/clean_en.sh <orlf1_PART_2.mp3> data/orlf1_part2/transcript_scribe.json work/p2_clean.wav work/p2_en
+VOICE_MAP=journaliste=jGGIwkfv43kUFffPXEEO,giorgio=Qrl71rx6Yg8RvyPYRGCQ,guido=aQROLel5sQbj1vuIVi6B \
+  voiceover/fin_de_chaine.sh data/orlf1_part2 output/orlf1_part2 orlf1_part2 work/p2_clean.wav work/p2_fin s057=7,s083=7
+python3 voiceover/coupe_queue.py data/orlf1_part2/tts_fr/s025.mp3 data/orlf1_part2/tts_fr/s064.mp3   # puis relancer fin_de_chaine.sh
+```

@@ -1,0 +1,933 @@
+{
+ "s001": {
+  "hash": "a0bedede32bf",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "C'est une voiture spéciale, et on profite peut-être du fait que Stefan Johansson, qu'on regarde, a été pilote Ferrari.",
+  "cost": 55
+ },
+ "s002": {
+  "hash": "38eba3c321cc",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "On va la piloter ici, au Mugello.",
+  "cost": 18
+ },
+ "s003": {
+  "hash": "33b521f77826",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Quelque chose de spécial à dire sur le volant ?",
+  "cost": 24
+ },
+ "s004": {
+  "hash": "fb06d69a7f25",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Oui, car le volant, c'est très complexe.",
+  "cost": 21
+ },
+ "s005": {
+  "hash": "6361b4d61f43",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Le pilote peut tout gérer.",
+  "cost": 15
+ },
+ "s006": {
+  "hash": "933bef411858",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et Schumi était le pilote qui avait plus de fonctions que tout le monde sur le volant.",
+  "cost": 41
+ },
+ "s007": {
+  "hash": "c66dad8dec90",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et on voit que l'ingénieur de course devait expliquer au pilote toutes les fonctions, car ils peuvent changer tant de paramètres.",
+  "cost": 60
+ },
+ "s008": {
+  "hash": "07a693070aaa",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Vous imaginez ? Michael Schumi voulait avoir trois configurations possibles du différentiel : en entrée de virage, au milieu du virage et en sortie de virage.",
+  "cost": 73
+ },
+ "s009": {
+  "hash": "409657a9fc1b",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et vous imaginez la difficulté ?",
+  "cost": 17
+ },
+ "s010": {
+  "hash": "2e8460256f33",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "On franchit alors un cap.",
+  "cost": 14
+ },
+ "s011": {
+  "hash": "fedc3d1b40e2",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Sur la première voiture, on voit un volant simple, trois ou quatre boutons peut-être.",
+  "cost": 40
+ },
+ "s012": {
+  "hash": "6cb3e84475d1",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Ici, c'est un vrai volant de navette spatiale, d'avion. C'est fou ce qu'ils ont à gérer.",
+  "cost": 42
+ },
+ "s013": {
+  "hash": "26b6a76c76ec",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Je vous le dis, Michael Schumacher a lancé toute cette évolution.",
+  "cost": 32
+ },
+ "s014": {
+  "hash": "865ad156d408",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Aucun pilote n'avait ça avant.",
+  "cost": 16
+ },
+ "s015": {
+  "hash": "96faad845320",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Imaginez",
+  "cost": 7
+ },
+ "s016": {
+  "hash": "2141bce3a8de",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et quand, en deux mille neuf, Giancarlo Fisichella,",
+  "cost": 26
+ },
+ "s017": {
+  "hash": "88fa0dadeb88",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "qui avait failli gagner le Grand Prix précédent, en Belgique, a couru à Monza pour remplacer Massa après cet accident,",
+  "cost": 55
+ },
+ "s019": {
+  "hash": "d394f3963b6e",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "il a eu énormément de mal avec le volant.",
+  "cost": 21
+ },
+ "s021": {
+  "hash": "43c1c97cd763",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "C'est parce que le volant Ferrari était le plus complexe de toutes les équipes.",
+  "cost": 38
+ },
+ "s022": {
+  "hash": "f5c9858ff2b6",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Et on arrive peut-être à l'une des plus légendaires,",
+  "cost": 26
+ },
+ "s024": {
+  "hash": "7bc99f65037e",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "voitures",
+  "cost": 7
+ },
+ "s026": {
+  "hash": "6a09cfd87f29",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "de Ferrari. C'est une F deux mille deux.",
+  "cost": 21
+ },
+ "s027": {
+  "hash": "b3e65664659e",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Pourquoi celle-ci est spéciale ?",
+  "cost": 17
+ },
+ "s028": {
+  "hash": "ae2024dc7bc5",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "C'est presque la voiture parfaite de cette année-là, incroyablement bonne.",
+  "cost": 36
+ },
+ "s029": {
+  "hash": "211197d73edf",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Si vous voulez, elle est même simple face à d'autres, mais très efficace en tout point.",
+  "cost": 41
+ },
+ "s030": {
+  "hash": "b0868becf82c",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "On voit aussi beaucoup de travail aérodynamique sur la suspension.",
+  "cost": 32
+ },
+ "s031": {
+  "hash": "cdbb6c7350df",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "La suspension, à l'intérieur, est encore en acier,",
+  "cost": 25
+ },
+ "s032": {
+  "hash": "3d767278faf2",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "mais le carénage est en fibre de carbone.",
+  "cost": 21
+ },
+ "s033": {
+  "hash": "601e33cd06c6",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et vous voyez différents angles.",
+  "cost": 17
+ },
+ "s034": {
+  "hash": "78be92e3e117",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Par exemple, ici, le flux descend davantage.",
+  "cost": 22
+ },
+ "s035": {
+  "hash": "d21961fcdb59",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "À cet endroit, il y a presque un aileron pour séparer le flux d'air.",
+  "cost": 33
+ },
+ "s036": {
+  "hash": "2aebb962e3c2",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Donc chaque aspect de la voiture devient de plus en plus aérodynamique.",
+  "cost": 34
+ },
+ "s037": {
+  "hash": "86d99df68127",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Un record en une saison, je crois.",
+  "cost": 18
+ },
+ "s038": {
+  "hash": "1de7ad1066e7",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "Il n'y a pas eu match, pas d'histoire dans ce championnat. Absolument.",
+  "cost": 34
+ },
+ "s039": {
+  "hash": "d577ba18e69a",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Je vous le dis, j'étais commentateur pour la RAI, la grande télévision italienne, et cette saison, au final, était si merveilleuse,",
+  "cost": 61
+ },
+ "s041": {
+  "hash": "4a302f55f133",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "mais ennuyeuse en un sens, car on devait dire : Michael est génial.",
+  "cost": 33
+ },
+ "s042": {
+  "hash": "e2f3562caf6f",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Ferrari est géniale. Et on a continué presque toute la fin sans rien.",
+  "cost": 33
+ },
+ "s043": {
+  "hash": "4858602b2539",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "À mi-saison, Michael avait mathématiquement gagné le championnat.",
+  "cost": 32
+ },
+ "s044": {
+  "hash": "d76e237f6fa8",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Je vous montre un truc intéressant,",
+  "cost": 18
+ },
+ "s046": {
+  "hash": "313584eaca55",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "pour qu'on puisse comparer ces deux voitures.",
+  "cost": 23
+ },
+ "s047": {
+  "hash": "cb52b99dc927",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "S'il vous plaît, prenez cette fixation, ici.",
+  "cost": 22
+ },
+ "s049": {
+  "hash": "09442218b428",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Allez là.",
+  "cost": 7
+ },
+ "s050": {
+  "hash": "ef123d74a09c",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Celle-ci?",
+  "cost": 7
+ },
+ "s051": {
+  "hash": "d7e7003a6d1f",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Non, en bas.",
+  "cost": 8
+ },
+ "s052": {
+  "hash": "5409b09d1ef2",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Celle-ci ?",
+  "cost": 7
+ },
+ "s055": {
+  "hash": "8f2f8aedc53b",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et puis venez ici. Celle du bas.",
+  "cost": 17
+ },
+ "s056": {
+  "hash": "33e18769347f",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "C'est une solution très différente, une nouvelle solution de Ferrari.",
+  "cost": 33
+ },
+ "s057": {
+  "hash": "266195b9d284",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Au lieu de fixer toute la suspension arrière sur la boîte de vitesses, comme on l'a vu sur la voiture précédente,",
+  "cost": 53
+ },
+ "s058": {
+  "hash": "4eb91204d030",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "sur cette voiture, la deux mille trois, le point bas, la branche inférieure du",
+  "cost": 38
+ },
+ "s059": {
+  "hash": "10af4a17d888",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "triangle inférieur est fixée directement au moteur, pas à la boîte de vitesses.",
+  "cost": 38
+ },
+ "s060": {
+  "hash": "40f9652f15f9",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "C'est quelque chose que seule Ferrari a fait.",
+  "cost": 23
+ },
+ "s061": {
+  "hash": "eb459a0f9ab8",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Donc, encore une grosse évolution.",
+  "cost": 18
+ },
+ "s062": {
+  "hash": "de52895a2ec0",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et puis vous voyez le radiateur, bien plus compact et plus incliné que sur l'autre voiture, donc encore plus raffiné.",
+  "cost": 55
+ },
+ "s063": {
+  "hash": "8b42080faa10",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Pour moi, cette deux mille quatre est la meilleure Ferrari jamais construite.",
+  "cost": 37
+ },
+ "s065": {
+  "hash": "9eea91359158",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Deux mille. Non.",
+  "cost": 10
+ },
+ "s067": {
+  "hash": "bdc024d54fb1",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Pour moi, c'est la deux mille trois,",
+  "cost": 19
+ },
+ "s069": {
+  "hash": "ecebf83747a9",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "le point de départ de la suivante, qui sera la meilleure Ferrari, la deux mille quatre.",
+  "cost": 41
+ },
+ "s070": {
+  "hash": "0be88d8f2e90",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Et c'était le début de l'ère des voitures très aérodynamiques, avec plein d'ailerons.",
+  "cost": 40
+ },
+ "s071": {
+  "hash": "1796d9eb082d",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "On le voit à l'arrière.",
+  "cost": 13
+ },
+ "s073": {
+  "hash": "4555556dcf1c",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Tant d'appendices,",
+  "cost": 11
+ },
+ "s074": {
+  "hash": "3e4da61c0575",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Ah oui, c'était la seule à introduire ces,",
+  "cost": 22
+ },
+ "s076": {
+  "hash": "c32dda09669f",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Non. On montre les ouïes de requin,",
+  "cost": 18
+ },
+ "s080": {
+  "hash": "21c32a79e82a",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "C'était Ferrari. Ils les ont introduites juste pour mieux refroidir.",
+  "cost": 33
+ },
+ "s081": {
+  "hash": "6ebc660e347b",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Donc, là encore, comme on le voit, toujours plus d'innovation.",
+  "cost": 30
+ },
+ "s082": {
+  "hash": "65a7c152b4ee",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et ensuite, sur la deux mille quatre, ces ouïes sont encore plus belles et plus efficaces.",
+  "cost": 43
+ },
+ "s083": {
+  "hash": "fb916001d4df",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "On passe à la F deux mille quatre, les amis, et c'est aussi une Ferrari très spéciale. Il en faudrait une, de celle-ci, hein ?",
+  "cost": 59
+ },
+ "s084": {
+  "hash": "7982fd560d55",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Oui. Écoutez, bon, dans une voiture de F un, on ne considère pas la beauté comme importante, mais ces ouïes, ces ouïes de requin, sont très belles aussi.",
+  "cost": 70
+ },
+ "s085": {
+  "hash": "11aec229bcf5",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Ce que vous appelez le requin ?",
+  "cost": 17
+ },
+ "s086": {
+  "hash": "fc6330ae3b96",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Je montre à la caméra. C'est ça, le requin.",
+  "cost": 22
+ },
+ "s090": {
+  "hash": "d394a8eb0723",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Comme sur un requin. Juste pour la chaleur, ou,",
+  "cost": 24
+ },
+ "s091": {
+  "hash": "12bf154f53ab",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Pour refroidir.",
+  "cost": 10
+ },
+ "s093": {
+  "hash": "0cc71d9b40ea",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Pour extraire l'air. Et puis on voit aussi les déflecteurs.",
+  "cost": 29
+ },
+ "s094": {
+  "hash": "e1e49e772268",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Ils deviennent toujours plus complexes, avec les petites dents en partie basse,",
+  "cost": 38
+ },
+ "s095": {
+  "hash": "0289b6d6de27",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "On voit ça aujourd'hui.",
+  "cost": 13
+ },
+ "s096": {
+  "hash": "a4c89af0a84e",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "oui, pour créer des vortex. Là encore, vous voyez l'évolution, car celle d'avant en a moins.",
+  "cost": 44
+ },
+ "s097": {
+  "hash": "61a9deadd463",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Ici, ils sont plus sophistiqués.",
+  "cost": 17
+ },
+ "s098": {
+  "hash": "eebd3a0cc3a9",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Schumi était si maniaque de la perfection en tout qu'il était le seul pilote, vous savez que pour faire le baquet du pilote, ils doivent faire un moule spécial.",
+  "cost": 73
+ },
+ "s099": {
+  "hash": "e8032f1e9ff4",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Ils s'assoient dessus, et chaque pilote a son propre baquet.",
+  "cost": 29
+ },
+ "s100": {
+  "hash": "89ea3862a1c2",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Schumi était le seul à avoir six poches à gonfler avec un compresseur d'air, pour être très confortable, très bien calé dans la voiture,",
+  "cost": 63
+ },
+ "s101": {
+  "hash": "84c729e82887",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "et c'est le seul pilote à avoir utilisé ce système. Après lui,",
+  "cost": 30
+ },
+ "s102": {
+  "hash": "ba9bcd041006",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "plus jamais chez Ferrari. Il s'y est mis, je crois, en deux mille trois, deux mille quatre.",
+  "cost": 43
+ },
+ "s103": {
+  "hash": "f6699ec15723",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "La deux mille quatre, c'est,",
+  "cost": 15
+ },
+ "s104": {
+  "hash": "51557aad0970",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "comme la Lotus soixante-douze pour Lotus, la voiture la plus importante de son histoire, pour moi, personnellement.",
+  "cost": 54
+ },
+ "s105": {
+  "hash": "04653dd31a45",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "C'était un chef-d'œuvre, et tout le monde a des souvenirs de cette voiture, parce que, dans la simulation vidéo aussi,",
+  "cost": 55
+ },
+ "s106": {
+  "hash": "3b482f5068d0",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "on trouve souvent la F deux mille quatre",
+  "cost": 21
+ },
+ "s107": {
+  "hash": "0eaf3de8f764",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "dans le simulateur, dans les jeux, et elle était vraiment fantastique.",
+  "cost": 34
+ },
+ "s108": {
+  "hash": "8c4617355a09",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "Il n'y a pas eu match cette année-là en F un.",
+  "cost": 23
+ },
+ "s109": {
+  "hash": "18ecc7fef637",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "Ils ont dominé du début à la fin, et il y a eu le dernier",
+  "cost": 29
+ },
+ "s110": {
+  "hash": "84f62c4e4bb8",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "titre de Michael, souvenez-vous.",
+  "cost": 17
+ },
+ "s111": {
+  "hash": "d0b1475ad3ac",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et il y a une histoire qui devient une légende : la victoire à Magny-Cours.",
+  "cost": 36
+ },
+ "s112": {
+  "hash": "f278c59f6071",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Quand Michael a pu faire quatre arrêts au stand, chose incroyable, que personne n'imaginait, mais il faut considérer deux aspects que Rory Byrne m'a aussi expliqués.",
+  "cost": 76
+ },
+ "s113": {
+  "hash": "316076080e2f",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "D'abord, Magny-Cours avait la voie des stands la plus rapide, donc c'était là qu'on perdait le moins de temps pour faire un arrêt.",
+  "cost": 60
+ },
+ "s114": {
+  "hash": "5f103774eded",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Ensuite, cette stratégie d'arrêts ne pouvait se faire qu'avec Michael, parce que Ross a demandé à Michael :",
+  "cost": 50
+ },
+ "s115": {
+  "hash": "71e23a93d1f1",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Tu peux faire toute la course comme en qualifications ? Et il a dit :",
+  "cost": 33
+ },
+ "s116": {
+  "hash": "4ac5bedbe946",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "D'accord, si tu me donnes quatre arrêts, je peux souffler quelques secondes, puis attaquer. Et il a tenu exactement tous les temps.",
+  "cost": 61
+ },
+ "s117": {
+  "hash": "539d3f6e98c2",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Ross Brawn donnait,",
+  "cost": 11
+ },
+ "s118": {
+  "hash": "b49dcc0c6945",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Parce que Michael, autre aspect, parlait beaucoup avec le stand.",
+  "cost": 31
+ },
+ "s119": {
+  "hash": "190e43aaaaa3",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et Ross lui indiquait l'objectif qu'il fallait tenir et respecter, donc cette victoire, seul Michael Schumacher pouvait la réaliser.",
+  "cost": 61
+ },
+ "s120": {
+  "hash": "48b8d994f881",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Guido m'a dit que c'était la fin d'une ère pour cette voiture : la dernière Ferrari avec le numéro un dessus.",
+  "cost": 51
+ },
+ "s121": {
+  "hash": "fc249c7f9760",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Il faudra attendre Lewis Hamilton, des années après.",
+  "cost": 26
+ },
+ "s122": {
+  "hash": "52d694f087a9",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Bref, l'année suivante a été difficile pour Michael, une seule victoire, à cause de ce dont on n'a pas parlé, peut-être une clé des victoires passées de Ferrari : les pneus.",
+  "cost": 79
+ },
+ "s123": {
+  "hash": "b83a237b2d69",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "La collaboration spéciale avec Bridgestone était très bonne, avant.",
+  "cost": 33
+ },
+ "s124": {
+  "hash": "3cd35b1be237",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Mais cette année-là, pas les meilleurs pneus du marché.",
+  "cost": 27
+ },
+ "s125": {
+  "hash": "84f3a480dc1f",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Mieux valait des Michelin à l'époque.",
+  "cost": 19
+ },
+ "s126": {
+  "hash": "87d632a8aa81",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Oui, il faut bien voir que rien ne fait une différence aussi énorme qu'un pneu.",
+  "cost": 38
+ },
+ "s127": {
+  "hash": "256eed8aefef",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Parce que, par exemple, entre un bon et un mauvais moteur, on peut avoir quelques dixièmes.",
+  "cost": 43
+ },
+ "s128": {
+  "hash": "1dbd6adcd8d1",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Entre un bon et un mauvais pneu, on peut avoir des secondes d'écart.",
+  "cost": 33
+ },
+ "s129": {
+  "hash": "2f4921c676f0",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Donc l'écart : cette année-là, Michelin a fait un meilleur pneu, et Ferrari a aussi essayé de mener",
+  "cost": 47
+ },
+ "s130": {
+  "hash": "c0f8b15c70a6",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "une bataille contre Michelin sur la mesure des pneus, avant ou après la course.",
+  "cost": 38
+ },
+ "s131": {
+  "hash": "7d8819b9aae0",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Mais quand la fédération a dit garder le système tel quel, il n'y a pas eu de bataille, et ce championnat a été gagné surtout grâce aux pneus.",
+  "cost": 66
+ },
+ "s132": {
+  "hash": "7636856124fe",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "On voit les deux voitures, la comparaison entre différents ailerons avant, et c'est juste dû au règlement. Vous voyez cet aileron, avec les cinquante centimètres,",
+  "cost": 74
+ },
+ "s136": {
+  "hash": "bf14d0abd2a6",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "là, il y a un volet avant très spécial, disons, et c'était autorisé par le règlement.",
+  "cost": 40
+ },
+ "s137": {
+  "hash": "4ad78a80efc2",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "L'année suivante, ils ont changé, donc plus cette section, mais une section en cuillère,",
+  "cost": 42
+ },
+ "s139": {
+  "hash": "c1295aa33fde",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "sur cette voiture. Puis, après cette cuillère, les voitures ont longtemps eu",
+  "cost": 37
+ },
+ "s140": {
+  "hash": "86835963da2e",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "un volet supérieur en plus, très souvent encore bien plus compliqué les années suivantes.",
+  "cost": 42
+ },
+ "s141": {
+  "hash": "1b0132af2dbb",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Par exemple, en deux mille huit, le système était incroyablement complexe.",
+  "cost": 36
+ },
+ "s142": {
+  "hash": "f3d592ca6bde",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "Et les déflecteurs aussi deviennent de plus en plus",
+  "cost": 26
+ },
+ "s143": {
+  "hash": "24748e1675c7",
+  "voice": "Qrl71rx6Yg8RvyPYRGCQ",
+  "speed": 0.92,
+  "text": "complexes, vous voyez, avec plus de pièces dans la partie haute et la partie basse.",
+  "cost": 40
+ },
+ "s144": {
+  "hash": "90b448369909",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Et cette année-là, avec cette voiture,",
+  "cost": 20
+ },
+ "s145": {
+  "hash": "d0ec30bc1217",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Michael peut enfin se battre pour le championnat, mais malheureusement,",
+  "cost": 34
+ },
+ "s146": {
+  "hash": "6f366f9d942d",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "Jusqu'à la dernière course,",
+  "cost": 15
+ },
+ "s148": {
+  "hash": "cf2d54418cd2",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "Au Brésil, oui. Il a vraiment manqué de chance.",
+  "cost": 24
+ },
+ "s149": {
+  "hash": "3bcfab8529c9",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "Il faut se rappeler que cette voiture est importante, car c'est la première à huit cylindres, à cause du changement de règlement,",
+  "cost": 60
+ },
+ "s150": {
+  "hash": "2bca8bf10af1",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "et ils ont changé la F un à partir de cette année-là, et c'était la dernière expérience de Michael chez Ferrari en F un.",
+  "cost": 56
+ },
+ "s151": {
+  "hash": "cf4e310fa4f7",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "On sent qu'il décide alors d'arrêter sa carrière.",
+  "cost": 25
+ },
+ "s153": {
+  "hash": "b74d9208a986",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "C'était un moment clé de sa carrière, bien sûr.",
+  "cost": 24
+ },
+ "s154": {
+  "hash": "aa1215705ea2",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Il s'est arrêté trois ou quatre ans, à l'époque.",
+  "cost": 24
+ },
+ "s155": {
+  "hash": "29839c8462e3",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "Et finalement, il est revenu chez Mercedes.",
+  "cost": 22
+ },
+ "s156": {
+  "hash": "ebbdefd2ae6c",
+  "voice": "jGGIwkfv43kUFffPXEEO",
+  "speed": 0.92,
+  "text": "On sent qu'il aurait pu rester peut-être deux ou trois ans de plus chez Ferrari, à piloter.",
+  "cost": 43
+ },
+ "s157": {
+  "hash": "d33111a1b5c3",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "Je pense que oui.",
+  "cost": 11
+ },
+ "s158": {
+  "hash": "15ef1f9e0b40",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "Il prenait sans doute de l'âge, mais il était compétitif.",
+  "cost": 28
+ },
+ "s160": {
+  "hash": "d1042092ca8b",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "Oui, il était compétitif, mais parfois, on a besoin de changer d'air, de changer de famille.",
+  "cost": 44
+ },
+ "s161": {
+  "hash": "e2441597111f",
+  "voice": "aQROLel5sQbj1vuIVi6B",
+  "speed": 0.92,
+  "text": "On a besoin d'une bouffée d'oxygène, sans doute, et de ne plus avoir de stress.",
+  "cost": 38
+ }
+}
