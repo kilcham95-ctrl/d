@@ -1,0 +1,1058 @@
+[
+ {
+  "id": "s001",
+  "turn": 1,
+  "speaker": "journaliste",
+  "en": "It was a car designed by, euh-",
+  "fr": "C'était une voiture conçue par…",
+  "fr_tts": "C'était une voiture conçue par,"
+ },
+ {
+  "id": "s002",
+  "turn": 2,
+  "speaker": "guido",
+  "en": "Originally, but John Barnard stopped to work in Ferrari in the middle of the season-",
+  "fr": "À l'origine. Mais John Barnard a arrêté de travailler chez Ferrari en milieu de saison…",
+  "fr_tts": "À l'origine. Mais John Barnard a arrêté de travailler chez Ferrari en milieu de saison,"
+ },
+ {
+  "id": "s003",
+  "turn": 3,
+  "speaker": "journaliste",
+  "en": "Yeah",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s004",
+  "turn": 4,
+  "speaker": "guido",
+  "en": "... arriving Rory Byrne-",
+  "fr": "… arrive Rory Byrne…",
+  "fr_tts": "arrive Rory Byrne,"
+ },
+ {
+  "id": "s005",
+  "turn": 5,
+  "speaker": "journaliste",
+  "en": "Yeah",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s006",
+  "turn": 6,
+  "speaker": "guido",
+  "en": "... called by Ross Brawn.",
+  "fr": "… appelé par Ross Brawn.",
+  "fr_tts": "appelé par Ross Brawn."
+ },
+ {
+  "id": "s007",
+  "turn": 7,
+  "speaker": "journaliste",
+  "en": "Mm-hmm.",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s008",
+  "turn": 8,
+  "speaker": "guido",
+  "en": "And Rory made some changing-",
+  "fr": "Et Rory a changé des choses sur la voiture.",
+  "fr_tts": "Et Rory a changé des choses sur la voiture."
+ },
+ {
+  "id": "s009",
+  "turn": 9,
+  "speaker": "journaliste",
+  "en": "Yeah",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s010",
+  "turn": 10,
+  "speaker": "guido",
+  "en": "... on the car.",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s011",
+  "turn": 11,
+  "speaker": "journaliste",
+  "en": "Yeah.",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s012",
+  "turn": 12,
+  "speaker": "guido",
+  "en": "I remember the, uh, I was a TV commentator in the first win of Schumacher and were really a big emotional",
+  "fr": "Je me souviens, j'étais commentateur télé lors de la première victoire de Schumacher, et c'était vraiment une grande émotion,",
+  "fr_tts": "Je me souviens, j'étais commentateur télé lors de la première victoire de Schumacher, et c'était vraiment une grande émotion,"
+ },
+ {
+  "id": "s013",
+  "turn": 12,
+  "speaker": "guido",
+  "en": "because he made a great race.",
+  "fr": "car il a fait une grande course.",
+  "fr_tts": "car il a fait une grande course."
+ },
+ {
+  "id": "s014",
+  "turn": 12,
+  "speaker": "guido",
+  "en": "And from that year, uh,",
+  "fr": "Et à partir de cette année-là,",
+  "fr_tts": "Et à partir de cette année-là,"
+ },
+ {
+  "id": "s015",
+  "turn": 12,
+  "speaker": "guido",
+  "en": "we can say the golden age of Ferrari was beginning.",
+  "fr": "on peut dire que l'âge d'or de Ferrari commençait.",
+  "fr_tts": "on peut dire que l'âge d'or de Ferrari commençait."
+ },
+ {
+  "id": "s016",
+  "turn": 13,
+  "speaker": "journaliste",
+  "en": "We can tell, uh, Geo- Giorgio, that it was not the best car of the, of the grid.",
+  "fr": "Disons, Giorgio, ce n'était pas la meilleure du plateau.",
+  "fr_tts": "Disons, Giorgio, ce n'était pas la meilleure du plateau."
+ },
+ {
+  "id": "s017",
+  "turn": 13,
+  "speaker": "journaliste",
+  "en": "It was a real surprise that Michael can, can win with this kind of car.",
+  "fr": "Une vraie surprise que Michael gagne avec une telle voiture.",
+  "fr_tts": "Une vraie surprise que Michael gagne avec une telle voiture."
+ },
+ {
+  "id": "s018",
+  "turn": 14,
+  "speaker": "giorgio",
+  "en": "Yes, and the car originally was born with a low nose, and we see again the turning vane as the previous car.",
+  "fr": "Oui, et à l'origine, la voiture est née avec un nez bas, et on retrouve le turning vane de la précédente.",
+  "fr_tts": "Oui, et à l'origine, la voiture est née avec un nez bas, et on retrouve le turning vane de la précédente."
+ },
+ {
+  "id": "s019",
+  "turn": 14,
+  "speaker": "giorgio",
+  "en": "But this car was, in a way, in a funny way, very famous because they used to call poltrona frau,",
+  "fr": "Mais cette voiture était, de façon amusante, très célèbre : on l'appelait Poltrona Frau, car cette année-là,",
+  "fr_tts": "Mais cette voiture était, de façon amusante, très célèbre : on l'appelait Poltrona Frau, car cette année-là,"
+ },
+ {
+  "id": "s020",
+  "turn": 14,
+  "speaker": "giorgio",
+  "en": "because in that year, the federation, after the accident of Senna in '94, introduced big safety protection for the driver.",
+  "fr": "après l'accident de Senna en 94, la fédération a introduit de grosses protections de sécurité pour le pilote.",
+  "fr_tts": "après l'accident de Senna en quatre-vingt-quatorze, la fédération a introduit de grosses protections de sécurité pour le pilote."
+ },
+ {
+  "id": "s021",
+  "turn": 14,
+  "speaker": "giorgio",
+  "en": "And John Barnard was very keen to the protection.",
+  "fr": "Et John Barnard tenait beaucoup à la protection.",
+  "fr_tts": "Et John Barnard tenait beaucoup à la protection."
+ },
+ {
+  "id": "s022",
+  "turn": 14,
+  "speaker": "giorgio",
+  "en": "He made this to the real numbers given by the federation, while some other British team, they made a kind of, let's say,",
+  "fr": "Il l'a faite aux vraies cotes données par la fédération, alors que d'autres équipes britanniques ont fait une sorte de, disons,",
+  "fr_tts": "Il l'a faite aux vraies cotes données par la fédération, alors que d'autres équipes britanniques ont fait une sorte de, disons,"
+ },
+ {
+  "id": "s023",
+  "turn": 14,
+  "speaker": "giorgio",
+  "en": "cheating, because the, the game of the engineer is always to, to play around the words of the federation.",
+  "fr": "tricherie, car le jeu de l'ingénieur, c'est toujours de jouer sur les mots de la fédération.",
+  "fr_tts": "tricherie, car le jeu de l'ingénieur, c'est toujours de jouer sur les mots de la fédération."
+ },
+ {
+  "id": "s024",
+  "turn": 14,
+  "speaker": "giorgio",
+  "en": "And instead of doing the real protection like this, they made a much lower with two fins just to respect the, the, let, let's say, the measure.",
+  "fr": "Au lieu de faire la vraie protection comme celle-ci, ils l'ont faite bien plus basse, avec deux ailettes, juste pour respecter, disons, la cote.",
+  "fr_tts": "Au lieu de faire la vraie protection comme celle-ci, ils l'ont faite bien plus basse, avec deux ailettes, juste pour respecter, disons, la cote."
+ },
+ {
+  "id": "s025",
+  "turn": 14,
+  "speaker": "giorgio",
+  "en": "So John Barnard was very upset about this because of course he made everything for safety, and this part of the car couldn't be changed.",
+  "fr": "John Barnard en était donc très fâché, car il avait bien sûr tout fait pour la sécurité, et cette partie ne pouvait pas changer.",
+  "fr_tts": "John Barnard en était donc très fâché, car il avait bien sûr tout fait pour la sécurité, et cette partie ne pouvait pas changer."
+ },
+ {
+  "id": "s026",
+  "turn": 14,
+  "speaker": "giorgio",
+  "en": "But Rory Byrne, after they change the nose, became high, like the Benetton, if you want.",
+  "fr": "Mais avec Rory Byrne, ils ont ensuite relevé le nez, comme sur la Benetton, si vous voulez.",
+  "fr_tts": "Mais avec Rory Byrne, ils ont ensuite relevé le nez, comme sur la Benetton, si vous voulez."
+ },
+ {
+  "id": "s027",
+  "turn": 14,
+  "speaker": "giorgio",
+  "en": "They kept nearly the double floor as it was in the F92 made by Missou and Harvey Postlethwaite.",
+  "fr": "Ils ont gardé presque tel quel le double fond de la F92 de Migeot et Harvey Postlethwaite.",
+  "fr_tts": "Ils ont gardé presque tel quel le double fond de la F quatre-vingt-douze de Migeot et Harvey Postlethwaite."
+ },
+ {
+  "id": "s028",
+  "turn": 14,
+  "speaker": "giorgio",
+  "en": "So it's a quite interesting mixture of solution, uh, of Ferrari.",
+  "fr": "Un mélange assez intéressant de solutions Ferrari.",
+  "fr_tts": "Un mélange assez intéressant de solutions Ferrari."
+ },
+ {
+  "id": "s029",
+  "turn": 15,
+  "speaker": "journaliste",
+  "en": "It was the first car designed by Rory Byrne, I think, this one?",
+  "fr": "La première conçue par Rory Byrne, je crois, celle-ci ?",
+  "fr_tts": "La première conçue par Rory Byrne, je crois, celle-ci ?"
+ },
+ {
+  "id": "s030",
+  "turn": 16,
+  "speaker": "giorgio",
+  "en": "Yes, but it has also some solution introduced before by John Barnard, and I refer to the different pickup point of the suspension arm.",
+  "fr": "Oui, mais elle a aussi des solutions introduites avant par John Barnard, et je parle du point d'ancrage différent du bras de suspension.",
+  "fr_tts": "Oui, mais elle a aussi des solutions introduites avant par John Barnard, et je parle du point d'ancrage différent du bras de suspension."
+ },
+ {
+  "id": "s031",
+  "turn": 16,
+  "speaker": "giorgio",
+  "en": "Before that, there was the uniball, and was, uh, John Barnard with the previous car.",
+  "fr": "Avant, il y avait l'uniball, et c'est avec John Barnard, sur la voiture précédente,",
+  "fr_tts": "Avant, il y avait l'uniball, et c'est avec John Barnard, sur la voiture précédente,"
+ },
+ {
+  "id": "s032",
+  "turn": 16,
+  "speaker": "giorgio",
+  "en": "They introduced the knife connection.",
+  "fr": "qu'ils ont introduit la fixation à lame.",
+  "fr_tts": "qu'ils ont introduit la fixation à lame."
+ },
+ {
+  "id": "s033",
+  "turn": 16,
+  "speaker": "giorgio",
+  "en": "You see, there is a blade with this part more flexible.",
+  "fr": "Vous voyez, il y a une lame, avec cette partie plus flexible.",
+  "fr_tts": "Vous voyez, il y a une lame, avec cette partie plus flexible."
+ },
+ {
+  "id": "s034",
+  "turn": 17,
+  "speaker": "journaliste",
+  "en": "Yeah.",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s035",
+  "turn": 18,
+  "speaker": "giorgio",
+  "en": "So it was lighter and better for the suspension.",
+  "fr": "Donc plus léger, et mieux pour la suspension.",
+  "fr_tts": "Donc plus léger, et mieux pour la suspension."
+ },
+ {
+  "id": "s036",
+  "turn": 18,
+  "speaker": "giorgio",
+  "en": "And then we see again the turning vane.",
+  "fr": "Et puis on retrouve le turning vane.",
+  "fr_tts": "Et puis on retrouve le turning vane."
+ },
+ {
+  "id": "s037",
+  "turn": 18,
+  "speaker": "giorgio",
+  "en": "But this car had a very big evolution during the season.",
+  "fr": "Mais cette voiture a énormément évolué pendant la saison.",
+  "fr_tts": "Mais cette voiture a énormément évolué pendant la saison."
+ },
+ {
+  "id": "s038",
+  "turn": 18,
+  "speaker": "giorgio",
+  "en": "Imagine there was using different wheelbase because before...",
+  "fr": "Imaginez, on utilisait différents empattements, parce qu'avant…",
+  "fr_tts": "Imaginez, on utilisait différents empattements, parce qu'avant,"
+ },
+ {
+  "id": "s039",
+  "turn": 18,
+  "speaker": "giorgio",
+  "en": "We can, we can show on this car that is open. On this car-",
+  "fr": "On peut le montrer sur la voiture ouverte. Sur celle-ci…",
+  "fr_tts": "On peut le montrer sur la voiture ouverte. Sur celle-ci,"
+ },
+ {
+  "id": "s040",
+  "turn": 19,
+  "speaker": "giorgio",
+  "en": "... between the engine and the gearbox, in some races, there was another frame just to make the car longer or shorter, depends from race to race.",
+  "fr": "… entre le moteur et la boîte, sur certaines courses, il y avait une structure en plus, juste pour allonger ou raccourcir la voiture, selon les courses.",
+  "fr_tts": "entre le moteur et la boîte, sur certaines courses, il y avait une structure en plus, juste pour allonger ou raccourcir la voiture, selon les courses."
+ },
+ {
+  "id": "s041",
+  "turn": 19,
+  "speaker": "giorgio",
+  "en": "So it was a car with a big, big evolution during the season.",
+  "fr": "C'était donc une voiture qui a énormément évolué pendant la saison.",
+  "fr_tts": "C'était donc une voiture qui a énormément évolué pendant la saison."
+ },
+ {
+  "id": "s042",
+  "turn": 20,
+  "speaker": "guido",
+  "en": "It's the car, um, that, uh,",
+  "fr": "C'est la voiture…",
+  "fr_tts": "C'est la voiture,"
+ },
+ {
+  "id": "s043",
+  "turn": 20,
+  "speaker": "guido",
+  "en": "which, uh, caused the accident, the crash of Michael Schumacher in Silverstone.",
+  "fr": "qui a causé l'accident, le crash de Michael Schumacher à Silverstone.",
+  "fr_tts": "qui a causé l'accident, le crash de Michael Schumacher à Silverstone."
+ },
+ {
+  "id": "s044",
+  "turn": 20,
+  "speaker": "guido",
+  "en": "Michael, um,",
+  "fr": "Michael est revenu",
+  "fr_tts": "Michael est revenu,"
+ },
+ {
+  "id": "s045",
+  "turn": 20,
+  "speaker": "guido",
+  "en": "had returned in the last two Grand Prix of the season.",
+  "fr": "pour les deux derniers Grands Prix de la saison.",
+  "fr_tts": "pour les deux derniers Grands Prix de la saison."
+ },
+ {
+  "id": "s046",
+  "turn": 20,
+  "speaker": "guido",
+  "en": "Eddie Irvine was very, very close to won the title, and Mika Salo, uh, drove the car for the rest of the season until Michael Schumacher return.",
+  "fr": "Eddie Irvine a été très, très près de remporter le titre, et Mika Salo a piloté la voiture le reste de la saison, jusqu'au retour de Michael Schumacher.",
+  "fr_tts": "Eddie Irvine a été très, très près de remporter le titre, et Mika Salo a piloté la voiture le reste de la saison, jusqu'au retour de Michael Schumacher."
+ },
+ {
+  "id": "s047",
+  "turn": 20,
+  "speaker": "guido",
+  "en": "It was, I think, uh, the most important evolution of a previous project. Very lighter-",
+  "fr": "C'était, je pense, l'évolution la plus importante d'un projet précédent. Bien plus légère…",
+  "fr_tts": "C'était, je pense, l'évolution la plus importante d'un projet précédent. Bien plus légère,"
+ },
+ {
+  "id": "s048",
+  "turn": 21,
+  "speaker": "giorgio",
+  "en": "Yeah",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s049",
+  "turn": 22,
+  "speaker": "guido",
+  "en": "... also, Giorgio.",
+  "fr": "… aussi, Giorgio.",
+  "fr_tts": "aussi, Giorgio."
+ },
+ {
+  "id": "s050",
+  "turn": 23,
+  "speaker": "giorgio",
+  "en": "Uh, I tell, to say one story.",
+  "fr": "Je vais vous raconter une histoire.",
+  "fr_tts": "Je vais vous raconter une histoire."
+ },
+ {
+  "id": "s051",
+  "turn": 24,
+  "speaker": "guido",
+  "en": "Yes.",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s052",
+  "turn": 25,
+  "speaker": "giorgio",
+  "en": "Eddie Irvine, he has a boat in my place.",
+  "fr": "Eddie Irvine a un bateau chez moi.",
+  "fr_tts": "Eddie Irvine a un bateau chez moi."
+ },
+ {
+  "id": "s053",
+  "turn": 25,
+  "speaker": "giorgio",
+  "en": "I'm living in Santa Margherita, so-",
+  "fr": "Je vis à Santa Margherita…",
+  "fr_tts": "Je vis à Santa Margherita,"
+ },
+ {
+  "id": "s054",
+  "turn": 26,
+  "speaker": "journaliste",
+  "en": "So Eddie Irvine was the second, uh, driver of, uh-",
+  "fr": "Eddie Irvine était second pilote…",
+  "fr_tts": "Eddie Irvine était second pilote,"
+ },
+ {
+  "id": "s055",
+  "turn": 27,
+  "speaker": "giorgio",
+  "en": "Yes",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s056",
+  "turn": 28,
+  "speaker": "journaliste",
+  "en": "... of this car.",
+  "fr": "… de celle-ci.",
+  "fr_tts": "de celle-ci."
+ },
+ {
+  "id": "s057",
+  "turn": 29,
+  "speaker": "giorgio",
+  "en": "Of car. And he was the one on the fight for the world champion, and he explained to me that this car was very difficult to drive, and he was able to do only one,",
+  "fr": "Et c'est lui qui se battait pour le titre mondial, et il m'a expliqué que cette voiture était très difficile à piloter, et qu'il ne pouvait faire qu'un,",
+  "fr_tts": "Et c'est lui qui se battait pour le titre mondial, et il m'a expliqué que cette voiture était très difficile à piloter, et qu'il ne pouvait faire qu'un,"
+ },
+ {
+  "id": "s058",
+  "turn": 29,
+  "speaker": "giorgio",
+  "en": "two, three laps very fast, while Michael Schumacher was able to drive this car for 40 laps in the, like doing pole position work-",
+  "fr": "deux, trois tours très rapides, alors que Michael Schumacher pouvait la piloter pendant 40 tours, comme pour faire la pole…",
+  "fr_tts": "deux, trois tours très rapides, alors que Michael Schumacher pouvait la piloter pendant quarante tours, comme pour faire la pole,"
+ },
+ {
+  "id": "s059",
+  "turn": 30,
+  "speaker": "journaliste",
+  "en": "Yeah",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s060",
+  "turn": 31,
+  "speaker": "giorgio",
+  "en": "... like qualifying. And I want to show you something very interesting because, again, it was introduced by John Barnard, and now all the cars are using the torsion bar.",
+  "fr": "… comme en qualifications. Je vous montre un point très intéressant, là encore dû à John Barnard : aujourd'hui, toutes les voitures ont la barre de torsion.",
+  "fr_tts": "comme en qualifications. Je vous montre un point très intéressant, là encore dû à John Barnard : aujourd'hui, toutes les voitures ont la barre de torsion."
+ },
+ {
+  "id": "s061",
+  "turn": 31,
+  "speaker": "giorgio",
+  "en": "You see there is a, a third element-",
+  "fr": "Vous voyez, un troisième élément…",
+  "fr_tts": "Vous voyez, un troisième élément,"
+ },
+ {
+  "id": "s062",
+  "turn": 32,
+  "speaker": "journaliste",
+  "en": "This one",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s063",
+  "turn": 33,
+  "speaker": "giorgio",
+  "en": "... that is control the ro- the roll.",
+  "fr": "… qui contrôle le roulis.",
+  "fr_tts": "qui contrôle le roulis."
+ },
+ {
+  "id": "s064",
+  "turn": 33,
+  "speaker": "giorgio",
+  "en": "But these are the, they are substitute of the normal shock absorber with the spring.",
+  "fr": "Mais celles-ci remplacent l'amortisseur classique avec le ressort.",
+  "fr_tts": "Mais celles-ci remplacent l'amortisseur classique avec le ressort."
+ },
+ {
+  "id": "s065",
+  "turn": 33,
+  "speaker": "giorgio",
+  "en": "So they are much lighter, much more compact.",
+  "fr": "Donc bien plus légères, bien plus compactes.",
+  "fr_tts": "Donc bien plus légères, bien plus compactes."
+ },
+ {
+  "id": "s066",
+  "turn": 33,
+  "speaker": "giorgio",
+  "en": "You can change easily, taking out from here.",
+  "fr": "On les change facilement, en les sortant d'ici.",
+  "fr_tts": "On les change facilement, en les sortant d'ici."
+ },
+ {
+  "id": "s067",
+  "turn": 33,
+  "speaker": "giorgio",
+  "en": "So instead of doing the shock absorber, then the spring, the adjustment in the suspension is done very fast.",
+  "fr": "Donc, au lieu de faire l'amortisseur, puis le ressort, le réglage de la suspension se fait très vite.",
+  "fr_tts": "Donc, au lieu de faire l'amortisseur, puis le ressort, le réglage de la suspension se fait très vite."
+ },
+ {
+  "id": "s068",
+  "turn": 33,
+  "speaker": "giorgio",
+  "en": "That was a very, a very tough season, and it's a pity because at the end,",
+  "fr": "Ça a été une saison très difficile, et c'est dommage, car à la fin,",
+  "fr_tts": "Ça a été une saison très difficile, et c'est dommage, car à la fin,"
+ },
+ {
+  "id": "s069",
+  "turn": 33,
+  "speaker": "giorgio",
+  "en": "Irvine went really very close to win the championship. Agai- unfort-",
+  "fr": "Irvine est passé vraiment très près de gagner le championnat. Malheureusement,",
+  "fr_tts": "Irvine est passé vraiment très près de gagner le championnat. Malheureusement,"
+ },
+ {
+  "id": "s070",
+  "turn": 33,
+  "speaker": "giorgio",
+  "en": "unfortunately, only the last race was a disaster for him.",
+  "fr": "seule la dernière course a été un désastre pour lui.",
+  "fr_tts": "seule la dernière course a été un désastre pour lui."
+ },
+ {
+  "id": "s071",
+  "turn": 34,
+  "speaker": "journaliste",
+  "en": "And 1999 is the first year then, then, uh, Ferrari and the driver of Ferrari can really compete for the title",
+  "fr": "1999 est la première année où Ferrari et son pilote peuvent vraiment jouer le titre.",
+  "fr_tts": "Mille neuf cent quatre-vingt-dix-neuf est la première année où Ferrari et son pilote peuvent vraiment jouer le titre."
+ },
+ {
+  "id": "s072",
+  "turn": 35,
+  "speaker": "guido",
+  "en": "Really, because, uh, Eddie was really, really close.",
+  "fr": "Vraiment, car Eddie est passé vraiment tout près.",
+  "fr_tts": "Vraiment, car Eddie est passé vraiment tout près."
+ },
+ {
+  "id": "s073",
+  "turn": 35,
+  "speaker": "guido",
+  "en": "Mika Salo made a, a very, very important races.",
+  "fr": "Mika Salo a fait des courses très, très importantes.",
+  "fr_tts": "Mika Salo a fait des courses très, très importantes."
+ },
+ {
+  "id": "s074",
+  "turn": 35,
+  "speaker": "guido",
+  "en": "Remember in Hockenheim, he was leading and, uh, uh, after he was, uh, second for team order.",
+  "fr": "Souvenez-vous, à Hockenheim, il était en tête, et ensuite il a été deuxième sur consigne d'équipe.",
+  "fr_tts": "Souvenez-vous, à Hockenheim, il était en tête, et ensuite il a été deuxième sur consigne d'équipe."
+ },
+ {
+  "id": "s075",
+  "turn": 35,
+  "speaker": "guido",
+  "en": "And, uh, Michael Schumacher, when, uh, he was returning, he was, uh, immediately fast.",
+  "fr": "Et Michael Schumacher, à son retour, a tout de suite été rapide.",
+  "fr_tts": "Et Michael Schumacher, à son retour, a tout de suite été rapide."
+ },
+ {
+  "id": "s076",
+  "turn": 35,
+  "speaker": "guido",
+  "en": "And they were really, really unlucky in the last Grand Prix in Jap- Japan Grand Prix.",
+  "fr": "Ils ont vraiment été malchanceux au dernier Grand Prix, au Grand Prix du Japon.",
+  "fr_tts": "Ils ont vraiment été malchanceux au dernier Grand Prix, au Grand Prix du Japon."
+ },
+ {
+  "id": "s077",
+  "turn": 36,
+  "speaker": "journaliste",
+  "en": "And finally, it's Mika Häkkinen who was a world champion this year.",
+  "fr": "Au final, Mika Häkkinen a été champion du monde cette année.",
+  "fr_tts": "Au final, Mika Häkkinen a été champion du monde cette année."
+ },
+ {
+  "id": "s078",
+  "turn": 36,
+  "speaker": "journaliste",
+  "en": "You talk about, uh, Mika Salo.",
+  "fr": "Vous parlez de Mika Salo.",
+  "fr_tts": "Vous parlez de Mika Salo."
+ },
+ {
+  "id": "s079",
+  "turn": 36,
+  "speaker": "journaliste",
+  "en": "He has very, uh, elegant gesture to, to say, \"Okay, I'll...\" Because he was close to win his first Grand Prix.",
+  "fr": "Il a eu un geste très élégant : « D'accord, je vais… » Parce qu'il était près de gagner son premier Grand Prix.",
+  "fr_tts": "Il a eu un geste très élégant : d'accord, je vais… Parce qu'il était près de gagner son premier Grand Prix."
+ },
+ {
+  "id": "s080",
+  "turn": 37,
+  "speaker": "giorgio",
+  "en": "Yeah, yeah.",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s081",
+  "turn": 38,
+  "speaker": "journaliste",
+  "en": "And he let the victory to Eddie Irvine. It's crazy.",
+  "fr": "Laisser gagner Eddie Irvine, c'est fou.",
+  "fr_tts": "Laisser gagner Eddie Irvine, c'est fou."
+ },
+ {
+  "id": "s082",
+  "turn": 39,
+  "speaker": "giorgio",
+  "en": "Yeah.",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s083",
+  "turn": 40,
+  "speaker": "guido",
+  "en": "It was, uh, his third Grand Prix by Ferrari.",
+  "fr": "C'était son troisième Grand Prix chez Ferrari.",
+  "fr_tts": "C'était son troisième Grand Prix chez Ferrari."
+ },
+ {
+  "id": "s084",
+  "turn": 41,
+  "speaker": "journaliste",
+  "en": "Only third and third victory-",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s085",
+  "turn": 42,
+  "speaker": "guido",
+  "en": "Yeah, yeah, yeah.",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s086",
+  "turn": 43,
+  "speaker": "journaliste",
+  "en": "But",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s087",
+  "turn": 44,
+  "speaker": "guido",
+  "en": "Uh, Mika was a, a really kind, uh, guy.",
+  "fr": "Mika était vraiment quelqu'un de gentil.",
+  "fr_tts": "Mika était vraiment quelqu'un de gentil."
+ },
+ {
+  "id": "s088",
+  "turn": 44,
+  "speaker": "guido",
+  "en": "Uh, from the beginning of his career, he was a very good, um, tester.",
+  "fr": "Dès le début de sa carrière, c'était un très bon pilote d'essais.",
+  "fr_tts": "Dès le début de sa carrière, c'était un très bon pilote d'essais."
+ },
+ {
+  "id": "s089",
+  "turn": 44,
+  "speaker": "guido",
+  "en": "He was a very good driver.",
+  "fr": "C'était un très bon pilote.",
+  "fr_tts": "C'était un très bon pilote."
+ },
+ {
+  "id": "s090",
+  "turn": 44,
+  "speaker": "guido",
+  "en": "He made a, I don't remember the year, a, a, a fantastic, uh, Monaco Grand Prix, uh, without a pit stop by Tyrrell arriving in the points. And, um, he...",
+  "fr": "Il a fait, je ne me souviens plus de l'année, un fantastique Grand Prix de Monaco, sans arrêt au stand, avec Tyrrell, en arrivant dans les points. Et il…",
+  "fr_tts": "Il a fait, je ne me souviens plus de l'année, un fantastique Grand Prix de Monaco, sans arrêt au stand, avec Tyrrell, en arrivant dans les points. Et il,"
+ },
+ {
+  "id": "s091",
+  "turn": 44,
+  "speaker": "guido",
+  "en": "For me, he was the perfect choice, uh, from Ferrari to, to make the substitute, uh, of Schumacher and teammate of Eddie.",
+  "fr": "Pour moi, c'était le choix parfait de la part de Ferrari pour remplacer Schumacher et être l'équipier d'Eddie.",
+  "fr_tts": "Pour moi, c'était le choix parfait de la part de Ferrari pour remplacer Schumacher et être l'équipier d'Eddie."
+ },
+ {
+  "id": "s092",
+  "turn": 45,
+  "speaker": "journaliste",
+  "en": "What is crazy, I remember when Michael come back for the last or the two last Grand Prix, I don't remember very well, he was in pole with one second of, uh, of advance.",
+  "fr": "Je me souviens, au retour de Michael pour le ou les deux derniers Grands Prix, je ne sais plus, il était en pole avec une seconde d'avance.",
+  "fr_tts": "Je me souviens, au retour de Michael pour le ou les deux derniers Grands Prix, je ne sais plus, il était en pole avec une seconde d'avance."
+ },
+ {
+  "id": "s093",
+  "turn": 45,
+  "speaker": "journaliste",
+  "en": "It was absolutely crazy.",
+  "fr": "C'était absolument fou.",
+  "fr_tts": "C'était absolument fou."
+ },
+ {
+  "id": "s094",
+  "turn": 46,
+  "speaker": "guido",
+  "en": "Yeah. And, uh, he dominated the, the world championship.",
+  "fr": "Oui. Et il a dominé le championnat du monde.",
+  "fr_tts": "Oui. Et il a dominé le championnat du monde."
+ },
+ {
+  "id": "s095",
+  "turn": 46,
+  "speaker": "guido",
+  "en": "Uh, eight wins, uh, between seven Michael, one, uh, Rubens.",
+  "fr": "Huit victoires, dont sept pour Michael et une pour Rubens.",
+  "fr_tts": "Huit victoires, dont sept pour Michael et une pour Rubens."
+ },
+ {
+  "id": "s096",
+  "turn": 46,
+  "speaker": "guido",
+  "en": "They won, uh, twice often, and, uh,",
+  "fr": "Ils ont fait le doublé,",
+  "fr_tts": "Ils ont fait le doublé,"
+ },
+ {
+  "id": "s097",
+  "turn": 46,
+  "speaker": "guido",
+  "en": "Ferrari was the second construct championship, and Michael first world champion of, uh...",
+  "fr": "et pour Ferrari, c'était le deuxième titre constructeurs, et pour Michael, le premier titre de champion du monde…",
+  "fr_tts": "et pour Ferrari, c'était le deuxième titre constructeurs, et pour Michael, le premier titre de champion du monde,"
+ },
+ {
+  "id": "s098",
+  "turn": 46,
+  "speaker": "guido",
+  "en": "From Ferrari, I was, uh, Autosprint director.",
+  "fr": "… avec Ferrari. J'étais directeur d'Autosprint.",
+  "fr_tts": "avec Ferrari. J'étais directeur d'Autosprint."
+ },
+ {
+  "id": "s099",
+  "turn": 46,
+  "speaker": "guido",
+  "en": "He was in Formula 1 for us, and this, Giorgio, was a little masterpiece,",
+  "fr": "Il était sur la F1 pour nous, et celle-ci, Giorgio, c'était un petit chef-d'œuvre,",
+  "fr_tts": "Il était sur la F un pour nous, et celle-ci, Giorgio, c'était un petit chef-d'œuvre,"
+ },
+ {
+  "id": "s100",
+  "turn": 46,
+  "speaker": "guido",
+  "en": "uh, because it was a, a very important, uh, uh, technology car-",
+  "fr": "parce que c'était une voiture très importante sur le plan technologique…",
+  "fr_tts": "parce que c'était une voiture très importante sur le plan technologique,"
+ },
+ {
+  "id": "s101",
+  "turn": 47,
+  "speaker": "giorgio",
+  "en": "Yeah",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s102",
+  "turn": 48,
+  "speaker": "guido",
+  "en": "... with a composi- new composite, uh, a lot of new things.",
+  "fr": "… avec un nouveau composite, beaucoup de nouveautés.",
+  "fr_tts": "avec un nouveau composite, beaucoup de nouveautés."
+ },
+ {
+  "id": "s103",
+  "turn": 48,
+  "speaker": "guido",
+  "en": "Also, a, a new engine-",
+  "fr": "Un nouveau moteur aussi…",
+  "fr_tts": "Un nouveau moteur aussi,"
+ },
+ {
+  "id": "s104",
+  "turn": 49,
+  "speaker": "giorgio",
+  "en": "Yeah",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s105",
+  "turn": 50,
+  "speaker": "guido",
+  "en": "... uh, in comparison of the previous.",
+  "fr": "… par rapport au précédent.",
+  "fr_tts": "par rapport au précédent."
+ },
+ {
+  "id": "s106",
+  "turn": 51,
+  "speaker": "giorgio",
+  "en": "Yes, it was a, a big step forward and the beginning of an era of Ferrari. And for example, we saw...",
+  "fr": "Oui, c'était un grand pas en avant, et le début d'une ère Ferrari. Et par exemple, on a vu…",
+  "fr_tts": "Oui, c'était un grand pas en avant, et le début d'une ère Ferrari. Et par exemple, on a vu,"
+ },
+ {
+  "id": "s107",
+  "turn": 51,
+  "speaker": "giorgio",
+  "en": "Do you remember that I talk about the poltrona sofa-",
+  "fr": "Vous vous souvenez que j'ai parlé de la Poltronesofà…",
+  "fr_tts": "Vous vous souvenez que j'ai parlé de la Poltronesofà,"
+ },
+ {
+  "id": "s108",
+  "turn": 52,
+  "speaker": "journaliste",
+  "en": "Yeah",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s109",
+  "turn": 53,
+  "speaker": "giorgio",
+  "en": "... uh, uh, on that because there were...",
+  "fr": "… là-dessus, car il y avait…",
+  "fr_tts": "là-dessus, car il y avait,"
+ },
+ {
+  "id": "s110",
+  "turn": 53,
+  "speaker": "giorgio",
+  "en": "You see those are the little things to-",
+  "fr": "Vous voyez, ce sont les petites choses pour…",
+  "fr_tts": "Vous voyez, ce sont les petites choses pour,"
+ },
+ {
+  "id": "s111",
+  "turn": 54,
+  "speaker": "journaliste",
+  "en": "Yeah",
+  "fr": "",
+  "fr_tts": ""
+ },
+ {
+  "id": "s112",
+  "turn": 55,
+  "speaker": "giorgio",
+  "en": "... to cope with the new dimension of protection.",
+  "fr": "… s'adapter aux nouvelles dimensions de protection.",
+  "fr_tts": "s'adapter aux nouvelles dimensions de protection."
+ },
+ {
+  "id": "s113",
+  "turn": 55,
+  "speaker": "giorgio",
+  "en": "And you can see also these things here, again, to respect the rules of the, of the cockpit, uh, and of the chassis, again, for safety. But you were allowed.",
+  "fr": "Et vous voyez aussi ces éléments ici, là encore pour respecter les règles du cockpit et du châssis, là encore pour la sécurité. Mais on avait le droit.",
+  "fr_tts": "Et vous voyez aussi ces éléments ici, là encore pour respecter les règles du cockpit et du châssis, là encore pour la sécurité. Mais on avait le droit."
+ },
+ {
+  "id": "s114",
+  "turn": 55,
+  "speaker": "giorgio",
+  "en": "Then we see again the knife, uh, connection of the suspension, and we see the new exhaust a little bit, uh, we call megafono.",
+  "fr": "Ensuite, on retrouve la fixation à lame de la suspension, et on voit un peu les nouveaux échappements, qu'on appelle megafono.",
+  "fr_tts": "Ensuite, on retrouve la fixation à lame de la suspension, et on voit un peu les nouveaux échappements, qu'on appelle megafono."
+ },
+ {
+  "id": "s115",
+  "turn": 55,
+  "speaker": "giorgio",
+  "en": "Uh, they are very interesting.",
+  "fr": "Ils sont très intéressants.",
+  "fr_tts": "Ils sont très intéressants."
+ },
+ {
+  "id": "s116",
+  "turn": 55,
+  "speaker": "giorgio",
+  "en": "They kept also on the next, uh, car.",
+  "fr": "Ils les ont aussi gardés sur la voiture suivante.",
+  "fr_tts": "Ils les ont aussi gardés sur la voiture suivante."
+ },
+ {
+  "id": "s117",
+  "turn": 56,
+  "speaker": "journaliste",
+  "en": "Yeah, because we have a, in the large audience like me, I was, uh, just a, a, a TV viewers on this time, uh, a different, uh, vision of Michael. He was very...",
+  "fr": "Oui, car dans le grand public, comme moi, simple téléspectateur à l'époque, on avait une vision différente de Michael. Il était très…",
+  "fr_tts": "Oui, car dans le grand public, comme moi, simple téléspectateur à l'époque, on avait une vision différente de Michael. Il était très,"
+ },
+ {
+  "id": "s118",
+  "turn": 56,
+  "speaker": "journaliste",
+  "en": "He was like a, a warrior when he was behind the, the, the wheel.",
+  "fr": "Il était comme un guerrier quand il était au volant.",
+  "fr_tts": "Il était comme un guerrier quand il était au volant."
+ },
+ {
+  "id": "s119",
+  "turn": 56,
+  "speaker": "journaliste",
+  "en": "But in the, like, uh, maybe some years later, uh, Vettel, uh, he was very, he's a very kind guy, like Max today, uh, when you have an interview.",
+  "fr": "Mais, comme peut-être Vettel quelques années plus tard, c'est quelqu'un de très gentil, comme Max aujourd'hui, quand on fait une interview.",
+  "fr_tts": "Mais, comme peut-être Vettel quelques années plus tard, c'est quelqu'un de très gentil, comme Max aujourd'hui, quand on fait une interview."
+ },
+ {
+  "id": "s120",
+  "turn": 56,
+  "speaker": "journaliste",
+  "en": "It, it, it was a really surprise for me when I met him one time, Michael, it was 20 years ago.",
+  "fr": "J'ai été vraiment surpris quand je l'ai rencontré une fois, Michael, il y a 20 ans.",
+  "fr_tts": "J'ai été vraiment surpris quand je l'ai rencontré une fois, Michael, il y a vingt ans."
+ },
+ {
+  "id": "s121",
+  "turn": 57,
+  "speaker": "giorgio",
+  "en": "Yeah. And Michael was very keen on the secret.",
+  "fr": "Oui. Et Michael tenait beaucoup au secret.",
+  "fr_tts": "Oui. Et Michael tenait beaucoup au secret."
+ },
+ {
+  "id": "s122",
+  "turn": 57,
+  "speaker": "giorgio",
+  "en": "I remember that he looks at me like an enemy because I was doing the drawing of the technical aspect of the car.",
+  "fr": "Je me souviens qu'il me regardait comme un ennemi, car je faisais les dessins techniques de la voiture.",
+  "fr_tts": "Je me souviens qu'il me regardait comme un ennemi, car je faisais les dessins techniques de la voiture."
+ },
+ {
+  "id": "s123",
+  "turn": 57,
+  "speaker": "giorgio",
+  "en": "And for example, there was, uh, an, something very funny.",
+  "fr": "Et par exemple, une chose très drôle :",
+  "fr_tts": "Et par exemple, une chose très drôle."
+ },
+ {
+  "id": "s124",
+  "turn": 57,
+  "speaker": "giorgio",
+  "en": "When he had to stop on the track with the car, he never left the car alone.",
+  "fr": "Quand il devait s'arrêter en piste, il ne laissait jamais la voiture seule.",
+  "fr_tts": "Quand il devait s'arrêter en piste, il ne laissait jamais la voiture seule."
+ },
+ {
+  "id": "s125",
+  "turn": 57,
+  "speaker": "giorgio",
+  "en": "Until the marshal were coming, he was stay- staying beside the car, stopping the photographer to make him picture.",
+  "fr": "Jusqu'à l'arrivée des commissaires, il restait à côté, empêchant le photographe de faire des photos.",
+  "fr_tts": "Jusqu'à l'arrivée des commissaires, il restait à côté, empêchant le photographe de faire des photos."
+ },
+ {
+  "id": "s126",
+  "turn": 57,
+  "speaker": "giorgio",
+  "en": "And then I tell you, I never saw any other driver so keen on, on security on the car.",
+  "fr": "Et puis, je vous le dis, je n'ai vu aucun autre pilote aussi soucieux de la sécurité autour de sa voiture.",
+  "fr_tts": "Et puis, je vous le dis, je n'ai vu aucun autre pilote aussi soucieux de la sécurité autour de sa voiture."
+ },
+ {
+  "id": "s127",
+  "turn": 58,
+  "speaker": "guido",
+  "en": "If you speaks with the technician and with the mechanics of Michael,",
+  "fr": "Si vous parlez avec les techniciens et les mécaniciens de Michael,",
+  "fr_tts": "Si vous parlez avec les techniciens et les mécaniciens de Michael,"
+ },
+ {
+  "id": "s128",
+  "turn": 58,
+  "speaker": "guido",
+  "en": "also today, they are in love in for Michael because, uh, he was generous, uh, he was really kind, and, uh,",
+  "fr": "aujourd'hui encore, ils adorent Michael, parce qu'il était généreux, il était vraiment gentil,",
+  "fr_tts": "aujourd'hui encore, ils adorent Michael, parce qu'il était généreux, il était vraiment gentil,"
+ },
+ {
+  "id": "s129",
+  "turn": 58,
+  "speaker": "guido",
+  "en": "he was working with them from the 8:00 of the morning to 12:00 of the night, all the day, all the day with them.",
+  "fr": "et il travaillait avec eux de 8 h du matin à minuit, toute la journée, toute la journée avec eux.",
+  "fr_tts": "et il travaillait avec eux de huit heures du matin à minuit, toute la journée, toute la journée avec eux."
+ },
+ {
+  "id": "s130",
+  "turn": 59,
+  "speaker": "journaliste",
+  "en": "Barrichello was a second driver. This was, uh...",
+  "fr": "Barrichello était un second pilote. C'était…",
+  "fr_tts": "Barrichello était un second pilote. C'était,"
+ },
+ {
+  "id": "s131",
+  "turn": 59,
+  "speaker": "journaliste",
+  "en": "In the first year, he was a perfect second driver.",
+  "fr": "La première année, c'était un second pilote parfait.",
+  "fr_tts": "La première année, c'était un second pilote parfait."
+ },
+ {
+  "id": "s132",
+  "turn": 59,
+  "speaker": "journaliste",
+  "en": "Later, there was, uh, something between, uh, the two drivers",
+  "fr": "Plus tard, il y a eu quelque chose entre les deux pilotes…",
+  "fr_tts": "Plus tard, il y a eu quelque chose entre les deux pilotes."
+ }
+]
