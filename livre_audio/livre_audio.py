@@ -218,7 +218,7 @@ def main():
     takes = {b["id"]: trim(decode(work / "prises" / f"{b['id']}.mp3")) for b in blocks}
     dry_len = {k: len(v) for k, v in takes.items()}
     for b in blocks:                          # effets de voix (heaume…) : stéréo, avec une queue de réverbération
-        fx = voices[b["speaker"]].get("fx")
+        fx = b.get("fx", voices[b["speaker"]].get("fx"))      # un bloc peut l'annuler ("fx": "") : masque retiré
         if fx:
             takes[b["id"]] = FX[fx](takes[b["id"]])
     mono = {k: (v if v.ndim == 1 else v.mean(1)) for k, v in takes.items()}
