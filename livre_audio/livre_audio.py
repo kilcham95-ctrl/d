@@ -67,7 +67,7 @@ def trim(x, rel_db=-45, pad=0.04):
     return x[a:b]
 
 
-def casque(x, wet_db=-13.0, rt60=0.3, er=0.35):
+def casque(x, wet_db=-7.0, rt60=0.36, er=0.7):
     """Voix dans un heaume : réflexions très proches (coloration métallique, effet de « boîte »),
     puis réverbération courte et dense, légèrement élargie en stéréo. Rend un tableau (n, 2) plus long que x (la queue)."""
     from scipy.signal import butter, fftconvolve, iirpeak, lfilter, sosfilt
