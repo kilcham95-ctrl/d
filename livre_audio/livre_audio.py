@@ -57,7 +57,7 @@ def trim(x, rel_db=-45, pad=0.04):
     # est un clic laissé par eleven_v4, pas de la parole
     runs = np.split(loud, np.where(np.diff(loud) > 50)[0] + 1)
     def parasite(r, gap):
-        return len(r) < 24 and (db[r].max() < db.max() - 15 or gap >= 100)
+        return len(r) < 24 and (db[r].max() < db.max() - 15 or gap >= 60)
     while len(runs) > 1 and parasite(runs[-1], runs[-1][0] - runs[-2][-1]):
         runs.pop()
     while len(runs) > 1 and parasite(runs[0], runs[1][0] - runs[0][-1]):
@@ -255,7 +255,7 @@ def main():
               .stderr.decode().split("Summary:")[-1].split("I:")[1].split("LUFS")[0])
     final = work / "final.wav"
     run(["ffmpeg", "-v", "error", "-y", "-i", str(raw), "-af",
-         f"volume={TARGET_LUFS - I:.2f}dB,alimiter=limit=0.68:attack=3:release=80:level=disabled", "-c:a", "pcm_s24le", str(final)])
+         f"volume={TARGET_LUFS - I:.2f}dB,alimiter=limit=0.63:attack=3:release=80:level=disabled", "-c:a", "pcm_s24le", str(final)])
     run(["ffmpeg", "-v", "error", "-y", "-i", str(final), "-c:a", "libmp3lame", "-b:a", "192k", "-ar", str(SR), a.out])
     json.dump(timeline, open(work / "timeline.json", "w"), ensure_ascii=False, indent=1)
     p = subprocess.run(["ffmpeg", "-hide_banner", "-i", a.out, "-af", "ebur128=peak=true", "-f", "null", "-"], capture_output=True)
