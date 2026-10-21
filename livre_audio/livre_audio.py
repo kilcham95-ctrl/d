@@ -30,6 +30,7 @@ API = "https://api.elevenlabs.io/v1/text-to-speech/{voice}?output_format=mp3_441
 STT = "https://api.elevenlabs.io/v1/speech-to-text"
 TARGET_LUFS = -18.0
 VOICE_LUFS = -20.0      # niveau de travail de chaque voix avant normalisation finale
+WHISPER_DB = -6.0       # écart des chuchotements
 
 
 def run(cmd, **kw):
@@ -124,7 +125,10 @@ def main():
     cost = 0
     for i, b in enumerate(blocks):
         v = voices[b["speaker"]]
-        payload = {"text": (b["tag"] + " " if b["tag"] else "") + b["tts_text"], "model_id": "eleven_v4", "language_code": "fr",
+        text = b["tts_text"].rstrip()
+        if text[-1] in ",;:":                 # réplique coupée par une incise : eleven_v4 avale la fin d'une phrase en suspens
+            text = text[:-1].rstrip() + "."
+        payload = {"text": (b["tag"] + " " if b["tag"] else "") + text, "model_id": "eleven_v4", "language_code": "fr",
                    "voice_settings": {"stability": v.get("stability", 0.6), "similarity_boost": v.get("similarity", 0.8)}}
         if i > 0:
             payload["previous_text"] = blocks[i - 1]["tts_text"]
@@ -175,16 +179,18 @@ def main():
     takes = {b["id"]: trim(decode(work / "prises" / f"{b['id']}.mp3")) for b in blocks}
     gain = {}
     for spk in {b["speaker"] for b in blocks}:
-        ref = [takes[b["id"]] for b in blocks if b["speaker"] == spk and b["tag"] != "[whispers]"] or \
-              [takes[b["id"]] for b in blocks if b["speaker"] == spk]
+        ref = [takes[b["id"]] for b in blocks if b["speaker"] == spk and b["tag"] != "[whispers]"]
+        if not ref:
+            continue
         gain[spk] = 10 ** ((VOICE_LUFS - lufs(np.concatenate(ref))) / 20)
     pieces, t, timeline = [], 0.0, []
     for b in blocks:
-        x = takes[b["id"]] * gain[b["speaker"]]
-        if b["tag"] == "[whispers]":          # un chuchotement reste plus bas, mais intelligible
-            lv = lufs(x)
-            if lv < VOICE_LUFS - 8:
-                x = x * 10 ** ((VOICE_LUFS - 8 - lv) / 20)
+        if b["tag"] == "[whispers]":          # chaque chuchotement : 6 dB sous la parole, toujours intelligible
+            x = takes[b["id"]] * 10 ** ((VOICE_LUFS + WHISPER_DB - lufs(takes[b["id"]])) / 20)
+        else:
+            x = takes[b["id"]] * gain[b["speaker"]]
+            if len(x) > 0.5 * SR and lufs(x) > VOICE_LUFS + 1.5:   # une courte réplique ne doit pas sauter au-dessus du récit
+                x = x * 10 ** ((VOICE_LUFS + 1.5 - lufs(x)) / 20)
         pan = voices[b["speaker"]].get("pan", 0.0)
         l, r = np.sqrt((1 - pan) / 2) * np.sqrt(2), np.sqrt((1 + pan) / 2) * np.sqrt(2)
         st = np.stack([x * l, x * r], 1)
