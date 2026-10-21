@@ -67,6 +67,36 @@ def trim(x, rel_db=-45, pad=0.04):
     return x[a:b]
 
 
+def casque(x, wet_db=0.0, rt60=0.42):
+    """Voix dans un heaume : réflexions très proches (coloration métallique, effet de « boîte »),
+    puis réverbération courte et dense, légèrement élargie en stéréo. Rend un tableau (n, 2) plus long que x (la queue)."""
+    from scipy.signal import butter, fftconvolve, iirpeak, lfilter, sosfilt
+    n = int(rt60 * 1.3 * SR)
+    t = np.arange(n) / SR
+    er = np.zeros(int(0.008 * SR))
+    for d, g in ((0.0007, 0.42), (0.0013, -0.30), (0.0021, 0.24), (0.0034, -0.17), (0.0052, 0.12)):
+        er[int(d * SR)] += g
+    dry = x + fftconvolve(x, er)[: len(x)]
+    dry = sosfilt(butter(2, 9000, btype="low", fs=SR, output="sos"), dry)     # le masque adoucit l'extrême aigu
+    out = np.zeros((len(x) + n, 2))
+    for ch, seed in ((0, 11), (1, 23)):
+        tail = np.random.default_rng(seed).standard_normal(n) * np.exp(-6.91 * t / rt60)
+        tail[: int(0.004 * SR)] = 0
+        for f0, q in ((1350, 7), (2650, 9), (4200, 10)):                     # résonances du métal
+            b, a = iirpeak(f0, q, fs=SR)
+            tail = tail + 0.8 * lfilter(b, a, tail)
+        tail = sosfilt(butter(2, [300, 7500], btype="band", fs=SR, output="sos"), tail)
+        tail /= np.sqrt((tail ** 2).sum())
+        wet = fftconvolve(dry, tail)
+        wet *= 10 ** (wet_db / 20) * np.sqrt((dry ** 2).sum() / max((wet ** 2).sum(), 1e-12))
+        out[: len(dry), ch] += dry
+        out[: len(wet), ch] += wet[: len(out)]
+    return out.astype(np.float32)
+
+
+FX = {"casque": casque}
+
+
 def norm_words(t):
     t = unicodedata.normalize("NFD", t.lower().replace("’", "'"))
     t = "".join(c for c in t if unicodedata.category(c) != "Mn")
@@ -186,34 +216,38 @@ def main():
 
     # 3. montage
     takes = {b["id"]: trim(decode(work / "prises" / f"{b['id']}.mp3")) for b in blocks}
+    dry_len = {k: len(v) for k, v in takes.items()}
+    for b in blocks:                          # effets de voix (heaume…) : stéréo, avec une queue de réverbération
+        fx = voices[b["speaker"]].get("fx")
+        if fx:
+            takes[b["id"]] = FX[fx](takes[b["id"]])
+    mono = {k: (v if v.ndim == 1 else v.mean(1)) for k, v in takes.items()}
     gain = {}
     for spk in {b["speaker"] for b in blocks}:
-        ref = [takes[b["id"]] for b in blocks if b["speaker"] == spk and b["tag"] != "[whispers]"]
+        ref = [mono[b["id"]] for b in blocks if b["speaker"] == spk and b["tag"] != "[whispers]"]
         if not ref:
             continue
         gain[spk] = 10 ** ((VOICE_LUFS - lufs(np.concatenate(ref))) / 20)
-    pieces, t, timeline = [], 0.0, []
+    placed, t, timeline = [], int(0.5 * SR), []
     for b in blocks:
+        k = b["id"]
         if b["tag"] == "[whispers]":          # chaque chuchotement : 6 dB sous la parole, toujours intelligible
-            x = takes[b["id"]] * 10 ** ((VOICE_LUFS + WHISPER_DB - lufs(takes[b["id"]])) / 20)
+            g = 10 ** ((VOICE_LUFS + WHISPER_DB - lufs(mono[k])) / 20)
         else:
-            x = takes[b["id"]] * gain[b["speaker"]]
-            if len(x) > 0.5 * SR and lufs(x) > VOICE_LUFS + 1.5:   # une courte réplique ne doit pas sauter au-dessus du récit
-                x = x * 10 ** ((VOICE_LUFS + 1.5 - lufs(x)) / 20)
-        pan = voices[b["speaker"]].get("pan", 0.0)
-        l, r = np.sqrt((1 - pan) / 2) * np.sqrt(2), np.sqrt((1 + pan) / 2) * np.sqrt(2)
-        st = np.stack([x * l, x * r], 1)
-        pieces.append(st)
-        timeline.append({"id": b["id"], "speaker": b["speaker"], "debut": round(t, 2), "fin": round(t + len(x) / SR, 2), "text": b["text"]})
-        t += len(x) / SR
-        sil = np.zeros((int(b["pause_after"] * SR), 2), np.float32)
-        pieces.append(sil)
-        t += len(sil) / SR
-    lead = np.zeros((int(0.5 * SR), 2), np.float32)
-    mix = np.concatenate([lead] + pieces + [np.zeros((int(1.5 * SR), 2), np.float32)])
-    for row in timeline:
-        row["debut"] += 0.5
-        row["fin"] += 0.5
+            g = gain[b["speaker"]]
+            if len(mono[k]) > 0.5 * SR and lufs(mono[k] * g) > VOICE_LUFS + 1.5:   # une courte réplique ne doit pas sauter au-dessus du récit
+                g *= 10 ** ((VOICE_LUFS + 1.5 - lufs(mono[k] * g)) / 20)
+        x = takes[k] * g
+        if x.ndim == 1:
+            pan = voices[b["speaker"]].get("pan", 0.0)
+            x = np.stack([x * np.sqrt(1 - pan), x * np.sqrt(1 + pan)], 1)
+        placed.append((t, x))
+        timeline.append({"id": k, "speaker": b["speaker"], "debut": round(t / SR, 2), "fin": round((t + dry_len[k]) / SR, 2), "text": b["text"]})
+        t += dry_len[k] + int(b["pause_after"] * SR)
+    total = max(t + int(1.5 * SR), max(p + len(x) for p, x in placed) + int(0.5 * SR))
+    mix = np.zeros((total, 2), np.float32)
+    for p, x in placed:
+        mix[p:p + len(x)] += x
     raw = work / "montage.wav"
     run(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ar", str(SR), "-ac", "2", "-i", "-", "-c:a", "pcm_f32le", str(raw)],
         input=mix.astype(np.float32).tobytes())
@@ -221,7 +255,7 @@ def main():
               .stderr.decode().split("Summary:")[-1].split("I:")[1].split("LUFS")[0])
     final = work / "final.wav"
     run(["ffmpeg", "-v", "error", "-y", "-i", str(raw), "-af",
-         f"volume={TARGET_LUFS - I:.2f}dB,alimiter=limit=0.708:attack=3:release=80:level=disabled", "-c:a", "pcm_s24le", str(final)])
+         f"volume={TARGET_LUFS - I:.2f}dB,alimiter=limit=0.68:attack=3:release=80:level=disabled", "-c:a", "pcm_s24le", str(final)])
     run(["ffmpeg", "-v", "error", "-y", "-i", str(final), "-c:a", "libmp3lame", "-b:a", "192k", "-ar", str(SR), a.out])
     json.dump(timeline, open(work / "timeline.json", "w"), ensure_ascii=False, indent=1)
     p = subprocess.run(["ffmpeg", "-hide_banner", "-i", a.out, "-af", "ebur128=peak=true", "-f", "null", "-"], capture_output=True)
