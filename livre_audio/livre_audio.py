@@ -67,17 +67,17 @@ def trim(x, rel_db=-45, pad=0.04):
     return x[a:b]
 
 
-def casque(x, wet_db=0.0, rt60=0.42):
+def casque(x, wet_db=-13.0, rt60=0.3, er=0.35):
     """Voix dans un heaume : réflexions très proches (coloration métallique, effet de « boîte »),
     puis réverbération courte et dense, légèrement élargie en stéréo. Rend un tableau (n, 2) plus long que x (la queue)."""
     from scipy.signal import butter, fftconvolve, iirpeak, lfilter, sosfilt
     n = int(rt60 * 1.3 * SR)
     t = np.arange(n) / SR
-    er = np.zeros(int(0.008 * SR))
+    refl = np.zeros(int(0.008 * SR))
     for d, g in ((0.0007, 0.42), (0.0013, -0.30), (0.0021, 0.24), (0.0034, -0.17), (0.0052, 0.12)):
-        er[int(d * SR)] += g
-    dry = x + fftconvolve(x, er)[: len(x)]
-    dry = sosfilt(butter(2, 9000, btype="low", fs=SR, output="sos"), dry)     # le masque adoucit l'extrême aigu
+        refl[int(d * SR)] += g * er
+    dry = x + fftconvolve(x, refl)[: len(x)]
+    dry = sosfilt(butter(2, 12000, btype="low", fs=SR, output="sos"), dry)    # le masque adoucit à peine l'extrême aigu
     out = np.zeros((len(x) + n, 2))
     for ch, seed in ((0, 11), (1, 23)):
         tail = np.random.default_rng(seed).standard_normal(n) * np.exp(-6.91 * t / rt60)
