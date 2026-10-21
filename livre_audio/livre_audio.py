@@ -9,7 +9,8 @@ Voix (JSON)   : {"narrateur": {"voice_id": "...", "stability": 0.7, "pan": 0}, .
 3. montage : silences rognés, niveau homogène par voix (les chuchotements gardent leur écart naturel),
    pauses du script, léger placement stéréo, normalisation -18 LUFS, crête vraie -3 dBTP.
 
-Usage : livre_audio.py <script.json> <voix.json> <dossier_travail> <sortie.mp3> [--only id,id] [--seed id=N] [--no-qa]
+Usage : livre_audio.py <script.json> <voix.json> <dossier_travail> <sortie.mp3> [--only id,id] [--seed id=N,id=N] [--no-qa]
+--only aucun : garde toutes les prises existantes (remontage sans aucune synthèse).
 La clé API vient de ELEVENLABS_API_KEY (jamais écrite sur disque par ce script).
 """
 import argparse
@@ -104,6 +105,8 @@ def norm_words(t):
 
 
 def synth(key, voice, payload):
+    if not key:
+        raise SystemExit("ELEVENLABS_API_KEY manquante : une prise doit être synthétisée")
     req = urllib.request.Request(API.format(voice=voice), data=json.dumps(payload).encode(),
                                  headers={"xi-api-key": key, "Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=300) as r:
@@ -111,6 +114,8 @@ def synth(key, voice, payload):
 
 
 def transcribe(key, path):
+    if not key:
+        raise SystemExit("ELEVENLABS_API_KEY manquante : une prise doit être retranscrite (sinon --no-qa)")
     out = subprocess.run(["curl", "-sS", "--max-time", "180", "-X", "POST", STT, "-H", f"xi-api-key: {key}",
                           "-F", "model_id=scribe_v2", "-F", "language_code=fr", "-F", f"file=@{path}"],
                          capture_output=True, text=True).stdout
@@ -149,7 +154,7 @@ def main():
     ap.add_argument("--seed", default="")
     ap.add_argument("--no-qa", action="store_true")
     a = ap.parse_args()
-    key = os.environ["ELEVENLABS_API_KEY"]
+    key = os.environ.get("ELEVENLABS_API_KEY", "")   # exigée seulement si une prise doit être synthétisée ou retranscrite
     blocks = json.load(open(a.script))["blocks"]
     voices = json.load(open(a.voices))
     seeds = {k: int(v) for k, v in (kv.split("=") for kv in a.seed.split(",") if kv)}
