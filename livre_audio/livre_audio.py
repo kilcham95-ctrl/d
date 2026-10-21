@@ -53,8 +53,17 @@ def trim(x, rel_db=-45, pad=0.04):
     n = len(x) // hop
     db = 10 * np.log10((x[: n * hop].reshape(n, hop) ** 2).mean(1) + 1e-12)
     loud = np.where(db > db.max() + rel_db)[0]
-    a = max(0, loud[0] * hop - int(pad * SR))
-    b = min(len(x), (loud[-1] + 1) * hop + int(pad * SR))
+    # îlots de son séparés d'au moins 0,25 s ; un îlot très court et faible isolé au début ou à la fin
+    # est un clic laissé par eleven_v4, pas de la parole
+    runs = np.split(loud, np.where(np.diff(loud) > 50)[0] + 1)
+    def parasite(r, gap):
+        return len(r) < 24 and (db[r].max() < db.max() - 15 or gap >= 100)
+    while len(runs) > 1 and parasite(runs[-1], runs[-1][0] - runs[-2][-1]):
+        runs.pop()
+    while len(runs) > 1 and parasite(runs[0], runs[1][0] - runs[0][-1]):
+        runs.pop(0)
+    a = max(0, runs[0][0] * hop - int(pad * SR))
+    b = min(len(x), (runs[-1][-1] + 1) * hop + int(pad * SR))
     return x[a:b]
 
 
