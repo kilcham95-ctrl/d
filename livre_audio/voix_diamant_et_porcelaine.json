@@ -1,8 +1,0 @@
-{
- "narrateur":   {"voice_id": "5l4ttmr4SKNgi0HnOelT", "nom": "Paul K - Deep French Narrator", "stability": 0.65, "pan": 0.0},
- "diamant":     {"voice_id": "8h85Kr2hDfqe0CKeh7Bq", "nom": "Isabelle - Mature Narrative Voice", "stability": 0.6, "pan": 0.0, "fx": "casque"},
- "porcelaine":  {"voice_id": "b0Ev8lcOOXx2o9ZcF46H", "nom": "Martin - Calm, Deep and Conversational", "stability": 0.6, "pan": 0.0},
- "vieille":     {"voice_id": "EMuO6fFLrXKOryHzij6K", "nom": "Grandma Clo", "stability": 0.55, "pan": -0.12},
- "villageois":  {"voice_id": "59dhv4BKONM60oDSKECM", "nom": "HenryD", "stability": 0.55, "pan": 0.3},
- "villageoise": {"voice_id": "JgQlYGzpXIS8wtMbmdFv", "nom": "Valy", "stability": 0.55, "pan": -0.3}
-}

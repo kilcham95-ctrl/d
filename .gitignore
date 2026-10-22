@@ -4,5 +4,3 @@ work/
 *.key
 __pycache__/
 *.avant_coupe.mp3
-livre/
-livraison*/
